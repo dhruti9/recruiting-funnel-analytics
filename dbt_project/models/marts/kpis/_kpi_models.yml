@@ -1,0 +1,87 @@
+version: 2
+
+models:
+  - name: kpi_stage_conversion
+    description: >
+      Stage-to-stage conversion rate, overall (`All sources`) and by source.
+      `conversion_rate = advanced / (entered - still_in_stage)`.
+    data_tests:
+      - unique_combination_of_columns:
+          arguments: {combination_of_columns: [source_name, from_stage]}
+    columns:
+      - name: conversion_rate
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 1}}
+
+  - name: kpi_stage_dropoff
+    description: Candidates leaving at each stage, split by reason (rejected / withdrew / declined), with the top rejection reason.
+    columns:
+      - name: stage
+        data_tests: [unique, not_null]
+      - name: dropoff_rate
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 1}}
+
+  - name: kpi_time_to_fill
+    description: Time-to-fill (requisition open → filling hire) by month filled and department, with `All departments` totals.
+    data_tests:
+      - unique_combination_of_columns:
+          arguments: {combination_of_columns: [filled_month, department_name]}
+    columns:
+      - name: median_time_to_fill_days
+        data_tests: [not_negative, not_null]
+
+  - name: kpi_time_to_hire
+    description: Time-to-hire (application → hire) by month hired and source, with `All sources` totals.
+    data_tests:
+      - unique_combination_of_columns:
+          arguments: {combination_of_columns: [hired_month, source_name]}
+    columns:
+      - name: median_time_to_hire_days
+        data_tests: [not_negative]
+
+  - name: kpi_offer_acceptance
+    description: Offer acceptance rate = accepted / (accepted + declined), by quarter and department.
+    data_tests:
+      - unique_combination_of_columns:
+          arguments: {combination_of_columns: [extended_quarter, department_name]}
+    columns:
+      - name: offer_acceptance_rate
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 1}}
+
+  - name: kpi_source_effectiveness
+    description: >
+      Volume, conversion, speed and cost per source. `hire_rate_vs_job_boards` is the
+      source's hire rate divided by the pooled job-board hire rate (1.0 = parity).
+    columns:
+      - name: source_id
+        data_tests: [unique, not_null]
+      - name: hire_rate
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 1}}
+      - name: total_cost_usd
+        data_tests: [not_negative]
+      - name: cost_per_hire_usd
+        data_tests: [not_negative]
+
+  - name: kpi_pipeline_aging
+    description: Active applications by department, stage and days since last activity (as of the snapshot date).
+    columns:
+      - name: aging_bucket
+        data_tests:
+          - accepted_values: {arguments: {values: ['0-7 days', '8-14 days', '15-30 days', '31-60 days', '60+ days']}}
+      - name: active_applications
+        data_tests: [not_null, not_negative]
+
+  - name: kpi_recruiter_workload
+    description: Open reqs, active and stale pipeline, and trailing-12-month throughput per recruiter.
+    columns:
+      - name: recruiter_id
+        data_tests:
+          - unique
+          - not_null
+          - relationships: {arguments: {to: ref('dim_recruiter'), field: recruiter_id}}
+      - name: stale_applications
+        description: Active applications untouched for more than 30 days.
+        data_tests: [not_negative]
