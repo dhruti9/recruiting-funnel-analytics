@@ -1,0 +1,6 @@
+stage,stage_order,entered,advanced,rejected,withdrawn,offer_declined,still_in_stage,dropped,dropoff_rate,top_reject_reason
+applied,1,50268,11365,37213,914,0,776,38127,0.7704,Does not meet minimum qualifications
+recruiter_screen,2,11365,5349,5359,523,0,134,5882,0.5237,Compensation misalignment
+hiring_manager_screen,3,5349,2357,2647,281,0,64,2928,0.554,Insufficient technical depth
+onsite,4,2357,552,1693,93,0,19,1786,0.7639,Did not pass technical interview
+offer,5,552,445,32,0,71,4,103,0.188,Position filled

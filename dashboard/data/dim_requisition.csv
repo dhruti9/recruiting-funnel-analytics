@@ -1,0 +1,761 @@
+requisition_id,job_title,department_id,department_name,recruiter_id,recruiter_name,hiring_manager,location,job_level,headcount,requisition_status,opened_at,filled_at,closed_at,hires,first_hire_at,time_to_fill_days,days_open,is_filled_date_recovered
+REQ-10672,IT consultant,D03,Manufacturing,R024,Danielle Rodriguez,Blake Watson,"Buffalo, NY",P1,1,filled,2024-12-03 09:00:00,2025-03-03 14:01:00,2025-03-03 14:01:00,1,2025-03-03 14:01:00,90,,False
+REQ-10681,Legal executive,D04,Supply Chain,R004,Jesse Garcia,Matthew Sweeney,"Buffalo, NY",P2,2,filled,2024-09-09 09:00:00,2024-11-30 08:16:00,2024-11-30 08:16:00,2,2024-10-29 17:57:00,82,,False
+REQ-10758,Public affairs consultant,D01,Software Engineering,R010,Gabrielle Cameron,Matthew Davis MD,"Palo Alto, CA",P4,2,open,2025-01-11 09:00:00,,,1,2025-03-13 09:28:00,,627,False
+REQ-10012,Barrister's clerk,D01,Software Engineering,R009,Veronica Bowman,Taylor Heath,"Fremont, CA",P1,2,filled,2025-09-15 09:00:00,2025-12-18 08:06:00,2025-12-18 08:06:00,2,2025-11-03 10:25:00,94,,False
+REQ-10020,Pharmacist,D02,Vehicle Engineering,R006,Jason Adams,Joel Baxter,"Austin, TX",P3,1,filled,2025-10-30 09:00:00,2025-12-10 16:19:00,2025-12-10 16:19:00,1,2025-12-10 16:19:00,41,,False
+REQ-10053,Civil engineer,D06,Sales & Delivery,R023,Erin Herrera,Justin Baxter,"Sparks, NV",P1,1,filled,2025-04-03 09:00:00,2025-06-06 13:08:00,2025-06-06 13:08:00,1,2025-06-06 13:08:00,64,,False
+REQ-10055,Designer,D03,Manufacturing,R028,Danielle Lynch,Rita Keith,"Fremont, CA",P4,1,filled,2024-11-16 09:00:00,2025-01-03 18:10:00,2025-01-03 18:10:00,1,2025-01-03 18:10:00,48,,False
+REQ-10058,Geologist,D06,Sales & Delivery,R002,Barbara Bush,Michael Reyes,"Austin, TX",P5,1,filled,2025-01-06 09:00:00,2025-03-23 16:44:00,2025-03-23 16:44:00,1,2025-03-23 16:44:00,76,,True
+REQ-10083,Clinical biochemist,D01,Software Engineering,R010,Gabrielle Cameron,Colleen Brock,"Palo Alto, CA",P4,1,filled,2024-09-26 09:00:00,2024-11-17 14:36:00,2024-11-17 14:36:00,1,2024-11-17 14:36:00,52,,False
+REQ-10089,Production assistant,D01,Software Engineering,R013,Nancy Edwards,David Walsh,"Buffalo, NY",P1,1,filled,2024-08-27 09:00:00,2024-10-17 08:25:00,2024-10-17 08:25:00,1,2024-10-17 08:25:00,51,,False
+REQ-10109,Computer games developer,D02,Vehicle Engineering,R026,Jose Mason,Brian Gould,"Buffalo, NY",P3,1,filled,2026-04-05 09:00:00,2026-07-14 11:01:00,2026-07-14 11:01:00,1,2026-07-14 11:01:00,100,,False
+REQ-10137,Chiropodist,D01,Software Engineering,R018,William Davis,Elizabeth Ward,"Buffalo, NY",P1,1,filled,2025-11-07 09:00:00,2026-01-10 11:58:00,2026-01-10 11:58:00,1,2026-01-10 11:58:00,64,,False
+REQ-10141,Quality manager,D09,Finance,R025,Shawn Mckay,Cody Williams,Remote - US,P2,1,filled,2026-04-03 09:00:00,2026-07-06 14:09:00,2026-07-06 14:09:00,1,2026-07-06 14:09:00,94,,False
+REQ-10170,Psychologist,D03,Manufacturing,R003,Jeremy Roberts,Cody Cox,Remote - US,P4,1,filled,2025-11-20 09:00:00,2025-12-24 12:51:00,2025-12-24 12:51:00,1,2025-12-24 12:51:00,34,,False
+REQ-10181,Runner,D05,Energy Products,R020,Robert Brown,Aaron Barber,"Fremont, CA",P2,1,filled,2025-07-31 09:00:00,2025-09-13 11:46:00,2025-09-13 11:46:00,1,2025-09-13 11:46:00,44,,False
+REQ-10215,Economist,D08,Data & AI,R016,Jose Richards,Richard Walter,"Buffalo, NY",P3,1,filled,2025-03-12 09:00:00,2025-04-24 10:10:00,2025-04-24 10:10:00,1,2025-04-24 10:10:00,43,,False
+REQ-10245,Volunteer coordinator,D06,Sales & Delivery,R021,Wendy Rice,Richard Camacho,Remote - US,P4,1,filled,2024-12-14 09:00:00,2025-03-05 09:11:00,2025-03-05 09:11:00,1,2025-03-05 09:11:00,81,,False
+REQ-10248,Producer,D03,Manufacturing,R008,Jessica Martin,Bobby Franklin,"Palo Alto, CA",P3,1,filled,2026-01-15 09:00:00,2026-03-15 14:14:00,2026-03-15 14:14:00,1,2026-03-15 14:14:00,59,,False
+REQ-10269,Licensed conveyancer,D09,Finance,R025,Shawn Mckay,Eric Nguyen,"Austin, TX",P2,1,filled,2026-03-01 09:00:00,2026-04-23 15:21:00,2026-04-23 15:21:00,1,2026-04-23 15:21:00,53,,False
+REQ-10285,Scientist,D03,Manufacturing,R008,Jessica Martin,Seth Reese,"Palo Alto, CA",P4,1,filled,2025-06-09 09:00:00,2025-09-28 08:34:00,2025-09-28 08:34:00,1,2025-09-28 08:34:00,111,,False
+REQ-10312,Radiographer,D04,Supply Chain,R004,Jesse Garcia,Zachary Moore,"Fremont, CA",P3,1,filled,2026-02-11 09:00:00,2026-05-07 11:29:00,2026-05-07 11:29:00,1,2026-05-07 11:29:00,85,,False
+REQ-10318,Production assistant,D07,Service,R011,Jeremy Johnson,David Sheppard,"Sparks, NV",P3,1,filled,2024-08-07 09:00:00,2024-09-17 13:36:00,2024-09-17 13:36:00,1,2024-09-17 13:36:00,41,,False
+REQ-10326,Environmental education officer,D05,Energy Products,R020,Robert Brown,Stacey Arias,"Fremont, CA",P4,1,filled,2026-05-10 09:00:00,2026-07-30 17:07:00,2026-07-30 17:07:00,1,2026-07-30 17:07:00,81,,False
+REQ-10334,Community development worker,D09,Finance,R025,Shawn Mckay,Jason Bauer,"Palo Alto, CA",P2,1,filled,2026-01-14 09:00:00,2026-04-04 14:26:00,2026-04-04 14:26:00,1,2026-04-04 14:26:00,80,,False
+REQ-10340,Runner,D06,Sales & Delivery,R007,Deborah Lynch,Jeanette Harrison,"Fremont, CA",P5,1,filled,2025-10-17 09:00:00,2026-01-22 13:50:00,2026-01-22 13:50:00,1,2026-01-22 13:50:00,97,,False
+REQ-10351,Office manager,D07,Service,R019,Daniel Burton,Stephanie Hughes,"Buffalo, NY",P3,1,filled,2026-01-16 09:00:00,2026-02-23 16:18:00,2026-02-23 16:18:00,1,2026-02-23 16:18:00,38,,False
+REQ-10363,Camera operator,D02,Vehicle Engineering,R026,Jose Mason,Kendra Sanders,"Sparks, NV",P2,1,filled,2026-04-20 09:00:00,2026-07-04 18:37:00,2026-07-04 18:37:00,1,2026-07-04 18:37:00,75,,False
+REQ-10382,Careers information officer,D02,Vehicle Engineering,R006,Jason Adams,Mark Pierce,"Austin, TX",P5,1,filled,2026-08-03 09:00:00,2026-09-13 14:25:00,2026-09-13 14:25:00,1,2026-09-13 14:25:00,41,,False
+REQ-10391,Cytogeneticist,D06,Sales & Delivery,R017,Reginald Robinson,Nathan Gross,"Buffalo, NY",P1,1,filled,2024-07-19 09:00:00,2024-09-08 14:38:00,2024-09-08 14:38:00,1,2024-09-08 14:38:00,51,,False
+REQ-10417,Technical sales engineer,D01,Software Engineering,R018,William Davis,Mikayla Silva,"Palo Alto, CA",P1,2,cancelled,2025-05-26 09:00:00,,2025-09-27 13:30:00,1,2025-07-23 18:49:00,,,False
+REQ-10445,Horticultural consultant,D03,Manufacturing,R012,Joseph Clark,Alexandra Bradley,Remote - US,P3,1,filled,2026-06-10 09:00:00,2026-08-03 16:10:00,2026-08-03 16:10:00,1,2026-08-03 16:10:00,54,,False
+REQ-10451,Engineer,D03,Manufacturing,R012,Joseph Clark,Scott Prince,Remote - US,P5,1,filled,2025-06-14 09:00:00,2025-08-16 11:08:00,2025-08-16 11:08:00,1,2025-08-16 11:08:00,63,,False
+REQ-10467,Records manager,D03,Manufacturing,R012,Joseph Clark,Jordan Stokes,"Fremont, CA",P5,1,filled,2026-04-11 09:00:00,2026-07-14 18:49:00,2026-07-14 18:49:00,1,2026-07-14 18:49:00,94,,False
+REQ-10468,Professor Emeritus,D08,Data & AI,R016,Jose Richards,Jason Elliott,"Sparks, NV",P3,1,filled,2025-05-03 09:00:00,2025-06-27 11:13:00,2025-06-27 11:13:00,1,2025-06-27 11:13:00,55,,False
+REQ-10486,Teaching laboratory technician,D04,Supply Chain,R004,Jesse Garcia,Kyle Chambers,"Fremont, CA",P1,1,filled,2025-07-02 09:00:00,2025-08-24 17:18:00,2025-08-24 17:18:00,1,2025-08-24 17:18:00,53,,False
+REQ-10490,Physiotherapist,D06,Sales & Delivery,R017,Reginald Robinson,Amber Cooper,"Fremont, CA",P3,1,filled,2026-03-18 09:00:00,2026-05-09 09:06:00,2026-05-09 09:06:00,1,2026-05-09 09:06:00,52,,False
+REQ-10520,Adult guidance worker,D05,Energy Products,R009,Veronica Bowman,Denise Madden,Remote - US,P2,1,filled,2024-06-16 09:00:00,2024-09-07 11:56:00,2024-09-07 11:56:00,1,2024-09-07 11:56:00,83,,False
+REQ-10597,Acupuncturist,D07,Service,R011,Jeremy Johnson,Mr. James Hoffman,"Sparks, NV",P4,1,filled,2025-10-16 09:00:00,2025-12-30 14:34:00,2025-12-30 14:34:00,1,2025-12-30 14:34:00,75,,False
+REQ-10599,Producer,D01,Software Engineering,R018,William Davis,Bradley Johnson DDS,Remote - US,P3,1,filled,2025-06-18 09:00:00,2025-09-02 08:28:00,2025-09-02 08:28:00,1,2025-09-02 08:28:00,76,,False
+REQ-10621,Materials engineer,D03,Manufacturing,R028,Danielle Lynch,Rebecca Sanders,"Austin, TX",P2,1,filled,2025-10-13 09:00:00,2026-01-11 11:58:00,2026-01-11 11:58:00,1,2026-01-11 11:58:00,90,,False
+REQ-10660,Economist,D04,Supply Chain,R004,Jesse Garcia,Michael Miles,"Palo Alto, CA",P2,2,open,2026-07-24 09:00:00,,,1,2026-09-20 11:50:00,,68,False
+REQ-10686,Chartered accountant,D07,Service,R009,Veronica Bowman,Kathy Walsh,"Fremont, CA",P3,1,filled,2025-07-06 09:00:00,2025-08-29 18:47:00,2025-08-29 18:47:00,1,2025-08-29 18:47:00,54,,False
+REQ-10690,Glass blower/designer,D01,Software Engineering,R013,Nancy Edwards,Tony Taylor,"Austin, TX",P1,1,filled,2026-07-06 09:00:00,2026-09-10 13:43:00,2026-09-10 13:43:00,1,2026-09-10 13:43:00,66,,False
+REQ-10728,Curator,D09,Finance,R017,Reginald Robinson,Sarah Valencia,"Austin, TX",P2,1,filled,2024-12-26 09:00:00,2025-03-12 10:42:00,2025-03-12 10:42:00,1,2025-03-12 10:42:00,76,,True
+REQ-10743,Art therapist,D03,Manufacturing,R024,Danielle Rodriguez,Nicholas Costa,"Buffalo, NY",P3,1,filled,2024-07-18 09:00:00,2024-10-12 13:02:00,2024-10-12 13:02:00,1,2024-10-12 13:02:00,86,,False
+REQ-10751,Development worker,D06,Sales & Delivery,R021,Wendy Rice,Jessica Brown,"Fremont, CA",P3,2,cancelled,2025-03-12 09:00:00,,2025-09-14 10:35:00,1,2025-04-26 13:45:00,,,False
+REQ-10068,Scientist,D06,Sales & Delivery,R017,Reginald Robinson,Kimberly Ball,Remote - US,P2,1,filled,2025-04-08 09:00:00,2025-05-24 15:00:00,2025-05-24 15:00:00,1,2025-05-24 15:00:00,46,,False
+REQ-10100,Ophthalmologist,D02,Vehicle Engineering,R026,Jose Mason,Sara Calhoun,"Austin, TX",P3,1,filled,2024-05-07 09:00:00,2024-07-31 18:16:00,2024-07-31 18:16:00,1,2024-07-31 18:16:00,85,,False
+REQ-10126,Engineer,D05,Energy Products,R023,Erin Herrera,David Ramirez,"Sparks, NV",P2,1,filled,2024-01-25 09:00:00,2024-03-02 14:40:00,2024-03-02 14:40:00,1,2024-03-02 14:40:00,37,,False
+REQ-10165,Psychotherapist,D06,Sales & Delivery,R014,Randall Rocha,Gary Santiago,"Buffalo, NY",P4,1,filled,2026-03-15 09:00:00,2026-06-04 16:32:00,2026-06-04 16:32:00,1,2026-06-04 16:32:00,81,,False
+REQ-10214,Conservator,D06,Sales & Delivery,R017,Reginald Robinson,Edward Burgess,"Buffalo, NY",P3,1,filled,2026-04-25 09:00:00,2026-07-21 15:15:00,2026-07-21 15:15:00,1,2026-07-21 15:15:00,87,,False
+REQ-10262,Surveyor,D01,Software Engineering,R018,William Davis,Phillip Andrews,"Buffalo, NY",P1,1,filled,2024-12-03 09:00:00,2025-03-07 10:36:00,2025-03-07 10:36:00,1,2025-03-07 10:36:00,94,,False
+REQ-10296,Historic buildings inspector/conservation officer,D05,Energy Products,R023,Erin Herrera,Sean Wyatt,"Sparks, NV",P3,1,filled,2025-08-13 09:00:00,2025-10-06 13:54:00,2025-10-06 13:54:00,1,2025-10-06 13:54:00,54,,False
+REQ-10306,Toxicologist,D10,People,R021,Wendy Rice,Felicia Aguilar,Remote - US,P1,1,filled,2024-08-12 09:00:00,2024-09-18 10:40:00,2024-09-18 10:40:00,1,2024-09-18 10:40:00,37,,False
+REQ-10354,Education administrator,D06,Sales & Delivery,R005,Cynthia Diaz,Erica Miller,"Fremont, CA",P2,1,filled,2025-08-14 09:00:00,2025-10-17 14:15:00,2025-10-17 14:15:00,1,2025-10-17 14:15:00,64,,False
+REQ-10380,Scientist,D09,Finance,R025,Shawn Mckay,Christopher Morris,Remote - US,P1,1,filled,2024-07-25 09:00:00,2024-09-07 15:42:00,2024-09-07 15:42:00,1,2024-09-07 15:42:00,44,,False
+REQ-10436,Set designer,D06,Sales & Delivery,R013,Nancy Edwards,David Garcia,"Sparks, NV",P1,1,filled,2024-09-19 09:00:00,2024-12-30 14:58:00,2024-12-30 14:58:00,1,2024-12-30 14:58:00,102,,False
+REQ-10495,Surveyor,D03,Manufacturing,R008,Jessica Martin,Jasmine Scott,"Buffalo, NY",P4,1,filled,2024-06-01 09:00:00,2024-07-04 09:44:00,2024-07-04 09:44:00,1,2024-07-04 09:44:00,33,,False
+REQ-10505,Media buyer,D03,Manufacturing,R024,Danielle Rodriguez,Kathleen Garcia,"Buffalo, NY",P2,1,filled,2026-03-09 09:00:00,2026-06-11 17:54:00,2026-06-11 17:54:00,1,2026-06-11 17:54:00,94,,False
+REQ-10511,Leisure centre manager,D06,Sales & Delivery,R005,Cynthia Diaz,Roberto Levy,Remote - US,P5,1,filled,2026-06-24 09:00:00,2026-09-05 08:23:00,2026-09-05 08:23:00,1,2026-09-05 08:23:00,73,,False
+REQ-10523,Engineer,D07,Service,R022,Michelle Smith,Dawn Gomez,"Sparks, NV",P1,2,filled,2024-05-28 09:00:00,2024-07-21 16:53:00,2024-07-21 16:53:00,2,2024-07-12 13:15:00,54,,False
+REQ-10534,Tax adviser,D02,Vehicle Engineering,R006,Jason Adams,Jasmine Mosley,"Austin, TX",P5,1,filled,2026-01-29 09:00:00,2026-05-22 09:37:00,2026-05-22 09:37:00,1,2026-05-22 09:37:00,113,,False
+REQ-10541,Textile designer,D01,Software Engineering,R013,Nancy Edwards,Angelica Montgomery,Remote - US,P4,1,filled,2025-12-03 09:00:00,2026-02-02 17:54:00,2026-02-02 17:54:00,1,2026-02-02 17:54:00,61,,False
+REQ-10547,Surveyor,D01,Software Engineering,R012,Joseph Clark,Kyle Nguyen,"Palo Alto, CA",P1,1,filled,2024-04-29 09:00:00,2024-07-14 13:58:00,2024-07-14 13:58:00,1,2024-07-14 13:58:00,76,,False
+REQ-10596,International aid/development worker,D03,Manufacturing,R024,Danielle Rodriguez,Lisa Glenn,Remote - US,P2,1,filled,2024-02-14 09:00:00,2024-03-16 09:51:00,2024-03-16 09:51:00,1,2024-03-16 09:51:00,31,,False
+REQ-10610,Engineer,D12,IT,R017,Reginald Robinson,Laura Patel,"Palo Alto, CA",P2,1,filled,2025-04-29 09:00:00,2025-07-13 18:35:00,2025-07-13 18:35:00,1,2025-07-13 18:35:00,75,,False
+REQ-10639,Engineer,D07,Service,R015,Joseph Wright,Brittany Jenkins,"Sparks, NV",P4,1,filled,2024-04-23 09:00:00,2024-08-10 16:09:00,2024-08-10 16:09:00,1,2024-08-10 16:09:00,109,,False
+REQ-10651,Buyer,D02,Vehicle Engineering,R026,Jose Mason,Austin Baker,"Fremont, CA",P3,1,filled,2026-01-29 09:00:00,2026-03-31 15:47:00,2026-03-31 15:47:00,1,2026-03-31 15:47:00,61,,False
+REQ-10714,Systems developer,D06,Sales & Delivery,R021,Wendy Rice,Jasmine White,Remote - US,P2,2,filled,2024-10-29 09:00:00,2025-01-27 17:31:00,2025-01-27 17:31:00,2,2024-12-03 16:22:00,90,,False
+REQ-10045,Geneticist,D03,Manufacturing,R028,Danielle Lynch,Danielle Odonnell,"Fremont, CA",P3,1,filled,2025-05-06 09:00:00,2025-08-22 13:41:00,2025-08-22 13:41:00,1,2025-08-22 13:41:00,108,,False
+REQ-10103,Education officer,D02,Vehicle Engineering,R006,Jason Adams,James Lewis,"Palo Alto, CA",P2,1,filled,2024-01-09 09:00:00,2024-03-30 08:56:00,2024-03-30 08:56:00,1,2024-03-30 08:56:00,81,,False
+REQ-10280,Psychiatric nurse,D03,Manufacturing,R017,Reginald Robinson,Shannon Johnston,"Palo Alto, CA",P1,1,filled,2024-08-08 09:00:00,2024-09-11 14:10:00,2024-09-11 14:10:00,1,2024-09-11 14:10:00,34,,False
+REQ-10281,Teacher,D01,Software Engineering,R013,Nancy Edwards,Mark Roberts,"Austin, TX",P4,1,filled,2026-07-12 09:00:00,2026-09-25 14:35:00,2026-09-25 14:35:00,1,2026-09-25 14:35:00,75,,False
+REQ-10366,Gaffer,D01,Software Engineering,R018,William Davis,Cindy Carr,"Buffalo, NY",P2,1,filled,2024-06-20 09:00:00,2024-08-09 15:56:00,2024-08-09 15:56:00,1,2024-08-09 15:56:00,50,,False
+REQ-10384,Dispensing optician,D12,IT,R021,Wendy Rice,Lauren Jackson,Remote - US,P3,1,filled,2024-04-11 09:00:00,2024-06-01 09:39:00,2024-06-01 09:39:00,1,2024-06-01 09:39:00,51,,False
+REQ-10461,Stage manager,D05,Energy Products,R023,Erin Herrera,Nicole Pham,"Buffalo, NY",P2,1,filled,2024-01-17 09:00:00,2024-02-17 18:11:00,2024-02-17 18:11:00,1,2024-02-17 18:11:00,31,,False
+REQ-10514,Special effects artist,D08,Data & AI,R016,Jose Richards,Tina Warren DVM,"Palo Alto, CA",P2,1,filled,2026-04-16 09:00:00,2026-05-25 18:05:00,2026-05-25 18:05:00,1,2026-05-25 18:05:00,39,,False
+REQ-10536,Careers information officer,D12,IT,R007,Deborah Lynch,Valerie Brown,"Buffalo, NY",P3,1,filled,2024-12-15 09:00:00,2025-03-16 12:20:00,2025-03-16 12:20:00,1,2025-03-16 12:20:00,91,,False
+REQ-10571,Learning disability nurse,D03,Manufacturing,R008,Jessica Martin,Jessica Smith,Remote - US,P2,1,filled,2026-05-17 09:00:00,2026-07-17 11:41:00,2026-07-17 11:41:00,1,2026-07-17 11:41:00,61,,False
+REQ-10617,Production engineer,D04,Supply Chain,R004,Jesse Garcia,Robert Mack,"Buffalo, NY",P3,1,filled,2026-05-01 09:00:00,2026-07-01 17:48:00,2026-07-01 17:48:00,1,2026-07-01 17:48:00,61,,False
+REQ-10753,Sound technician,D04,Supply Chain,R004,Jesse Garcia,Douglas Young,"Buffalo, NY",P2,1,filled,2025-06-02 09:00:00,2025-07-15 11:57:00,2025-07-15 11:57:00,1,2025-07-15 11:57:00,43,,False
+REQ-10368,Drilling engineer,D01,Software Engineering,R001,Maria Montgomery,Jill Miller,"Austin, TX",P2,1,filled,2025-11-09 09:00:00,2026-02-08 09:04:00,2026-02-08 09:04:00,1,2026-02-08 09:04:00,91,,False
+REQ-10414,Merchandiser,D01,Software Engineering,R013,Nancy Edwards,Brian Butler,"Austin, TX",P2,1,filled,2025-09-02 09:00:00,2025-11-16 13:52:00,2025-11-16 13:52:00,1,2025-11-16 13:52:00,75,,False
+REQ-10491,Museum/gallery curator,D06,Sales & Delivery,R014,Randall Rocha,Emma Butler,Remote - US,P2,1,filled,2025-02-27 09:00:00,2025-04-12 17:07:00,2025-04-12 17:07:00,1,2025-04-12 17:07:00,44,,False
+REQ-10500,Engineer,D06,Sales & Delivery,R005,Cynthia Diaz,Sean Cook,Remote - US,P2,1,filled,2025-05-10 09:00:00,2025-08-08 14:12:00,2025-08-08 14:12:00,1,2025-08-08 14:12:00,90,,False
+REQ-10513,Counselling psychologist,D08,Data & AI,R007,Deborah Lynch,Katherine Stark,"Buffalo, NY",P4,2,filled,2025-12-17 09:00:00,2026-04-02 14:23:00,2026-04-02 14:23:00,2,2026-03-19 14:59:00,106,,False
+REQ-10615,Fisheries officer,D02,Vehicle Engineering,R026,Jose Mason,Frank Wright,"Austin, TX",P1,1,filled,2026-05-10 09:00:00,2026-07-24 10:53:00,2026-07-24 10:53:00,1,2026-07-24 10:53:00,75,,False
+REQ-10153,Facilities manager,D02,Vehicle Engineering,R006,Jason Adams,Rachel Weber,"Austin, TX",P3,1,filled,2026-07-10 09:00:00,2026-08-11 11:52:00,2026-08-11 11:52:00,1,2026-08-11 11:52:00,32,,False
+REQ-10196,Chiropodist,D09,Finance,R025,Shawn Mckay,Michael Berger,Remote - US,P1,1,filled,2024-11-08 09:00:00,2024-12-25 10:46:00,2024-12-25 10:46:00,1,2024-12-25 10:46:00,47,,False
+REQ-10231,Health service manager,D01,Software Engineering,R010,Gabrielle Cameron,Jacob Ramos,"Sparks, NV",P4,1,filled,2025-01-22 09:00:00,2025-02-24 12:11:00,2025-02-24 12:11:00,1,2025-02-24 12:11:00,33,,False
+REQ-10235,Programme researcher,D01,Software Engineering,R013,Nancy Edwards,Daniel Fowler,"Fremont, CA",P1,2,open,2026-05-17 09:00:00,,,1,2026-08-27 10:43:00,,136,False
+REQ-10315,Conservator,D10,People,R002,Barbara Bush,Brittany White,"Austin, TX",P3,1,filled,2026-06-27 09:00:00,2026-08-23 09:13:00,2026-08-23 09:13:00,1,2026-08-23 09:13:00,57,,False
+REQ-10335,Programmer,D08,Data & AI,R007,Deborah Lynch,Russell Porter,"Sparks, NV",P2,1,filled,2024-01-07 09:00:00,2024-03-25 12:35:00,2024-03-25 12:35:00,1,2024-03-25 12:35:00,78,,False
+REQ-10362,Designer,D06,Sales & Delivery,R017,Reginald Robinson,Tiffany Watson,"Buffalo, NY",P3,1,filled,2025-03-21 09:00:00,2025-05-30 15:58:00,2025-05-30 15:58:00,1,2025-05-30 15:58:00,70,,False
+REQ-10497,Chief Executive Officer,D07,Service,R009,Veronica Bowman,Sandra Williams,"Buffalo, NY",P1,1,filled,2024-06-29 09:00:00,2024-09-10 08:24:00,2024-09-10 08:24:00,1,2024-09-10 08:24:00,73,,False
+REQ-10549,Surveyor,D04,Supply Chain,R007,Deborah Lynch,Vanessa Armstrong,"Buffalo, NY",P2,1,filled,2025-11-04 09:00:00,2026-01-23 11:05:00,2026-01-23 11:05:00,1,2026-01-23 11:05:00,80,,False
+REQ-10582,Physiological scientist,D02,Vehicle Engineering,R006,Jason Adams,Crystal Sullivan,"Buffalo, NY",P3,2,filled,2025-04-25 09:00:00,2025-07-11 14:27:00,2025-07-11 14:27:00,2,2025-06-30 09:49:00,77,,False
+REQ-10590,Programmer,D07,Service,R001,Maria Montgomery,Robin Mccarthy,"Austin, TX",P2,1,filled,2024-08-27 09:00:00,2024-10-01 11:05:00,2024-10-01 11:05:00,1,2024-10-01 11:05:00,35,,False
+REQ-10702,Chartered accountant,D08,Data & AI,R007,Deborah Lynch,Deanna Hess,"Palo Alto, CA",P3,1,filled,2025-05-04 09:00:00,2025-06-17 17:09:00,2025-06-17 17:09:00,1,2025-06-17 17:09:00,44,,False
+REQ-10494,Psychologist,D06,Sales & Delivery,R017,Reginald Robinson,Kristina Faulkner,"Buffalo, NY",P1,1,filled,2024-09-22 09:00:00,2024-11-03 09:20:00,2024-11-03 09:20:00,1,2024-11-03 09:20:00,42,,False
+REQ-10546,Surveyor,D03,Manufacturing,R028,Danielle Lynch,Ashley Davis,"Buffalo, NY",P3,1,filled,2026-06-28 09:00:00,2026-09-20 14:25:00,2026-09-20 14:25:00,1,2026-09-20 14:25:00,84,,False
+REQ-10207,Hotel manager,D02,Vehicle Engineering,R006,Jason Adams,Elizabeth Spence DDS,Remote - US,P2,1,filled,2025-04-28 09:00:00,2025-06-20 12:12:00,2025-06-20 12:12:00,1,2025-06-20 12:12:00,53,,False
+REQ-10283,Waste management officer,D06,Sales & Delivery,R014,Randall Rocha,Michael Cox,"Fremont, CA",P1,2,filled,2025-11-10 09:00:00,2026-01-22 18:55:00,2026-01-22 18:55:00,2,2026-01-18 18:57:00,73,,False
+REQ-10305,Chief Marketing Officer,D06,Sales & Delivery,R017,Reginald Robinson,Jasmine King,"Austin, TX",P3,1,filled,2024-02-06 09:00:00,2024-03-29 10:53:00,2024-03-29 10:53:00,1,2024-03-29 10:53:00,52,,False
+REQ-10066,Interior and spatial designer,D01,Software Engineering,R018,William Davis,William Wilson,"Austin, TX",P1,1,filled,2024-10-04 09:00:00,2024-12-21 10:38:00,2024-12-21 10:38:00,1,2024-12-21 10:38:00,78,,False
+REQ-10131,Information officer,D02,Vehicle Engineering,R027,Rita Harrell,Jackie Tran,"Buffalo, NY",P1,1,filled,2025-03-24 09:00:00,2025-05-30 10:08:00,2025-05-30 10:08:00,1,2025-05-30 10:08:00,67,,False
+REQ-10303,Heritage manager,D01,Software Engineering,R010,Gabrielle Cameron,Raymond Shelton,"Austin, TX",P3,1,filled,2025-08-15 09:00:00,2025-10-09 08:14:00,2025-10-09 08:14:00,1,2025-10-09 08:14:00,55,,False
+REQ-10429,Quantity surveyor,D01,Software Engineering,R023,Erin Herrera,Timothy Pope,"Buffalo, NY",P2,1,filled,2025-09-05 09:00:00,2025-11-26 16:13:00,2025-11-26 16:13:00,1,2025-11-26 16:13:00,82,,False
+REQ-10439,Publishing copy,D04,Supply Chain,R004,Jesse Garcia,Curtis Maynard,"Fremont, CA",P3,1,filled,2024-03-27 09:00:00,2024-06-08 17:43:00,2024-06-08 17:43:00,1,2024-06-08 17:43:00,73,,False
+REQ-10577,Lobbyist,D03,Manufacturing,R012,Joseph Clark,Daniel Webb,"Sparks, NV",P5,2,filled,2024-06-24 09:00:00,2024-09-14 18:27:00,2024-09-14 18:27:00,2,2024-08-13 16:37:00,82,,False
+REQ-10706,Police officer,D02,Vehicle Engineering,R006,Jason Adams,Jennifer Johnson,Remote - US,P4,1,filled,2025-06-08 09:00:00,2025-08-16 08:47:00,2025-08-16 08:47:00,1,2025-08-16 08:47:00,69,,False
+REQ-10612,Horticultural consultant,D12,IT,R007,Deborah Lynch,Tiffany Robertson,Remote - US,P5,1,filled,2025-05-25 09:00:00,2025-07-03 13:45:00,2025-07-03 13:45:00,1,2025-07-03 13:45:00,39,,False
+REQ-10755,Audiological scientist,D07,Service,R022,Michelle Smith,Jeffrey Phillips,"Buffalo, NY",P3,1,filled,2024-01-02 09:00:00,2024-03-30 18:01:00,2024-03-30 18:01:00,1,2024-03-30 18:01:00,88,,False
+REQ-10655,Health physicist,D02,Vehicle Engineering,R003,Jeremy Roberts,Bob Mccall,"Palo Alto, CA",P2,1,filled,2025-08-17 09:00:00,2025-11-29 16:51:00,2025-11-29 16:51:00,1,2025-11-29 16:51:00,104,,False
+REQ-10658,Field trials officer,D06,Sales & Delivery,R017,Reginald Robinson,Brandon Hamilton,"Austin, TX",P2,1,filled,2025-06-08 09:00:00,2025-09-10 18:55:00,2025-09-10 18:55:00,1,2025-09-10 18:55:00,94,,False
+REQ-10678,Research officer,D03,Manufacturing,R008,Jessica Martin,Dr. Morgan Payne PhD,"Fremont, CA",P1,1,filled,2024-07-25 09:00:00,2024-09-22 11:45:00,2024-09-22 11:45:00,1,2024-09-22 11:45:00,59,,False
+REQ-10683,Regulatory affairs officer,D06,Sales & Delivery,R021,Wendy Rice,Valerie Thomas,"Buffalo, NY",P2,1,filled,2024-07-20 09:00:00,2024-09-14 14:49:00,2024-09-14 14:49:00,1,2024-09-14 14:49:00,56,,False
+REQ-10704,Chief Executive Officer,D05,Energy Products,R027,Rita Harrell,Sandra Rivera,"Sparks, NV",P2,1,filled,2025-05-29 09:00:00,2025-07-02 16:29:00,2025-07-02 16:29:00,1,2025-07-02 16:29:00,34,,False
+REQ-10718,Banker,D03,Manufacturing,R028,Danielle Lynch,Theresa Johnston,"Austin, TX",P2,2,filled,2025-01-09 09:00:00,2025-03-16 10:51:00,2025-03-16 10:51:00,2,2025-02-21 13:49:00,66,,False
+REQ-10730,Chiropractor,D02,Vehicle Engineering,R006,Jason Adams,Frank Daugherty,Remote - US,P2,1,filled,2024-09-22 09:00:00,2024-11-05 08:06:00,2024-11-05 08:06:00,1,2024-11-05 08:06:00,44,,False
+REQ-10736,Nurse,D02,Vehicle Engineering,R026,Jose Mason,Patricia Bradley,"Buffalo, NY",P2,1,filled,2024-07-03 09:00:00,2024-08-05 15:36:00,2024-08-05 15:36:00,1,2024-08-05 15:36:00,33,,False
+REQ-10748,Lighting technician,D02,Vehicle Engineering,R026,Jose Mason,James Dennis,"Palo Alto, CA",P1,1,filled,2025-09-21 09:00:00,2025-11-16 13:11:00,2025-11-16 13:11:00,1,2025-11-16 13:11:00,56,,False
+REQ-10754,Artist,D07,Service,R001,Maria Montgomery,Joshua Henry,"Buffalo, NY",P2,1,filled,2026-04-07 09:00:00,2026-07-11 08:44:00,2026-07-11 08:44:00,1,2026-07-11 08:44:00,95,,False
+REQ-10002,Academic librarian,D03,Manufacturing,R008,Jessica Martin,Katherine Rodriguez,"Fremont, CA",P2,1,filled,2025-02-01 09:00:00,2025-03-25 18:57:00,2025-03-25 18:57:00,1,2025-03-25 18:57:00,52,,False
+REQ-10013,Building services engineer,D07,Service,R015,Joseph Wright,Diana Washington,"Sparks, NV",P3,1,filled,2025-11-05 09:00:00,2025-12-26 17:39:00,2025-12-26 17:39:00,1,2025-12-26 17:39:00,51,,False
+REQ-10022,Arts administrator,D07,Service,R011,Jeremy Johnson,Kimberly Smith,"Fremont, CA",P3,2,filled,2025-03-30 09:00:00,2025-05-26 15:01:00,2025-05-26 15:01:00,2,2025-05-15 10:14:00,57,,False
+REQ-10023,Chief Financial Officer,D02,Vehicle Engineering,R016,Jose Richards,Sarah Martin,"Fremont, CA",P1,1,filled,2024-11-21 09:00:00,2025-02-08 15:51:00,2025-02-08 15:51:00,1,2025-02-08 15:51:00,79,,True
+REQ-10096,Teaching laboratory technician,D05,Energy Products,R022,Michelle Smith,Aaron Bell,"Austin, TX",P3,1,filled,2024-12-02 09:00:00,2025-02-23 08:25:00,2025-02-23 08:25:00,1,2025-02-23 08:25:00,83,,False
+REQ-10105,Pharmacist,D04,Supply Chain,R004,Jesse Garcia,Bradley Smith,"Austin, TX",P2,1,filled,2025-03-20 09:00:00,2025-05-24 08:37:00,2025-05-24 08:37:00,1,2025-05-24 08:37:00,65,,False
+REQ-10135,Electrical engineer,D03,Manufacturing,R028,Danielle Lynch,Parker Hill,"Austin, TX",P4,1,filled,2024-08-26 09:00:00,2024-12-06 10:24:00,2024-12-06 10:24:00,1,2024-12-06 10:24:00,102,,False
+REQ-10148,Web designer,D02,Vehicle Engineering,R006,Jason Adams,Tyler Garcia,"Fremont, CA",P3,2,filled,2026-04-01 09:00:00,2026-06-23 13:35:00,2026-06-23 13:35:00,2,2026-06-17 09:15:00,83,,False
+REQ-10151,Production designer,D03,Manufacturing,R012,Joseph Clark,Julie Johnson,"Austin, TX",P4,1,filled,2025-11-09 09:00:00,2026-02-10 18:56:00,2026-02-10 18:56:00,1,2026-02-10 18:56:00,93,,False
+REQ-10158,Glass blower/designer,D05,Energy Products,R020,Robert Brown,Katherine Miller,Remote - US,P3,1,filled,2025-10-29 09:00:00,2025-11-30 18:45:00,2025-11-30 18:45:00,1,2025-11-30 18:45:00,32,,False
+REQ-10191,Designer,D11,Legal,R021,Wendy Rice,Richard Baker,"Austin, TX",P3,1,filled,2024-08-16 09:00:00,2024-11-01 09:40:00,2024-11-01 09:40:00,1,2024-11-01 09:40:00,77,,False
+REQ-10211,English as a foreign language teacher,D03,Manufacturing,R024,Danielle Rodriguez,Lisa Byrd,"Palo Alto, CA",P4,1,filled,2025-11-06 09:00:00,2026-01-01 08:15:00,2026-01-01 08:15:00,1,2026-01-01 08:15:00,56,,False
+REQ-10227,Commercial art gallery manager,D10,People,R003,Jeremy Roberts,Stephen Taylor,"Buffalo, NY",P3,1,filled,2024-08-03 09:00:00,2024-10-04 09:26:00,2024-10-04 09:26:00,1,2024-10-04 09:26:00,62,,False
+REQ-10230,Patent examiner,D03,Manufacturing,R022,Michelle Smith,Sandra Gilbert,Remote - US,P1,1,filled,2025-06-10 09:00:00,2025-07-19 15:55:00,2025-07-19 15:55:00,1,2025-07-19 15:55:00,39,,False
+REQ-10259,Pharmacologist,D10,People,R003,Jeremy Roberts,Michelle Schmitt,"Palo Alto, CA",P1,1,filled,2024-05-26 09:00:00,2024-09-04 09:26:00,2024-09-04 09:26:00,1,2024-09-04 09:26:00,101,,False
+REQ-10263,Pilot,D07,Service,R019,Daniel Burton,Vanessa Cardenas,"Fremont, CA",P2,1,filled,2024-10-09 09:00:00,2024-12-12 09:36:00,2024-12-12 09:36:00,1,2024-12-12 09:36:00,64,,False
+REQ-10264,Visual merchandiser,D01,Software Engineering,R010,Gabrielle Cameron,Kristin Lynch,Remote - US,P1,1,filled,2025-02-22 09:00:00,2025-04-27 17:44:00,2025-04-27 17:44:00,1,2025-04-27 17:44:00,64,,False
+REQ-10288,Make,D10,People,R026,Jose Mason,Sabrina Briggs,"Austin, TX",P4,1,filled,2025-05-25 09:00:00,2025-07-26 12:12:00,2025-07-26 12:12:00,1,2025-07-26 12:12:00,62,,False
+REQ-10310,Secretary/administrator,D04,Supply Chain,R004,Jesse Garcia,Michael Romero,"Palo Alto, CA",P1,1,filled,2024-07-26 09:00:00,2024-11-02 11:13:00,2024-11-02 11:13:00,1,2024-11-02 11:13:00,99,,False
+REQ-10347,Architectural technologist,D05,Energy Products,R027,Rita Harrell,Eric Sanders,"Palo Alto, CA",P5,1,filled,2026-05-23 09:00:00,2026-07-20 13:10:00,2026-07-20 13:10:00,1,2026-07-20 13:10:00,58,,False
+REQ-10371,Ecologist,D12,IT,R017,Reginald Robinson,Katie Martinez,"Fremont, CA",P1,1,filled,2025-06-02 09:00:00,2025-07-25 14:07:00,2025-07-25 14:07:00,1,2025-07-25 14:07:00,53,,False
+REQ-10374,Structural engineer,D06,Sales & Delivery,R002,Barbara Bush,Stephen Jones,"Buffalo, NY",P4,1,filled,2025-03-19 09:00:00,2025-07-01 08:29:00,2025-07-01 08:29:00,1,2025-07-01 08:29:00,104,,False
+REQ-10400,Manufacturing engineer,D01,Software Engineering,R013,Nancy Edwards,Douglas Harper,"Austin, TX",P2,1,filled,2024-05-06 09:00:00,2024-07-02 12:25:00,2024-07-02 12:25:00,1,2024-07-02 12:25:00,57,,False
+REQ-10402,Contractor,D09,Finance,R025,Shawn Mckay,Monica Gallagher,"Austin, TX",P4,1,filled,2026-04-05 09:00:00,2026-05-17 12:32:00,2026-05-17 12:32:00,1,2026-05-17 12:32:00,42,,False
+REQ-10419,Museum/gallery conservator,D07,Service,R001,Maria Montgomery,Michael Johnson,Remote - US,P4,1,filled,2026-03-20 09:00:00,2026-06-30 11:08:00,2026-06-30 11:08:00,1,2026-06-30 11:08:00,102,,False
+REQ-10472,Best boy,D04,Supply Chain,R004,Jesse Garcia,Andrea Peck,"Sparks, NV",P3,1,filled,2026-02-04 09:00:00,2026-04-11 17:34:00,2026-04-11 17:34:00,1,2026-04-11 17:34:00,66,,False
+REQ-10476,Solicitor,D04,Supply Chain,R004,Jesse Garcia,Scott Wilson,"Buffalo, NY",P2,1,filled,2025-06-11 09:00:00,2025-09-12 15:00:00,2025-09-12 15:00:00,1,2025-09-12 15:00:00,93,,False
+REQ-10506,Psychotherapist,D03,Manufacturing,R008,Jessica Martin,Erica Harris,"Buffalo, NY",P1,1,filled,2024-10-02 09:00:00,2024-11-24 09:14:00,2024-11-24 09:14:00,1,2024-11-24 09:14:00,53,,False
+REQ-10527,Banker,D03,Manufacturing,R028,Danielle Lynch,Michele Miller,Remote - US,P3,1,filled,2025-11-17 09:00:00,2026-02-24 17:48:00,2026-02-24 17:48:00,1,2026-02-24 17:48:00,99,,False
+REQ-10576,Commercial art gallery manager,D05,Energy Products,R023,Erin Herrera,Monica Bailey,"Austin, TX",P4,1,filled,2025-04-12 09:00:00,2025-06-27 11:03:00,2025-06-27 11:03:00,1,2025-06-27 11:03:00,76,,False
+REQ-10626,Company secretary,D02,Vehicle Engineering,R006,Jason Adams,Brooke Bryant,"Buffalo, NY",P2,1,filled,2024-09-05 09:00:00,2024-11-09 16:16:00,2024-11-09 16:16:00,1,2024-11-09 16:16:00,65,,False
+REQ-10638,Surveyor,D01,Software Engineering,R010,Gabrielle Cameron,Matthew Alexander,"Austin, TX",P2,1,filled,2026-06-29 09:00:00,2026-08-22 11:03:00,2026-08-22 11:03:00,1,2026-08-22 11:03:00,54,,False
+REQ-10667,Teacher,D02,Vehicle Engineering,R026,Jose Mason,Ashley Yang,"Buffalo, NY",P3,1,filled,2025-05-15 09:00:00,2025-08-29 12:36:00,2025-08-29 12:36:00,1,2025-08-29 12:36:00,106,,False
+REQ-10669,Public house manager,D03,Manufacturing,R012,Joseph Clark,Thomas White,"Buffalo, NY",P2,1,filled,2025-06-08 09:00:00,2025-07-22 08:46:00,2025-07-22 08:46:00,1,2025-07-22 08:46:00,44,,False
+REQ-10719,Network engineer,D09,Finance,R025,Shawn Mckay,Ryan Bruce,"Palo Alto, CA",P1,1,filled,2026-08-09 09:00:00,2026-09-19 17:09:00,2026-09-19 17:09:00,1,2026-09-19 17:09:00,41,,False
+REQ-10006,Comptroller,D02,Vehicle Engineering,R023,Erin Herrera,John Pierce,"Sparks, NV",P1,1,filled,2024-10-29 09:00:00,2024-12-08 18:04:00,2024-12-08 18:04:00,1,2024-12-08 18:04:00,40,,False
+REQ-10062,Building control surveyor,D01,Software Engineering,R015,Joseph Wright,Diana May,"Fremont, CA",P4,1,filled,2025-02-11 09:00:00,2025-05-22 18:35:00,2025-05-22 18:35:00,1,2025-05-22 18:35:00,100,,False
+REQ-10095,Television/film/video producer,D03,Manufacturing,R024,Danielle Rodriguez,Alicia Gilmore,"Buffalo, NY",P2,2,filled,2024-01-23 09:00:00,2024-05-18 18:49:00,2024-05-18 18:49:00,2,2024-03-14 12:04:00,116,,False
+REQ-10324,Company secretary,D05,Energy Products,R023,Erin Herrera,Phillip Nelson,"Buffalo, NY",P1,1,filled,2025-05-25 09:00:00,2025-08-11 08:25:00,2025-08-11 08:25:00,1,2025-08-11 08:25:00,78,,False
+REQ-10356,Producer,D08,Data & AI,R007,Deborah Lynch,Andrew Berg,"Palo Alto, CA",P3,1,filled,2025-05-06 09:00:00,2025-06-04 17:14:00,2025-06-04 17:14:00,1,2025-06-04 17:14:00,29,,False
+REQ-10373,Media planner,D12,IT,R024,Danielle Rodriguez,Jackie Lara,"Austin, TX",P4,1,filled,2025-04-12 09:00:00,2025-08-10 18:59:00,2025-08-10 18:59:00,1,2025-08-10 18:59:00,120,,False
+REQ-10415,Insurance account manager,D03,Manufacturing,R012,Joseph Clark,Molly Watts,"Palo Alto, CA",P3,2,cancelled,2026-01-02 09:00:00,,2026-05-16 10:16:00,1,2026-02-26 18:51:00,,,False
+REQ-10416,Aid worker,D06,Sales & Delivery,R017,Reginald Robinson,Deborah Rios,"Fremont, CA",P2,1,filled,2024-01-25 09:00:00,2024-05-04 17:05:00,2024-05-04 17:05:00,1,2024-05-04 17:05:00,100,,False
+REQ-10454,Music therapist,D08,Data & AI,R007,Deborah Lynch,Paul Finley,Remote - US,P3,1,filled,2026-05-22 09:00:00,2026-07-05 10:19:00,2026-07-05 10:19:00,1,2026-07-05 10:19:00,44,,False
+REQ-10525,Financial planner,D03,Manufacturing,R024,Danielle Rodriguez,Courtney Sutton DVM,"Buffalo, NY",P3,1,filled,2026-03-27 09:00:00,2026-05-17 08:38:00,2026-05-17 08:38:00,1,2026-05-17 08:38:00,51,,False
+REQ-10552,Radio broadcast assistant,D10,People,R024,Danielle Rodriguez,Heather Raymond,"Buffalo, NY",P2,1,filled,2025-02-24 09:00:00,2025-04-28 14:02:00,2025-04-28 14:02:00,1,2025-04-28 14:02:00,63,,False
+REQ-10574,Theatre stage manager,D07,Service,R015,Joseph Wright,Brittany Cuevas,"Fremont, CA",P5,2,open,2024-07-23 09:00:00,,,1,2024-08-31 17:31:00,,799,False
+REQ-10575,Radiation protection practitioner,D10,People,R001,Maria Montgomery,Jason Nixon,"Sparks, NV",P5,1,filled,2025-12-23 09:00:00,2026-03-05 18:34:00,2026-03-05 18:34:00,1,2026-03-05 18:34:00,72,,False
+REQ-10583,Educational psychologist,D08,Data & AI,R016,Jose Richards,Matthew Foster,Remote - US,P3,1,filled,2025-03-08 09:00:00,2025-05-13 10:08:00,2025-05-13 10:08:00,1,2025-05-13 10:08:00,66,,False
+REQ-10628,Immigration officer,D02,Vehicle Engineering,R026,Jose Mason,Timothy Hill,"Palo Alto, CA",P3,1,filled,2026-03-19 09:00:00,2026-05-06 08:25:00,2026-05-06 08:25:00,1,2026-05-06 08:25:00,48,,False
+REQ-10010,Community arts worker,D01,Software Engineering,R010,Gabrielle Cameron,Austin Smith,"Buffalo, NY",P2,1,filled,2026-07-16 09:00:00,2026-09-22 13:50:00,2026-09-22 13:50:00,1,2026-09-22 13:50:00,68,,False
+REQ-10047,Accountant,D12,IT,R020,Robert Brown,Carlos Whitney,Remote - US,P2,1,filled,2025-08-20 09:00:00,2025-09-27 14:47:00,2025-09-27 14:47:00,1,2025-09-27 14:47:00,38,,False
+REQ-10188,Designer,D10,People,R001,Maria Montgomery,Andrew Shaw MD,"Fremont, CA",P2,1,filled,2025-01-21 09:00:00,2025-04-13 11:44:00,2025-04-13 11:44:00,1,2025-04-13 11:44:00,82,,False
+REQ-10297,Volunteer coordinator,D12,IT,R003,Jeremy Roberts,Janice Carpenter,Remote - US,P2,1,filled,2024-01-13 09:00:00,2024-03-02 12:42:00,2024-03-02 12:42:00,1,2024-03-02 12:42:00,49,,False
+REQ-10311,Adult nurse,D02,Vehicle Engineering,R006,Jason Adams,Christopher Lewis,"Fremont, CA",P3,1,filled,2024-04-29 09:00:00,2024-07-04 15:31:00,2024-07-04 15:31:00,1,2024-07-04 15:31:00,66,,False
+REQ-10328,Ceramics designer,D04,Supply Chain,R004,Jesse Garcia,Alfred Galvan,"Austin, TX",P3,1,filled,2026-02-08 09:00:00,2026-05-10 16:55:00,2026-05-10 16:55:00,1,2026-05-10 16:55:00,91,,False
+REQ-10411,Video editor,D01,Software Engineering,R013,Nancy Edwards,James Jensen,"Palo Alto, CA",P2,1,filled,2026-04-25 09:00:00,2026-06-08 17:41:00,2026-06-08 17:41:00,1,2026-06-08 17:41:00,44,,False
+REQ-10464,Surveyor,D07,Service,R003,Jeremy Roberts,Ronald Leach,Remote - US,P4,1,filled,2025-07-02 09:00:00,2025-09-15 11:41:00,2025-09-15 11:41:00,1,2025-09-15 11:41:00,75,,False
+REQ-10518,Waste management officer,D12,IT,R011,Jeremy Johnson,Taylor Durham,"Fremont, CA",P3,1,filled,2026-04-23 09:00:00,2026-06-17 16:04:00,2026-06-17 16:04:00,1,2026-06-17 16:04:00,55,,True
+REQ-10589,Tree surgeon,D03,Manufacturing,R023,Erin Herrera,Brian Bell,"Austin, TX",P2,1,filled,2024-11-03 09:00:00,2025-01-26 08:30:00,2025-01-26 08:30:00,1,2025-01-26 08:30:00,84,,False
+REQ-10609,Phytotherapist,D08,Data & AI,R002,Barbara Bush,Charles Clark,"Sparks, NV",P3,1,filled,2024-05-02 09:00:00,2024-07-31 16:08:00,2024-07-31 16:08:00,1,2024-07-31 16:08:00,90,,False
+REQ-10652,Archaeologist,D08,Data & AI,R007,Deborah Lynch,Tiffany Sanders,"Austin, TX",P2,1,filled,2024-12-01 09:00:00,2025-03-08 08:56:00,2025-03-08 08:56:00,1,2025-03-08 08:56:00,97,,True
+REQ-10664,Legal executive,D01,Software Engineering,R013,Nancy Edwards,Denise Brown,"Palo Alto, CA",P2,1,filled,2024-05-03 09:00:00,2024-08-10 18:56:00,2024-08-10 18:56:00,1,2024-08-10 18:56:00,99,,False
+REQ-10674,Scientist,D08,Data & AI,R007,Deborah Lynch,Dr. Andrea Marshall,"Fremont, CA",P5,1,filled,2025-03-05 09:00:00,2025-04-24 13:49:00,2025-04-24 13:49:00,1,2025-04-24 13:49:00,50,,False
+REQ-10724,Banker,D03,Manufacturing,R012,Joseph Clark,Daniel Fox,"Austin, TX",P4,2,cancelled,2024-08-25 09:00:00,,2025-01-22 11:48:00,1,2024-09-30 10:50:00,,,False
+REQ-10018,Chief Technology Officer,D03,Manufacturing,R012,Joseph Clark,Nicholas Mcbride,"Palo Alto, CA",P3,1,filled,2025-07-31 09:00:00,2025-10-14 10:25:00,2025-10-14 10:25:00,1,2025-10-14 10:25:00,75,,False
+REQ-10038,Buyer,D01,Software Engineering,R013,Nancy Edwards,Katie Anderson,"Fremont, CA",P5,1,filled,2024-06-05 09:00:00,2024-08-02 09:12:00,2024-08-02 09:12:00,1,2024-08-02 09:12:00,58,,True
+REQ-10206,Radiation protection practitioner,D02,Vehicle Engineering,R026,Jose Mason,James Howard,"Sparks, NV",P1,1,filled,2026-03-19 09:00:00,2026-05-28 14:08:00,2026-05-28 14:08:00,1,2026-05-28 14:08:00,70,,False
+REQ-10372,Engineer,D07,Service,R015,Joseph Wright,Cynthia Snyder,"Palo Alto, CA",P2,1,filled,2025-05-21 09:00:00,2025-08-26 11:06:00,2025-08-26 11:06:00,1,2025-08-26 11:06:00,97,,False
+REQ-10379,Police officer,D02,Vehicle Engineering,R012,Joseph Clark,Sheena Guerra,"Palo Alto, CA",P2,1,filled,2026-02-27 09:00:00,2026-04-28 12:44:00,2026-04-28 12:44:00,1,2026-04-28 12:44:00,60,,False
+REQ-10538,Visual merchandiser,D04,Supply Chain,R004,Jesse Garcia,Jennifer Ayala,"Palo Alto, CA",P1,1,filled,2025-09-22 09:00:00,2025-11-04 18:24:00,2025-11-04 18:24:00,1,2025-11-04 18:24:00,43,,False
+REQ-10717,Television/film/video producer,D11,Legal,R015,Joseph Wright,Dr. Ariel Sandoval MD,"Buffalo, NY",P4,1,filled,2024-04-27 09:00:00,2024-07-25 15:56:00,2024-07-25 15:56:00,1,2024-07-25 15:56:00,89,,False
+REQ-10021,Call centre manager,D01,Software Engineering,R018,William Davis,Scott Pierce,"Palo Alto, CA",P2,1,filled,2024-02-19 09:00:00,2024-05-10 18:27:00,2024-05-10 18:27:00,1,2024-05-10 18:27:00,81,,False
+REQ-10076,Psychologist,D12,IT,R008,Jessica Martin,Michael Dixon,Remote - US,P4,1,filled,2026-04-21 09:00:00,2026-06-21 13:01:00,2026-06-21 13:01:00,1,2026-06-21 13:01:00,61,,False
+REQ-10172,Stage manager,D01,Software Engineering,R018,William Davis,Dwayne Gilmore,"Buffalo, NY",P3,1,filled,2024-08-01 09:00:00,2024-11-04 17:15:00,2024-11-04 17:15:00,1,2024-11-04 17:15:00,95,,False
+REQ-10198,Plant breeder/geneticist,D03,Manufacturing,R024,Danielle Rodriguez,Joseph Knight,"Sparks, NV",P2,1,filled,2024-01-21 09:00:00,2024-03-01 18:37:00,2024-03-01 18:37:00,1,2024-03-01 18:37:00,40,,False
+REQ-10241,Agricultural engineer,D03,Manufacturing,R024,Danielle Rodriguez,Hunter Kramer,"Buffalo, NY",P3,1,filled,2024-06-12 09:00:00,2024-09-10 11:12:00,2024-09-10 11:12:00,1,2024-09-10 11:12:00,90,,False
+REQ-10298,Architectural technologist,D03,Manufacturing,R012,Joseph Clark,Robert Pearson,"Sparks, NV",P5,1,filled,2025-11-27 09:00:00,2025-12-26 09:35:00,2025-12-26 09:35:00,1,2025-12-26 09:35:00,29,,False
+REQ-10309,Surveyor,D06,Sales & Delivery,R017,Reginald Robinson,Rickey Li,"Austin, TX",P3,1,filled,2024-07-20 09:00:00,2024-09-07 15:03:00,2024-09-07 15:03:00,1,2024-09-07 15:03:00,49,,False
+REQ-10446,Clinical biochemist,D06,Sales & Delivery,R021,Wendy Rice,Frances Gibson,"Sparks, NV",P4,1,filled,2025-03-28 09:00:00,2025-05-21 08:49:00,2025-05-21 08:49:00,1,2025-05-21 08:49:00,54,,False
+REQ-10462,Engineering geologist,D02,Vehicle Engineering,R026,Jose Mason,Melanie Larson,"Palo Alto, CA",P2,1,filled,2026-05-16 09:00:00,2026-06-30 15:09:00,2026-06-30 15:09:00,1,2026-06-30 15:09:00,45,,False
+REQ-10501,Administrator,D02,Vehicle Engineering,R026,Jose Mason,Colton Figueroa,"Sparks, NV",P3,1,filled,2024-03-27 09:00:00,2024-06-12 09:49:00,2024-06-12 09:49:00,1,2024-06-12 09:49:00,77,,False
+REQ-10032,Communications engineer,D10,People,R027,Rita Harrell,Laura Riley,"Austin, TX",P4,1,filled,2025-08-10 09:00:00,2025-11-16 10:34:00,2025-11-16 10:34:00,1,2025-11-16 10:34:00,98,,False
+REQ-10647,Nature conservation officer,D08,Data & AI,R001,Maria Montgomery,Jonathan Wheeler,"Palo Alto, CA",P2,1,filled,2025-12-13 09:00:00,2026-03-23 11:09:00,2026-03-23 11:09:00,1,2026-03-23 11:09:00,100,,False
+REQ-10668,Accountant,D06,Sales & Delivery,R002,Barbara Bush,Scott Sanchez,Remote - US,P4,2,filled,2025-03-29 09:00:00,2025-07-08 09:50:00,2025-07-08 09:50:00,2,2025-06-01 15:03:00,101,,False
+REQ-10720,Editor,D10,People,R003,Jeremy Roberts,Evan Rojas,"Austin, TX",P2,1,filled,2025-12-01 09:00:00,2026-02-08 17:04:00,2026-02-08 17:04:00,1,2026-02-08 17:04:00,69,,False
+REQ-10723,Research officer,D11,Legal,R002,Barbara Bush,Casey Johnson,"Sparks, NV",P3,1,filled,2024-08-29 09:00:00,2024-10-03 18:59:00,2024-10-03 18:59:00,1,2024-10-03 18:59:00,35,,False
+REQ-10030,Designer,D10,People,R002,Barbara Bush,Jordan York,"Austin, TX",P2,2,filled,2026-07-13 09:00:00,2026-09-05 16:52:00,2026-09-05 16:52:00,2,2026-08-24 11:45:00,54,,False
+REQ-10042,Civil Service administrator,D06,Sales & Delivery,R021,Wendy Rice,Brandy Wilson,"Buffalo, NY",P1,1,filled,2026-06-24 09:00:00,2026-08-28 18:32:00,2026-08-28 18:32:00,1,2026-08-28 18:32:00,65,,False
+REQ-10078,Water quality scientist,D02,Vehicle Engineering,R001,Maria Montgomery,Robert Potter,Remote - US,P2,2,filled,2024-03-31 09:00:00,2024-06-07 13:31:00,2024-06-07 13:31:00,2,2024-05-29 17:20:00,68,,False
+REQ-10093,Engineer,D10,People,R005,Cynthia Diaz,Jason Daniels,"Palo Alto, CA",P3,2,filled,2024-05-22 09:00:00,2024-07-23 17:32:00,2024-07-23 17:32:00,2,2024-07-17 13:25:00,62,,False
+REQ-10162,Geophysical data processor,D01,Software Engineering,R013,Nancy Edwards,Pamela Thompson,"Austin, TX",P4,1,filled,2024-09-07 09:00:00,2024-12-12 17:05:00,2024-12-12 17:05:00,1,2024-12-12 17:05:00,96,,False
+REQ-10212,Copywriter,D01,Software Engineering,R018,William Davis,Stephanie Lucas,"Buffalo, NY",P1,1,filled,2024-02-21 09:00:00,2024-05-01 14:09:00,2024-05-01 14:09:00,1,2024-05-01 14:09:00,70,,False
+REQ-10221,Nutritional therapist,D03,Manufacturing,R028,Danielle Lynch,Joshua Gibson,"Fremont, CA",P4,1,filled,2026-05-27 09:00:00,2026-09-11 18:05:00,2026-09-11 18:05:00,1,2026-09-11 18:05:00,107,,False
+REQ-10252,Structural engineer,D04,Supply Chain,R010,Gabrielle Cameron,Cindy Hayes,"Palo Alto, CA",P5,1,filled,2026-04-20 09:00:00,2026-06-07 15:37:00,2026-06-07 15:37:00,1,2026-06-07 15:37:00,48,,False
+REQ-10377,Psychologist,D06,Sales & Delivery,R021,Wendy Rice,Haley Humphrey,"Sparks, NV",P2,1,filled,2025-07-12 09:00:00,2025-08-17 16:19:00,2025-08-17 16:19:00,1,2025-08-17 16:19:00,36,,False
+REQ-10397,Energy manager,D10,People,R005,Cynthia Diaz,Kathleen Robertson,"Fremont, CA",P3,1,filled,2024-11-11 09:00:00,2025-01-09 11:51:00,2025-01-09 11:51:00,1,2025-01-09 11:51:00,59,,False
+REQ-10403,Medical secretary,D03,Manufacturing,R028,Danielle Lynch,Anthony Hoffman,"Buffalo, NY",P4,2,filled,2024-03-23 09:00:00,2024-06-26 16:45:00,2024-06-26 16:45:00,2,2024-06-18 09:30:00,95,,False
+REQ-10432,Horticultural therapist,D01,Software Engineering,R010,Gabrielle Cameron,Tyler Miller,"Sparks, NV",P5,1,filled,2025-09-01 09:00:00,2025-11-03 15:47:00,2025-11-03 15:47:00,1,2025-11-03 15:47:00,63,,False
+REQ-10437,Lawyer,D03,Manufacturing,R012,Joseph Clark,Ashlee Townsend,"Sparks, NV",P1,2,filled,2025-12-07 09:00:00,2026-02-06 13:06:00,2026-02-06 13:06:00,2,2026-01-25 11:24:00,61,,False
+REQ-10440,IT sales professional,D03,Manufacturing,R028,Danielle Lynch,Anthony Mack,"Buffalo, NY",P4,1,filled,2024-02-10 09:00:00,2024-05-23 12:48:00,2024-05-23 12:48:00,1,2024-05-23 12:48:00,103,,False
+REQ-10443,Editor,D01,Software Engineering,R013,Nancy Edwards,Amanda Huff,Remote - US,P3,1,filled,2025-08-04 09:00:00,2025-09-21 16:26:00,2025-09-21 16:26:00,1,2025-09-21 16:26:00,48,,False
+REQ-10481,Clinical scientist,D07,Service,R018,William Davis,Matthew Mendez,"Palo Alto, CA",P3,1,filled,2026-08-02 09:00:00,2026-09-18 14:43:00,2026-09-18 14:43:00,1,2026-09-18 14:43:00,47,,False
+REQ-10488,Scientist,D06,Sales & Delivery,R017,Reginald Robinson,Eric Brown,Remote - US,P2,1,filled,2025-12-14 09:00:00,2026-03-11 16:30:00,2026-03-11 16:30:00,1,2026-03-11 16:30:00,87,,False
+REQ-10496,Lawyer,D07,Service,R019,Daniel Burton,Tammy Boone,"Austin, TX",P5,1,filled,2024-05-28 09:00:00,2024-06-27 10:34:00,2024-06-27 10:34:00,1,2024-06-27 10:34:00,30,,False
+REQ-10503,Occupational psychologist,D03,Manufacturing,R008,Jessica Martin,Kristen Rowe,Remote - US,P4,1,filled,2025-02-14 09:00:00,2025-04-30 16:22:00,2025-04-30 16:22:00,1,2025-04-30 16:22:00,75,,False
+REQ-10562,Psychologist,D05,Energy Products,R027,Rita Harrell,Christine Salinas,"Fremont, CA",P3,1,filled,2024-11-01 09:00:00,2025-02-09 12:52:00,2025-02-09 12:52:00,1,2025-02-09 12:52:00,100,,False
+REQ-10607,Commercial/residential surveyor,D01,Software Engineering,R018,William Davis,Cynthia Cochran,Remote - US,P3,2,filled,2024-09-23 09:00:00,2024-11-18 12:00:00,2024-11-18 12:00:00,2,2024-10-31 10:08:00,56,,False
+REQ-10641,Community pharmacist,D04,Supply Chain,R004,Jesse Garcia,Janet Richmond,"Palo Alto, CA",P2,2,cancelled,2024-12-15 09:00:00,,2025-06-22 11:39:00,1,2025-01-21 09:22:00,,,False
+REQ-10654,Operational investment banker,D08,Data & AI,R016,Jose Richards,Joshua Jensen,"Austin, TX",P1,1,filled,2024-06-25 09:00:00,2024-08-22 15:01:00,2024-08-22 15:01:00,1,2024-08-22 15:01:00,58,,False
+REQ-10688,Conservator,D03,Manufacturing,R024,Danielle Rodriguez,Dean Edwards,"Sparks, NV",P3,1,filled,2025-04-16 09:00:00,2025-07-09 11:33:00,2025-07-09 11:33:00,1,2025-07-09 11:33:00,84,,False
+REQ-10746,Equality and diversity officer,D10,People,R013,Nancy Edwards,Benjamin Singleton,"Palo Alto, CA",P2,1,filled,2024-01-04 09:00:00,2024-04-03 09:34:00,2024-04-03 09:34:00,1,2024-04-03 09:34:00,90,,False
+REQ-10005,Radiographer,D09,Finance,R006,Jason Adams,Vanessa Patel,"Fremont, CA",P4,1,filled,2026-06-05 09:00:00,2026-07-17 15:29:00,2026-07-17 15:29:00,1,2026-07-17 15:29:00,42,,False
+REQ-10049,Acupuncturist,D02,Vehicle Engineering,R026,Jose Mason,Tony Vazquez,"Austin, TX",P5,1,filled,2025-01-07 09:00:00,2025-04-18 13:14:00,2025-04-18 13:14:00,1,2025-04-18 13:14:00,101,,False
+REQ-10051,Data scientist,D01,Software Engineering,R013,Nancy Edwards,Andrew Diaz,"Sparks, NV",P2,1,filled,2024-05-27 09:00:00,2024-07-11 14:49:00,2024-07-11 14:49:00,1,2024-07-11 14:49:00,45,,False
+REQ-10098,Sports coach,D11,Legal,R001,Maria Montgomery,Stephanie Freeman,"Fremont, CA",P2,1,filled,2024-10-27 09:00:00,2025-01-11 08:56:00,2025-01-11 08:56:00,1,2025-01-11 08:56:00,76,,False
+REQ-10144,Surveyor,D12,IT,R023,Erin Herrera,Angela Wright,"Buffalo, NY",P2,1,filled,2026-05-10 09:00:00,2026-06-13 10:48:00,2026-06-13 10:48:00,1,2026-06-13 10:48:00,34,,True
+REQ-10166,Designer,D01,Software Engineering,R010,Gabrielle Cameron,Michael Roberts,Remote - US,P3,1,filled,2025-07-07 09:00:00,2025-08-12 18:09:00,2025-08-12 18:09:00,1,2025-08-12 18:09:00,36,,False
+REQ-10261,Designer,D06,Sales & Delivery,R021,Wendy Rice,Courtney Rodriguez,Remote - US,P2,1,filled,2025-09-02 09:00:00,2025-10-10 17:38:00,2025-10-10 17:38:00,1,2025-10-10 17:38:00,38,,False
+REQ-10299,IT technical support officer,D07,Service,R022,Michelle Smith,Kathryn Rosario,"Palo Alto, CA",P3,1,filled,2026-07-07 09:00:00,2026-08-18 16:08:00,2026-08-18 16:08:00,1,2026-08-18 16:08:00,42,,False
+REQ-10302,Primary school teacher,D02,Vehicle Engineering,R006,Jason Adams,Kelly Bishop MD,"Sparks, NV",P3,1,filled,2025-05-27 09:00:00,2025-07-08 13:57:00,2025-07-08 13:57:00,1,2025-07-08 13:57:00,42,,False
+REQ-10313,Hotel manager,D05,Energy Products,R023,Erin Herrera,Ashley Wise,"Sparks, NV",P1,1,filled,2024-05-27 09:00:00,2024-08-29 16:51:00,2024-08-29 16:51:00,1,2024-08-29 16:51:00,94,,False
+REQ-10320,Teacher,D03,Manufacturing,R008,Jessica Martin,Mrs. Diane Reyes,"Fremont, CA",P2,1,filled,2026-06-25 09:00:00,2026-08-28 11:25:00,2026-08-28 11:25:00,1,2026-08-28 11:25:00,64,,False
+REQ-10360,Primary school teacher,D02,Vehicle Engineering,R006,Jason Adams,Austin Osborne,Remote - US,P2,2,filled,2026-04-15 09:00:00,2026-08-03 13:19:00,2026-08-03 13:19:00,2,2026-07-19 18:00:00,110,,False
+REQ-10367,Recycling officer,D03,Manufacturing,R012,Joseph Clark,Chad Jones,"Buffalo, NY",P4,1,filled,2026-01-08 09:00:00,2026-02-25 11:48:00,2026-02-25 11:48:00,1,2026-02-25 11:48:00,48,,False
+REQ-10470,Occupational hygienist,D02,Vehicle Engineering,R026,Jose Mason,Aaron Robinson,"Fremont, CA",P2,1,filled,2026-05-09 09:00:00,2026-08-20 16:40:00,2026-08-20 16:40:00,1,2026-08-20 16:40:00,103,,False
+REQ-10498,Multimedia programmer,D10,People,R004,Jesse Garcia,Lindsey Russo,Remote - US,P3,1,filled,2024-12-30 09:00:00,2025-02-01 17:56:00,2025-02-01 17:56:00,1,2025-02-01 17:56:00,33,,False
+REQ-10605,Firefighter,D03,Manufacturing,R008,Jessica Martin,Zachary Cole,"Palo Alto, CA",P5,1,filled,2026-04-13 09:00:00,2026-06-13 14:26:00,2026-06-13 14:26:00,1,2026-06-13 14:26:00,61,,False
+REQ-10616,Nurse,D01,Software Engineering,R010,Gabrielle Cameron,Kenneth Adams MD,"Austin, TX",P1,1,filled,2026-06-08 09:00:00,2026-08-01 16:18:00,2026-08-01 16:18:00,1,2026-08-01 16:18:00,54,,False
+REQ-10619,Merchandiser,D02,Vehicle Engineering,R006,Jason Adams,John Perkins,"Sparks, NV",P3,1,filled,2024-05-13 09:00:00,2024-06-26 11:44:00,2024-06-26 11:44:00,1,2024-06-26 11:44:00,44,,False
+REQ-10635,Chartered public finance accountant,D05,Energy Products,R020,Robert Brown,Ashley Edwards,"Sparks, NV",P4,1,filled,2024-07-20 09:00:00,2024-10-26 18:48:00,2024-10-26 18:48:00,1,2024-10-26 18:48:00,98,,False
+REQ-10710,Statistician,D02,Vehicle Engineering,R026,Jose Mason,Brandon Reyes,Remote - US,P1,1,filled,2025-02-09 09:00:00,2025-05-16 10:10:00,2025-05-16 10:10:00,1,2025-05-16 10:10:00,96,,False
+REQ-10033,Archaeologist,D03,Manufacturing,R012,Joseph Clark,Jennifer Silva,"Sparks, NV",P5,2,open,2026-04-29 09:00:00,,,1,2026-06-21 17:45:00,,154,False
+REQ-10046,Arts development officer,D05,Energy Products,R020,Robert Brown,Jeff Hill,"Palo Alto, CA",P1,1,filled,2024-09-05 09:00:00,2024-10-29 09:31:00,2024-10-29 09:31:00,1,2024-10-29 09:31:00,54,,False
+REQ-10070,Lawyer,D04,Supply Chain,R010,Gabrielle Cameron,Mary Martinez,"Austin, TX",P4,1,filled,2025-04-14 09:00:00,2025-07-29 08:12:00,2025-07-29 08:12:00,1,2025-07-29 08:12:00,106,,False
+REQ-10114,Engineer,D02,Vehicle Engineering,R006,Jason Adams,Michael Burton,Remote - US,P2,2,filled,2025-12-20 09:00:00,2026-02-11 14:45:00,2026-02-11 14:45:00,2,2026-01-31 15:29:00,53,,False
+REQ-10136,Theme park manager,D06,Sales & Delivery,R019,Daniel Burton,Kelly Campbell,"Palo Alto, CA",P2,2,cancelled,2024-05-15 09:00:00,,2024-10-02 15:22:00,1,2024-07-23 17:46:00,,,False
+REQ-10139,Audiological scientist,D04,Supply Chain,R004,Jesse Garcia,Melissa Martinez,"Buffalo, NY",P3,1,filled,2026-05-29 09:00:00,2026-09-01 11:21:00,2026-09-01 11:21:00,1,2026-09-01 11:21:00,95,,False
+REQ-10149,Engineer,D07,Service,R018,William Davis,Deborah Miller,"Fremont, CA",P2,1,filled,2025-09-05 09:00:00,2025-10-27 17:05:00,2025-10-27 17:05:00,1,2025-10-27 17:05:00,52,,False
+REQ-10208,Haematologist,D06,Sales & Delivery,R021,Wendy Rice,Sean Osborne,Remote - US,P3,1,filled,2025-11-12 09:00:00,2025-12-29 18:26:00,2025-12-29 18:26:00,1,2025-12-29 18:26:00,47,,False
+REQ-10220,Occupational psychologist,D04,Supply Chain,R004,Jesse Garcia,Regina Diaz,"Fremont, CA",P2,1,filled,2025-09-21 09:00:00,2025-11-18 09:10:00,2025-11-18 09:10:00,1,2025-11-18 09:10:00,58,,False
+REQ-10224,Surveyor,D10,People,R005,Cynthia Diaz,Leonard Holland,"Buffalo, NY",P2,1,filled,2025-04-16 09:00:00,2025-06-06 12:28:00,2025-06-06 12:28:00,1,2025-06-06 12:28:00,51,,False
+REQ-10240,Dance movement psychotherapist,D02,Vehicle Engineering,R006,Jason Adams,Ms. Rebecca Rodriguez,"Fremont, CA",P4,2,filled,2025-09-24 09:00:00,2025-12-23 13:17:00,2025-12-23 13:17:00,2,2025-12-10 10:26:00,90,,True
+REQ-10291,Research officer,D01,Software Engineering,R010,Gabrielle Cameron,Justin Riley,"Palo Alto, CA",P2,2,filled,2026-03-13 09:00:00,2026-07-10 12:59:00,2026-07-10 12:59:00,2,2026-05-04 09:48:00,119,,False
+REQ-10295,Buyer,D03,Manufacturing,R008,Jessica Martin,Jesse Brown,"Palo Alto, CA",P5,1,filled,2025-05-11 09:00:00,2025-06-15 09:43:00,2025-06-15 09:43:00,1,2025-06-15 09:43:00,35,,False
+REQ-10330,Public house manager,D07,Service,R021,Wendy Rice,Brenda Thornton,"Palo Alto, CA",P2,1,filled,2026-04-03 09:00:00,2026-06-11 09:25:00,2026-06-11 09:25:00,1,2026-06-11 09:25:00,69,,False
+REQ-10394,Production assistant,D01,Software Engineering,R013,Nancy Edwards,Brent Roberts,"Austin, TX",P2,1,filled,2026-05-08 09:00:00,2026-06-17 09:44:00,2026-06-17 09:44:00,1,2026-06-17 09:44:00,40,,False
+REQ-10405,Statistician,D08,Data & AI,R007,Deborah Lynch,William Becker,"Austin, TX",P1,1,filled,2024-04-19 09:00:00,2024-06-12 08:54:00,2024-06-12 08:54:00,1,2024-06-12 08:54:00,54,,False
+REQ-10465,Engineer,D08,Data & AI,R007,Deborah Lynch,Brittany Murphy,"Fremont, CA",P1,1,filled,2024-09-09 09:00:00,2024-11-27 09:48:00,2024-11-27 09:48:00,1,2024-11-27 09:48:00,79,,False
+REQ-10485,Banker,D07,Service,R009,Veronica Bowman,Wyatt Young,"Sparks, NV",P1,2,filled,2025-09-03 09:00:00,2025-11-05 14:17:00,2025-11-05 14:17:00,2,2025-10-06 08:57:00,63,,False
+REQ-10573,Teaching laboratory technician,D03,Manufacturing,R001,Maria Montgomery,James Ford,"Austin, TX",P3,1,filled,2025-11-22 09:00:00,2026-02-28 12:08:00,2026-02-28 12:08:00,1,2026-02-28 12:08:00,98,,False
+REQ-10580,Lobbyist,D01,Software Engineering,R018,William Davis,Megan Martin,"Fremont, CA",P2,1,filled,2024-03-14 09:00:00,2024-05-23 08:13:00,2024-05-23 08:13:00,1,2024-05-23 08:13:00,70,,False
+REQ-10007,Geochemist,D05,Energy Products,R020,Robert Brown,Lisa Brandt,"Buffalo, NY",P1,1,filled,2024-02-14 09:00:00,2024-04-15 09:59:00,2024-04-15 09:59:00,1,2024-04-15 09:59:00,61,,False
+REQ-10091,Farm manager,D09,Finance,R012,Joseph Clark,Francisco Fernandez,"Sparks, NV",P1,1,filled,2025-05-10 09:00:00,2025-08-09 16:51:00,2025-08-09 16:51:00,1,2025-08-09 16:51:00,91,,False
+REQ-10124,Financial planner,D12,IT,R001,Maria Montgomery,Laura Barnett,"Sparks, NV",P3,1,filled,2024-12-12 09:00:00,2025-01-29 15:28:00,2025-01-29 15:28:00,1,2025-01-29 15:28:00,48,,False
+REQ-10125,Legal secretary,D10,People,R021,Wendy Rice,Samuel White,"Sparks, NV",P1,1,filled,2025-10-06 09:00:00,2025-11-15 11:29:00,2025-11-15 11:29:00,1,2025-11-15 11:29:00,40,,False
+REQ-10130,Adult guidance worker,D01,Software Engineering,R010,Gabrielle Cameron,Daniel Holt,"Sparks, NV",P2,1,filled,2026-07-25 09:00:00,2026-09-12 13:27:00,2026-09-12 13:27:00,1,2026-09-12 13:27:00,49,,False
+REQ-10176,Psychologist,D10,People,R027,Rita Harrell,Maria Moore,"Fremont, CA",P5,1,filled,2025-04-15 09:00:00,2025-07-28 11:11:00,2025-07-28 11:11:00,1,2025-07-28 11:11:00,104,,False
+REQ-10178,Public house manager,D01,Software Engineering,R013,Nancy Edwards,Juan Reyes,"Fremont, CA",P3,1,filled,2025-03-19 09:00:00,2025-05-02 14:05:00,2025-05-02 14:05:00,1,2025-05-02 14:05:00,44,,False
+REQ-10250,Journalist,D08,Data & AI,R007,Deborah Lynch,Kyle Phillips,"Sparks, NV",P1,1,filled,2024-06-22 09:00:00,2024-09-14 09:15:00,2024-09-14 09:15:00,1,2024-09-14 09:15:00,84,,False
+REQ-10251,Risk analyst,D03,Manufacturing,R008,Jessica Martin,Annette Miles,"Fremont, CA",P3,1,filled,2026-02-21 09:00:00,2026-06-03 12:07:00,2026-06-03 12:07:00,1,2026-06-03 12:07:00,102,,False
+REQ-10277,Research scientist (medical),D11,Legal,R022,Michelle Smith,Casey James,"Buffalo, NY",P4,1,filled,2024-01-07 09:00:00,2024-04-12 10:29:00,2024-04-12 10:29:00,1,2024-04-12 10:29:00,96,,False
+REQ-10345,Psychologist,D07,Service,R011,Jeremy Johnson,Mrs. Catherine Taylor,"Austin, TX",P3,1,filled,2025-02-17 09:00:00,2025-05-13 17:40:00,2025-05-13 17:40:00,1,2025-05-13 17:40:00,85,,False
+REQ-10409,Copywriter,D03,Manufacturing,R005,Cynthia Diaz,Regina Stone,"Fremont, CA",P3,1,filled,2025-11-28 09:00:00,2026-02-28 16:30:00,2026-02-28 16:30:00,1,2026-02-28 16:30:00,92,,False
+REQ-10442,Applications developer,D09,Finance,R025,Shawn Mckay,Carrie Khan,"Austin, TX",P3,1,filled,2024-11-06 09:00:00,2025-01-25 18:13:00,2025-01-25 18:13:00,1,2025-01-25 18:13:00,80,,False
+REQ-10504,Museum/gallery conservator,D01,Software Engineering,R024,Danielle Rodriguez,Matthew Parker,"Austin, TX",P2,1,filled,2026-07-04 09:00:00,2026-08-06 08:38:00,2026-08-06 08:38:00,1,2026-08-06 08:38:00,33,,False
+REQ-10588,Recruitment consultant,D12,IT,R007,Deborah Lynch,Margaret Harper,"Buffalo, NY",P4,1,filled,2026-04-23 09:00:00,2026-06-16 17:27:00,2026-06-16 17:27:00,1,2026-06-16 17:27:00,54,,False
+REQ-10676,Programmer,D07,Service,R015,Joseph Wright,Curtis Elliott,"Palo Alto, CA",P2,1,filled,2025-08-02 09:00:00,2025-10-25 15:11:00,2025-10-25 15:11:00,1,2025-10-25 15:11:00,84,,False
+REQ-10057,Paramedic,D07,Service,R019,Daniel Burton,Sharon Cochran,"Sparks, NV",P2,2,filled,2024-12-20 09:00:00,2025-02-12 11:25:00,2025-02-12 11:25:00,2,2025-02-05 16:56:00,54,,False
+REQ-10104,Journalist,D02,Vehicle Engineering,R006,Jason Adams,Shawn Ramirez,"Buffalo, NY",P2,1,filled,2024-01-23 09:00:00,2024-03-05 10:35:00,2024-03-05 10:35:00,1,2024-03-05 10:35:00,42,,False
+REQ-10122,Psychologist,D01,Software Engineering,R018,William Davis,Nicholas Adams,"Palo Alto, CA",P3,1,filled,2024-03-01 09:00:00,2024-04-18 15:02:00,2024-04-18 15:02:00,1,2024-04-18 15:02:00,48,,False
+REQ-10189,Chiropodist,D03,Manufacturing,R028,Danielle Lynch,Jessica Fox,"Fremont, CA",P2,2,filled,2026-05-21 09:00:00,2026-09-01 16:50:00,2026-09-01 16:50:00,2,2026-07-10 13:46:00,103,,False
+REQ-10236,Advertising art director,D03,Manufacturing,R008,Jessica Martin,Gavin Zhang,"Palo Alto, CA",P3,1,filled,2025-10-12 09:00:00,2025-12-29 12:57:00,2025-12-29 12:57:00,1,2025-12-29 12:57:00,78,,False
+REQ-10359,Designer,D09,Finance,R025,Shawn Mckay,Brenda Lawson,Remote - US,P3,1,filled,2026-05-26 09:00:00,2026-08-31 17:48:00,2026-08-31 17:48:00,1,2026-08-31 17:48:00,97,,False
+REQ-10519,Ranger/warden,D03,Manufacturing,R024,Danielle Rodriguez,Joseph Jenkins,"Palo Alto, CA",P5,1,filled,2024-11-12 09:00:00,2025-01-02 15:32:00,2025-01-02 15:32:00,1,2025-01-02 15:32:00,51,,False
+REQ-10623,Herpetologist,D05,Energy Products,R023,Erin Herrera,Kenneth Knight,"Buffalo, NY",P2,1,filled,2024-01-28 09:00:00,2024-04-11 16:05:00,2024-04-11 16:05:00,1,2024-04-11 16:05:00,74,,False
+REQ-10483,Product manager,D07,Service,R003,Jeremy Roberts,Michele Williams,"Buffalo, NY",P3,1,filled,2024-09-17 09:00:00,2024-11-24 17:49:00,2024-11-24 17:49:00,1,2024-11-24 17:49:00,68,,False
+REQ-10662,Futures trader,D04,Supply Chain,R004,Jesse Garcia,Cameron Norman,"Sparks, NV",P5,1,filled,2025-07-11 09:00:00,2025-09-28 18:29:00,2025-09-28 18:29:00,1,2025-09-28 18:29:00,79,,False
+REQ-10693,Engineer,D02,Vehicle Engineering,R026,Jose Mason,John Phelps,"Sparks, NV",P3,1,filled,2024-10-09 09:00:00,2024-11-27 10:42:00,2024-11-27 10:42:00,1,2024-11-27 10:42:00,49,,False
+REQ-10127,Therapist,D01,Software Engineering,R013,Nancy Edwards,Desiree Smith,"Fremont, CA",P4,1,filled,2024-12-27 09:00:00,2025-04-11 15:35:00,2025-04-11 15:35:00,1,2025-04-11 15:35:00,105,,False
+REQ-10361,Medical technical officer,D08,Data & AI,R007,Deborah Lynch,Travis Johnson,"Buffalo, NY",P4,2,filled,2024-11-13 09:00:00,2025-01-19 17:19:00,2025-01-19 17:19:00,2,2025-01-07 18:58:00,67,,False
+REQ-10276,Copywriter,D07,Service,R002,Barbara Bush,Donna Wilson,Remote - US,P2,1,filled,2025-12-16 09:00:00,2026-02-07 18:59:00,2026-02-07 18:59:00,1,2026-02-07 18:59:00,53,,False
+REQ-10473,Ambulance person,D06,Sales & Delivery,R017,Reginald Robinson,Christopher Taylor,"Sparks, NV",P2,1,filled,2024-11-10 09:00:00,2024-12-18 14:07:00,2024-12-18 14:07:00,1,2024-12-18 14:07:00,38,,False
+REQ-10645,Scientist,D02,Vehicle Engineering,R026,Jose Mason,Chelsea Myers,"Sparks, NV",P3,1,filled,2024-05-17 09:00:00,2024-08-02 11:23:00,2024-08-02 11:23:00,1,2024-08-02 11:23:00,77,,False
+REQ-10656,Designer,D10,People,R022,Michelle Smith,Jeanette Walters,"Fremont, CA",P2,1,filled,2024-10-31 09:00:00,2024-12-11 15:22:00,2024-12-11 15:22:00,1,2024-12-11 15:22:00,41,,False
+REQ-10677,Industrial buyer,D01,Software Engineering,R010,Gabrielle Cameron,Dana Richardson,"Palo Alto, CA",P2,1,filled,2025-08-08 09:00:00,2025-09-10 11:46:00,2025-09-10 11:46:00,1,2025-09-10 11:46:00,33,,False
+REQ-10687,Nurse,D09,Finance,R025,Shawn Mckay,Keith Graham,"Palo Alto, CA",P3,1,filled,2025-03-22 09:00:00,2025-05-31 10:54:00,2025-05-31 10:54:00,1,2025-05-31 10:54:00,70,,False
+REQ-10695,Toxicologist,D02,Vehicle Engineering,R009,Veronica Bowman,Russell Murphy,Remote - US,P2,1,filled,2024-08-09 09:00:00,2024-09-24 13:45:00,2024-09-24 13:45:00,1,2024-09-24 13:45:00,46,,False
+REQ-10696,Chemist,D04,Supply Chain,R009,Veronica Bowman,Tracy Foster,"Palo Alto, CA",P2,2,cancelled,2024-09-15 09:00:00,,2025-03-02 10:23:00,1,2024-11-07 15:03:00,,,False
+REQ-10709,Warehouse manager,D02,Vehicle Engineering,R010,Gabrielle Cameron,Edward Jenkins,Remote - US,P3,1,filled,2024-08-30 09:00:00,2024-10-13 16:06:00,2024-10-13 16:06:00,1,2024-10-13 16:06:00,44,,False
+REQ-10715,Investment banker,D03,Manufacturing,R008,Jessica Martin,Alyssa Cochran,"Buffalo, NY",P1,1,filled,2024-06-05 09:00:00,2024-08-18 13:01:00,2024-08-18 13:01:00,1,2024-08-18 13:01:00,74,,True
+REQ-10745,Quality manager,D01,Software Engineering,R013,Nancy Edwards,Laura Chang,"Palo Alto, CA",P2,1,filled,2024-07-09 09:00:00,2024-09-01 09:21:00,2024-09-01 09:21:00,1,2024-09-01 09:21:00,54,,False
+REQ-10073,Museum education officer,D06,Sales & Delivery,R021,Wendy Rice,Stephanie Gilbert,"Buffalo, NY",P2,1,filled,2025-04-25 09:00:00,2025-07-15 13:49:00,2025-07-15 13:49:00,1,2025-07-15 13:49:00,81,,False
+REQ-10106,Solicitor,D06,Sales & Delivery,R021,Wendy Rice,Trevor Walker,"Buffalo, NY",P3,2,open,2026-04-14 09:00:00,,,1,2026-05-25 12:12:00,,169,False
+REQ-10121,Geophysicist/field seismologist,D06,Sales & Delivery,R002,Barbara Bush,Tamara Hampton,"Palo Alto, CA",P2,1,filled,2024-08-24 09:00:00,2024-10-02 08:04:00,2024-10-02 08:04:00,1,2024-10-02 08:04:00,39,,False
+REQ-10163,Scientist,D11,Legal,R002,Barbara Bush,Sydney White,"Fremont, CA",P3,1,filled,2026-06-08 09:00:00,2026-08-11 16:51:00,2026-08-11 16:51:00,1,2026-08-11 16:51:00,64,,False
+REQ-10194,Ranger/warden,D02,Vehicle Engineering,R006,Jason Adams,Amanda Jones,"Buffalo, NY",P2,1,filled,2025-01-01 09:00:00,2025-02-20 09:21:00,2025-02-20 09:21:00,1,2025-02-20 09:21:00,50,,False
+REQ-10219,Call centre manager,D03,Manufacturing,R024,Danielle Rodriguez,Vincent Dalton,"Sparks, NV",P3,1,filled,2025-12-10 09:00:00,2026-02-16 17:29:00,2026-02-16 17:29:00,1,2026-02-16 17:29:00,68,,False
+REQ-10253,Estate agent,D07,Service,R015,Joseph Wright,Ronald Ross,"Fremont, CA",P1,1,filled,2024-12-16 09:00:00,2025-01-14 08:28:00,2025-01-14 08:28:00,1,2025-01-14 08:28:00,29,,False
+REQ-10266,Librarian,D02,Vehicle Engineering,R006,Jason Adams,Christopher Thomas,Remote - US,P2,2,filled,2025-05-31 09:00:00,2025-09-26 15:28:00,2025-09-26 15:28:00,2,2025-09-24 09:27:00,118,,False
+REQ-10275,Tour manager,D02,Vehicle Engineering,R026,Jose Mason,Dan Dougherty,"Buffalo, NY",P1,1,filled,2024-12-05 09:00:00,2025-02-28 12:18:00,2025-02-28 12:18:00,1,2025-02-28 12:18:00,85,,False
+REQ-10308,Nurse,D03,Manufacturing,R024,Danielle Rodriguez,Michael Miller,"Sparks, NV",P4,1,filled,2025-08-27 09:00:00,2025-11-09 11:21:00,2025-11-09 11:21:00,1,2025-11-09 11:21:00,74,,False
+REQ-10327,Patent examiner,D01,Software Engineering,R018,William Davis,Jonathan Young,Remote - US,P3,1,filled,2025-01-14 09:00:00,2025-02-25 12:30:00,2025-02-25 12:30:00,1,2025-02-25 12:30:00,42,,False
+REQ-10337,Cytogeneticist,D04,Supply Chain,R004,Jesse Garcia,Aaron Gomez,Remote - US,P5,1,filled,2024-11-20 09:00:00,2025-03-01 09:45:00,2025-03-01 09:45:00,1,2025-03-01 09:45:00,101,,False
+REQ-10342,Location manager,D02,Vehicle Engineering,R022,Michelle Smith,Matthew Garcia,"Sparks, NV",P2,1,filled,2026-04-05 09:00:00,2026-06-30 17:36:00,2026-06-30 17:36:00,1,2026-06-30 17:36:00,86,,False
+REQ-10424,Purchasing manager,D12,IT,R024,Danielle Rodriguez,Emily Thompson,"Sparks, NV",P4,1,filled,2024-03-04 09:00:00,2024-06-11 12:01:00,2024-06-11 12:01:00,1,2024-06-11 12:01:00,99,,False
+REQ-10428,Homeopath,D12,IT,R025,Shawn Mckay,Melissa Burns,"Palo Alto, CA",P2,1,filled,2024-07-18 09:00:00,2024-09-30 09:06:00,2024-09-30 09:06:00,1,2024-09-30 09:06:00,74,,False
+REQ-10434,Solicitor,D01,Software Engineering,R018,William Davis,Justin Nelson,Remote - US,P2,1,filled,2024-02-22 09:00:00,2024-04-04 17:38:00,2024-04-04 17:38:00,1,2024-04-04 17:38:00,42,,False
+REQ-10450,Administrator,D03,Manufacturing,R008,Jessica Martin,Rachel Bradley,Remote - US,P2,1,filled,2026-04-05 09:00:00,2026-06-12 11:12:00,2026-06-12 11:12:00,1,2026-06-12 11:12:00,68,,False
+REQ-10458,Insurance risk surveyor,D09,Finance,R025,Shawn Mckay,Margaret Shepard,"Sparks, NV",P3,1,filled,2024-02-24 09:00:00,2024-04-18 15:14:00,2024-04-18 15:14:00,1,2024-04-18 15:14:00,54,,False
+REQ-10487,IT sales professional,D04,Supply Chain,R004,Jesse Garcia,Shawn Odom,"Sparks, NV",P1,1,filled,2024-09-11 09:00:00,2024-11-02 12:10:00,2024-11-02 12:10:00,1,2024-11-02 12:10:00,52,,False
+REQ-10493,Financial adviser,D12,IT,R010,Gabrielle Cameron,Elizabeth Zimmerman,"Sparks, NV",P3,1,filled,2025-01-24 09:00:00,2025-03-27 13:53:00,2025-03-27 13:53:00,1,2025-03-27 13:53:00,62,,False
+REQ-10537,Press sub,D06,Sales & Delivery,R021,Wendy Rice,Billy Jacobs,"Austin, TX",P3,1,filled,2026-02-18 09:00:00,2026-05-14 15:51:00,2026-05-14 15:51:00,1,2026-05-14 15:51:00,85,,False
+REQ-10539,Air traffic controller,D07,Service,R009,Veronica Bowman,Rachel Hayes,"Sparks, NV",P2,1,filled,2024-05-07 09:00:00,2024-06-29 09:03:00,2024-06-29 09:03:00,1,2024-06-29 09:03:00,53,,False
+REQ-10560,Nurse,D04,Supply Chain,R005,Cynthia Diaz,Timothy Gonzalez,Remote - US,P1,2,filled,2024-12-20 09:00:00,2025-02-01 09:26:00,2025-02-01 09:26:00,2,2025-01-25 18:04:00,43,,False
+REQ-10564,Restaurant manager,D03,Manufacturing,R012,Joseph Clark,Eric King,"Fremont, CA",P2,1,filled,2026-01-29 09:00:00,2026-05-22 11:55:00,2026-05-22 11:55:00,1,2026-05-22 11:55:00,113,,False
+REQ-10591,Human resources officer,D02,Vehicle Engineering,R012,Joseph Clark,Leslie Powers,"Sparks, NV",P1,1,filled,2025-10-28 09:00:00,2026-02-02 18:47:00,2026-02-02 18:47:00,1,2026-02-02 18:47:00,97,,False
+REQ-10603,Medical technical officer,D01,Software Engineering,R013,Nancy Edwards,Nicole Wolf,"Buffalo, NY",P1,1,filled,2024-05-11 09:00:00,2024-08-13 16:56:00,2024-08-13 16:56:00,1,2024-08-13 16:56:00,94,,False
+REQ-10622,Pilot,D10,People,R007,Deborah Lynch,Kathleen Morris,"Buffalo, NY",P1,1,filled,2025-01-22 09:00:00,2025-03-14 12:57:00,2025-03-14 12:57:00,1,2025-03-14 12:57:00,51,,False
+REQ-10625,Armed forces training and education officer,D12,IT,R009,Veronica Bowman,Richard Stevens,"Buffalo, NY",P3,1,filled,2024-02-13 09:00:00,2024-04-23 13:32:00,2024-04-23 13:32:00,1,2024-04-23 13:32:00,70,,False
+REQ-10646,Audiological scientist,D06,Sales & Delivery,R014,Randall Rocha,Rebecca Allen,"Palo Alto, CA",P5,1,filled,2025-07-23 09:00:00,2025-08-21 16:28:00,2025-08-21 16:28:00,1,2025-08-21 16:28:00,29,,False
+REQ-10689,Nurse,D09,Finance,R025,Shawn Mckay,Nancy Stewart,Remote - US,P3,1,filled,2024-11-26 09:00:00,2025-03-09 14:19:00,2025-03-09 14:19:00,1,2025-03-09 14:19:00,103,,False
+REQ-10691,Television/film/video producer,D03,Manufacturing,R012,Joseph Clark,Brian Cole,"Buffalo, NY",P4,1,filled,2024-03-01 09:00:00,2024-05-19 15:43:00,2024-05-19 15:43:00,1,2024-05-19 15:43:00,79,,False
+REQ-10722,Tax inspector,D02,Vehicle Engineering,R006,Jason Adams,Kristine Lopez,Remote - US,P1,2,open,2024-07-29 09:00:00,,,1,2024-10-06 16:38:00,,793,False
+REQ-10749,Sports development officer,D02,Vehicle Engineering,R006,Jason Adams,Vanessa Morgan,"Fremont, CA",P3,1,filled,2025-02-13 09:00:00,2025-05-28 14:17:00,2025-05-28 14:17:00,1,2025-05-28 14:17:00,104,,False
+REQ-10016,Chief Marketing Officer,D03,Manufacturing,R012,Joseph Clark,Jeffrey Henderson,Remote - US,P5,1,filled,2025-04-20 09:00:00,2025-06-11 08:33:00,2025-06-11 08:33:00,1,2025-06-11 08:33:00,52,,False
+REQ-10071,Hydrologist,D09,Finance,R025,Shawn Mckay,Mary Nguyen,"Buffalo, NY",P3,2,filled,2025-05-25 09:00:00,2025-08-30 10:58:00,2025-08-30 10:58:00,2,2025-07-23 15:52:00,97,,False
+REQ-10108,Firefighter,D11,Legal,R025,Shawn Mckay,Alex Hernandez,"Sparks, NV",P3,1,filled,2026-04-13 09:00:00,2026-05-20 14:29:00,2026-05-20 14:29:00,1,2026-05-20 14:29:00,37,,False
+REQ-10110,Psychologist,D08,Data & AI,R007,Deborah Lynch,Pamela Jackson,"Buffalo, NY",P1,1,filled,2024-03-04 09:00:00,2024-05-13 08:13:00,2024-05-13 08:13:00,1,2024-05-13 08:13:00,70,,False
+REQ-10168,International aid/development worker,D04,Supply Chain,R004,Jesse Garcia,Brian Barton,"Buffalo, NY",P4,1,filled,2026-04-14 09:00:00,2026-06-26 18:55:00,2026-06-26 18:55:00,1,2026-06-26 18:55:00,73,,False
+REQ-10184,Speech and language therapist,D01,Software Engineering,R010,Gabrielle Cameron,Timothy Kane,"Austin, TX",P4,1,filled,2024-04-23 09:00:00,2024-06-06 15:59:00,2024-06-06 15:59:00,1,2024-06-06 15:59:00,44,,False
+REQ-10192,Youth worker,D01,Software Engineering,R010,Gabrielle Cameron,Marie Christian,"Austin, TX",P3,1,filled,2025-01-24 09:00:00,2025-04-17 17:41:00,2025-04-17 17:41:00,1,2025-04-17 17:41:00,83,,False
+REQ-10239,Data scientist,D04,Supply Chain,R004,Jesse Garcia,Linda Ramirez,"Sparks, NV",P2,1,filled,2025-08-29 09:00:00,2025-10-01 10:29:00,2025-10-01 10:29:00,1,2025-10-01 10:29:00,33,,False
+REQ-10279,Building surveyor,D10,People,R002,Barbara Bush,Patrick Graham,"Fremont, CA",P2,1,filled,2025-12-17 09:00:00,2026-03-05 10:24:00,2026-03-05 10:24:00,1,2026-03-05 10:24:00,78,,False
+REQ-10282,Ophthalmologist,D07,Service,R001,Maria Montgomery,Frederick Solis,"Palo Alto, CA",P2,1,filled,2024-02-02 09:00:00,2024-03-22 15:15:00,2024-03-22 15:15:00,1,2024-03-22 15:15:00,49,,False
+REQ-10290,Designer,D01,Software Engineering,R013,Nancy Edwards,Mary Thompson,"Palo Alto, CA",P1,1,filled,2025-05-07 09:00:00,2025-07-31 17:15:00,2025-07-31 17:15:00,1,2025-07-31 17:15:00,85,,False
+REQ-10404,Medical laboratory scientific officer,D12,IT,R019,Daniel Burton,Angel Gordon,"Fremont, CA",P3,1,filled,2024-08-09 09:00:00,2024-10-12 17:59:00,2024-10-12 17:59:00,1,2024-10-12 17:59:00,64,,False
+REQ-10422,Public affairs consultant,D06,Sales & Delivery,R014,Randall Rocha,Nancy Brown,"Buffalo, NY",P2,1,filled,2024-04-19 09:00:00,2024-07-21 15:01:00,2024-07-21 15:01:00,1,2024-07-21 15:01:00,93,,False
+REQ-10435,Clinical embryologist,D06,Sales & Delivery,R005,Cynthia Diaz,Laurie Sanchez,"Palo Alto, CA",P3,1,filled,2024-02-29 09:00:00,2024-04-13 08:40:00,2024-04-13 08:40:00,1,2024-04-13 08:40:00,44,,False
+REQ-10471,Buyer,D03,Manufacturing,R028,Danielle Lynch,Gregory Brown,Remote - US,P4,1,filled,2024-01-27 09:00:00,2024-03-28 13:35:00,2024-03-28 13:35:00,1,2024-03-28 13:35:00,61,,False
+REQ-10492,Database administrator,D07,Service,R001,Maria Montgomery,Clinton Medina,"Palo Alto, CA",P2,1,filled,2025-02-06 09:00:00,2025-03-30 16:47:00,2025-03-30 16:47:00,1,2025-03-30 16:47:00,52,,False
+REQ-10530,Tax adviser,D05,Energy Products,R027,Rita Harrell,Anthony Jones,"Palo Alto, CA",P4,1,filled,2026-01-07 09:00:00,2026-02-15 10:28:00,2026-02-15 10:28:00,1,2026-02-15 10:28:00,39,,False
+REQ-10533,Occupational therapist,D12,IT,R016,Jose Richards,Elizabeth Elliott,"Austin, TX",P2,1,filled,2024-10-03 09:00:00,2024-11-16 15:12:00,2024-11-16 15:12:00,1,2024-11-16 15:12:00,44,,False
+REQ-10587,Medical secretary,D03,Manufacturing,R008,Jessica Martin,Jim Baker,"Palo Alto, CA",P3,1,filled,2024-09-11 09:00:00,2024-12-22 15:58:00,2024-12-22 15:58:00,1,2024-12-22 15:58:00,102,,False
+REQ-10620,Chief Financial Officer,D01,Software Engineering,R010,Gabrielle Cameron,Judy Beck,"Fremont, CA",P3,1,filled,2024-08-13 09:00:00,2024-09-20 11:24:00,2024-09-20 11:24:00,1,2024-09-20 11:24:00,38,,False
+REQ-10634,Pharmacist,D08,Data & AI,R016,Jose Richards,Karen Perez,"Austin, TX",P3,1,filled,2024-01-30 09:00:00,2024-03-14 10:45:00,2024-03-14 10:45:00,1,2024-03-14 10:45:00,44,,False
+REQ-10642,International aid/development worker,D04,Supply Chain,R004,Jesse Garcia,Danielle Newman,Remote - US,P2,1,filled,2024-10-05 09:00:00,2024-12-11 15:48:00,2024-12-11 15:48:00,1,2024-12-11 15:48:00,67,,False
+REQ-10692,Interior and spatial designer,D12,IT,R028,Danielle Lynch,Joshua Oconnell,"Fremont, CA",P3,1,filled,2025-04-26 09:00:00,2025-07-23 11:56:00,2025-07-23 11:56:00,1,2025-07-23 11:56:00,88,,False
+REQ-10713,Mechanical engineer,D07,Service,R009,Veronica Bowman,Richard Cooper,"Fremont, CA",P4,1,filled,2024-12-14 09:00:00,2025-02-03 10:21:00,2025-02-03 10:21:00,1,2025-02-03 10:21:00,51,,True
+REQ-10039,Magazine journalist,D06,Sales & Delivery,R005,Cynthia Diaz,Sherry Wood,Remote - US,P3,1,filled,2025-02-17 09:00:00,2025-04-07 16:33:00,2025-04-07 16:33:00,1,2025-04-07 16:33:00,49,,False
+REQ-10128,Engineer,D01,Software Engineering,R018,William Davis,Nathan Freeman,"Buffalo, NY",P2,1,filled,2026-05-22 09:00:00,2026-07-01 17:13:00,2026-07-01 17:13:00,1,2026-07-01 17:13:00,40,,False
+REQ-10147,Human resources officer,D03,Manufacturing,R012,Joseph Clark,Wanda Torres,"Fremont, CA",P1,1,filled,2025-02-08 09:00:00,2025-04-26 11:48:00,2025-04-26 11:48:00,1,2025-04-26 11:48:00,77,,False
+REQ-10378,Structural engineer,D03,Manufacturing,R012,Joseph Clark,Catherine Burch,"Austin, TX",P2,1,filled,2024-04-20 09:00:00,2024-06-23 17:51:00,2024-06-23 17:51:00,1,2024-06-23 17:51:00,64,,False
+REQ-10449,Designer,D02,Vehicle Engineering,R026,Jose Mason,Mariah Higgins,"Austin, TX",P2,1,filled,2024-06-20 09:00:00,2024-08-19 18:01:00,2024-08-19 18:01:00,1,2024-08-19 18:01:00,60,,False
+REQ-10528,Politician's assistant,D02,Vehicle Engineering,R026,Jose Mason,Erin Madden,"Sparks, NV",P4,2,open,2025-08-08 09:00:00,,,1,2025-10-16 17:08:00,,418,False
+REQ-10532,International aid/development worker,D09,Finance,R019,Daniel Burton,Daniel Thomas,"Fremont, CA",P4,1,filled,2024-12-15 09:00:00,2025-04-01 08:40:00,2025-04-01 08:40:00,1,2025-04-01 08:40:00,107,,False
+REQ-10548,Musician,D06,Sales & Delivery,R005,Cynthia Diaz,Jason Maxwell,"Fremont, CA",P1,1,filled,2025-10-17 09:00:00,2025-12-17 09:57:00,2025-12-17 09:57:00,1,2025-12-17 09:57:00,61,,False
+REQ-10608,Theatre stage manager,D07,Service,R015,Joseph Wright,Shannon Bishop,"Sparks, NV",P3,1,filled,2024-12-20 09:00:00,2025-03-18 16:47:00,2025-03-18 16:47:00,1,2025-03-18 16:47:00,88,,False
+REQ-10631,Facilities manager,D08,Data & AI,R016,Jose Richards,Brandon Davis,"Sparks, NV",P2,1,filled,2024-09-01 09:00:00,2024-10-18 15:50:00,2024-10-18 15:50:00,1,2024-10-18 15:50:00,47,,False
+REQ-10640,Probation officer,D08,Data & AI,R007,Deborah Lynch,Angelica Garcia,Remote - US,P3,1,filled,2025-12-23 09:00:00,2026-02-10 11:04:00,2026-02-10 11:04:00,1,2026-02-10 11:04:00,49,,False
+REQ-10744,Patent attorney,D06,Sales & Delivery,R017,Reginald Robinson,James Payne Jr.,"Palo Alto, CA",P2,1,filled,2025-08-25 09:00:00,2025-10-04 11:17:00,2025-10-04 11:17:00,1,2025-10-04 11:17:00,40,,False
+REQ-10001,Designer,D01,Software Engineering,R018,William Davis,Paula Moreno,"Buffalo, NY",P1,1,filled,2025-12-11 09:00:00,2026-01-26 14:10:00,2026-01-26 14:10:00,1,2026-01-26 14:10:00,46,,False
+REQ-10034,Scientist,D04,Supply Chain,R004,Jesse Garcia,Dean Santiago,Remote - US,P2,1,filled,2024-02-09 09:00:00,2024-03-26 15:47:00,2024-03-26 15:47:00,1,2024-03-26 15:47:00,46,,False
+REQ-10118,Licensed conveyancer,D01,Software Engineering,R018,William Davis,Jason Henry,"Sparks, NV",P3,1,filled,2025-09-04 09:00:00,2025-12-14 12:23:00,2025-12-14 12:23:00,1,2025-12-14 12:23:00,101,,False
+REQ-10213,Insurance broker,D07,Service,R001,Maria Montgomery,Amanda Diaz,Remote - US,P2,1,filled,2025-01-11 09:00:00,2025-02-11 17:37:00,2025-02-11 17:37:00,1,2025-02-11 17:37:00,31,,False
+REQ-10228,Professor Emeritus,D11,Legal,R016,Jose Richards,Travis Horton,"Sparks, NV",P2,1,filled,2024-05-21 09:00:00,2024-06-18 09:33:00,2024-06-18 09:33:00,1,2024-06-18 09:33:00,28,,False
+REQ-10232,Fashion designer,D08,Data & AI,R007,Deborah Lynch,Ariana Jennings,"Buffalo, NY",P3,1,filled,2024-07-12 09:00:00,2024-08-25 16:50:00,2024-08-25 16:50:00,1,2024-08-25 16:50:00,44,,False
+REQ-10254,Chief of Staff,D05,Energy Products,R002,Barbara Bush,Erik Scott,"Sparks, NV",P3,1,filled,2025-09-14 09:00:00,2025-10-27 11:45:00,2025-10-27 11:45:00,1,2025-10-27 11:45:00,43,,False
+REQ-10271,Waste management officer,D06,Sales & Delivery,R021,Wendy Rice,Brad Ramos,"Austin, TX",P3,1,filled,2024-02-11 09:00:00,2024-04-02 13:51:00,2024-04-02 13:51:00,1,2024-04-02 13:51:00,51,,False
+REQ-10274,Therapist,D03,Manufacturing,R023,Erin Herrera,Mr. Andrew Foster,"Fremont, CA",P5,1,filled,2024-10-20 09:00:00,2024-12-28 16:41:00,2024-12-28 16:41:00,1,2024-12-28 16:41:00,69,,False
+REQ-10515,Cabin crew,D02,Vehicle Engineering,R006,Jason Adams,Mary Duran,"Sparks, NV",P1,1,filled,2026-05-15 09:00:00,2026-07-05 15:08:00,2026-07-05 15:08:00,1,2026-07-05 15:08:00,51,,False
+REQ-10521,Adult guidance worker,D03,Manufacturing,R008,Jessica Martin,Melissa Jordan,"Sparks, NV",P3,1,filled,2025-08-18 09:00:00,2025-10-18 14:37:00,2025-10-18 14:37:00,1,2025-10-18 14:37:00,61,,False
+REQ-10011,Surveyor,D08,Data & AI,R027,Rita Harrell,Daniel Jones,"Buffalo, NY",P1,1,filled,2025-12-29 09:00:00,2026-02-24 12:13:00,2026-02-24 12:13:00,1,2026-02-24 12:13:00,57,,False
+REQ-10247,Quality manager,D03,Manufacturing,R028,Danielle Lynch,Jessica Rodriguez,Remote - US,P2,1,filled,2026-03-22 09:00:00,2026-05-22 08:57:00,2026-05-22 08:57:00,1,2026-05-22 08:57:00,61,,False
+REQ-10249,Brewing technologist,D11,Legal,R007,Deborah Lynch,Marcus Richards,"Sparks, NV",P2,1,filled,2024-12-21 09:00:00,2025-03-25 09:22:00,2025-03-25 09:22:00,1,2025-03-25 09:22:00,94,,False
+REQ-10255,Designer,D06,Sales & Delivery,R017,Reginald Robinson,Kara Davis,"Austin, TX",P4,1,filled,2025-03-12 09:00:00,2025-05-19 18:01:00,2025-05-19 18:01:00,1,2025-05-19 18:01:00,68,,False
+REQ-10325,Scientific laboratory technician,D06,Sales & Delivery,R021,Wendy Rice,Jeffrey Potts,"Palo Alto, CA",P2,1,filled,2024-01-19 09:00:00,2024-03-06 15:11:00,2024-03-06 15:11:00,1,2024-03-06 15:11:00,47,,False
+REQ-10392,Location manager,D01,Software Engineering,R018,William Davis,Bianca Wood,"Sparks, NV",P3,1,filled,2025-10-09 09:00:00,2025-11-30 13:27:00,2025-11-30 13:27:00,1,2025-11-30 13:27:00,52,,False
+REQ-10420,Clinical molecular geneticist,D01,Software Engineering,R018,William Davis,Jeremy Barnes,"Fremont, CA",P2,1,filled,2025-10-09 09:00:00,2025-12-10 11:31:00,2025-12-10 11:31:00,1,2025-12-10 11:31:00,62,,False
+REQ-10456,Media buyer,D12,IT,R023,Erin Herrera,Amy Wilson,"Austin, TX",P3,1,filled,2026-02-28 09:00:00,2026-04-23 16:27:00,2026-04-23 16:27:00,1,2026-04-23 16:27:00,54,,False
+REQ-10633,Producer,D10,People,R003,Jeremy Roberts,Michael Montoya,"Fremont, CA",P2,1,filled,2025-06-12 09:00:00,2025-07-26 12:50:00,2025-07-26 12:50:00,1,2025-07-26 12:50:00,44,,True
+REQ-10448,Retail merchandiser,D03,Manufacturing,R015,Joseph Wright,Corey Rodriguez,"Fremont, CA",P3,1,filled,2024-02-10 09:00:00,2024-05-22 08:23:00,2024-05-22 08:23:00,1,2024-05-22 08:23:00,102,,False
+REQ-10569,Fish farm manager,D03,Manufacturing,R012,Joseph Clark,Heather Holland,Remote - US,P2,2,cancelled,2024-01-28 09:00:00,,2024-07-17 09:10:00,1,2024-03-24 09:17:00,,,False
+REQ-10682,Information systems manager,D11,Legal,R017,Reginald Robinson,Joseph Allen,"Fremont, CA",P4,1,filled,2025-10-05 09:00:00,2025-12-21 10:33:00,2025-12-21 10:33:00,1,2025-12-21 10:33:00,77,,False
+REQ-10197,Armed forces training and education officer,D03,Manufacturing,R012,Joseph Clark,Anthony Howard,"Austin, TX",P3,1,filled,2024-11-08 09:00:00,2025-01-12 14:18:00,2025-01-12 14:18:00,1,2025-01-12 14:18:00,65,,False
+REQ-10272,Photographer,D01,Software Engineering,R020,Robert Brown,Mr. Donald Fischer,"Buffalo, NY",P2,1,filled,2024-11-11 09:00:00,2025-01-27 13:36:00,2025-01-27 13:36:00,1,2025-01-27 13:36:00,77,,False
+REQ-10085,Community development worker,D02,Vehicle Engineering,R026,Jose Mason,Robert Contreras,"Austin, TX",P2,1,filled,2025-03-03 09:00:00,2025-05-23 11:27:00,2025-05-23 11:27:00,1,2025-05-23 11:27:00,81,,False
+REQ-10077,Doctor,D03,Manufacturing,R024,Danielle Rodriguez,Diane Beck,"Austin, TX",P4,1,filled,2025-11-01 09:00:00,2025-12-26 17:48:00,2025-12-26 17:48:00,1,2025-12-26 17:48:00,55,,False
+REQ-10479,Sport and exercise psychologist,D05,Energy Products,R023,Erin Herrera,James Hall,"Fremont, CA",P3,1,filled,2024-04-29 09:00:00,2024-06-15 08:33:00,2024-06-15 08:33:00,1,2024-06-15 08:33:00,47,,False
+REQ-10578,Publishing copy,D03,Manufacturing,R012,Joseph Clark,Nathan Chavez,"Buffalo, NY",P5,1,filled,2026-03-10 09:00:00,2026-04-16 08:46:00,2026-04-16 08:46:00,1,2026-04-16 08:46:00,37,,False
+REQ-10595,Early years teacher,D05,Energy Products,R023,Erin Herrera,Katherine Taylor,Remote - US,P5,1,filled,2024-09-28 09:00:00,2024-12-14 11:39:00,2024-12-14 11:39:00,1,2024-12-14 11:39:00,77,,False
+REQ-10157,Print production planner,D12,IT,R025,Shawn Mckay,Michael Lyons,"Austin, TX",P4,1,filled,2026-03-10 09:00:00,2026-06-18 16:52:00,2026-06-18 16:52:00,1,2026-06-18 16:52:00,100,,False
+REQ-10048,Designer,D03,Manufacturing,R012,Joseph Clark,Kristen Patterson,"Buffalo, NY",P2,1,open,2026-03-21 09:00:00,,,0,,,193,False
+REQ-10092,Corporate investment banker,D08,Data & AI,R007,Deborah Lynch,James Hernandez,"Austin, TX",P1,1,open,2025-01-03 09:00:00,,,0,,,635,False
+REQ-10101,Writer,D09,Finance,R025,Shawn Mckay,Susan Vargas,"Fremont, CA",P5,2,open,2026-07-02 09:00:00,,,0,,,90,False
+REQ-10115,Civil engineer,D01,Software Engineering,R013,Nancy Edwards,Elizabeth Sutton,"Austin, TX",P2,2,open,2026-01-30 09:00:00,,,0,,,243,False
+REQ-10123,Financial trader,D03,Manufacturing,R008,Jessica Martin,Angelica Keith,"Sparks, NV",P4,1,open,2026-08-09 09:00:00,,,0,,,52,False
+REQ-10171,Research scientist (physical sciences),D01,Software Engineering,R010,Gabrielle Cameron,Olivia Harris,"Sparks, NV",P2,1,cancelled,2025-11-28 09:00:00,,2026-05-15 17:11:00,0,,,,False
+REQ-10177,Horticulturist,D11,Legal,R017,Reginald Robinson,Denise Davenport,Remote - US,P4,2,cancelled,2024-11-23 09:00:00,,2025-04-23 17:30:00,0,,,,False
+REQ-10179,Tour manager,D03,Manufacturing,R012,Joseph Clark,Sherry Shields,"Fremont, CA",P3,1,open,2026-02-01 09:00:00,,,0,,,241,False
+REQ-10180,Health and safety adviser,D12,IT,R021,Wendy Rice,Sarah Morgan,"Palo Alto, CA",P1,1,open,2025-01-15 09:00:00,,,0,,,623,False
+REQ-10182,Theatre manager,D05,Energy Products,R020,Robert Brown,Mary Grimes,"Palo Alto, CA",P1,1,open,2025-09-02 09:00:00,,,0,,,393,False
+REQ-10183,Product manager,D12,IT,R003,Jeremy Roberts,Haley Arnold,"Sparks, NV",P1,1,open,2025-10-25 09:00:00,,,0,,,340,False
+REQ-10225,Psychologist,D03,Manufacturing,R012,Joseph Clark,Elizabeth Ortiz,"Palo Alto, CA",P2,1,cancelled,2025-05-26 09:00:00,,2025-11-13 18:20:00,0,,,,False
+REQ-10292,Systems analyst,D02,Vehicle Engineering,R006,Jason Adams,Victoria Morris,Remote - US,P3,1,open,2026-02-06 09:00:00,,,0,,,236,False
+REQ-10293,Interpreter,D08,Data & AI,R007,Deborah Lynch,Barry Ramos,Remote - US,P1,1,open,2026-05-22 09:00:00,,,0,,,131,False
+REQ-10352,Embryologist,D08,Data & AI,R007,Deborah Lynch,Jonathan Glass MD,"Palo Alto, CA",P3,1,open,2026-02-26 09:00:00,,,0,,,216,False
+REQ-10375,Occupational therapist,D02,Vehicle Engineering,R012,Joseph Clark,Dr. Kelly Hammond DVM,"Austin, TX",P1,1,open,2026-01-08 09:00:00,,,0,,,265,False
+REQ-10385,Trade union research officer,D01,Software Engineering,R010,Gabrielle Cameron,Thomas Williams,Remote - US,P5,1,cancelled,2025-01-07 09:00:00,,2025-06-14 14:23:00,0,,,,False
+REQ-10410,Database administrator,D07,Service,R009,Veronica Bowman,Kaylee Murphy,"Buffalo, NY",P4,1,open,2024-06-11 09:00:00,,,0,,,841,False
+REQ-10509,Pensions consultant,D01,Software Engineering,R018,William Davis,Craig Hall,Remote - US,P2,1,open,2026-04-15 09:00:00,,,0,,,168,False
+REQ-10524,Occupational psychologist,D07,Service,R015,Joseph Wright,Tyler Stevens,Remote - US,P2,1,open,2025-11-16 09:00:00,,,0,,,318,False
+REQ-10752,Learning disability nurse,D09,Finance,R025,Shawn Mckay,Colton Terry,"Fremont, CA",P2,1,open,2024-02-04 09:00:00,,,0,,,969,False
+REQ-10024,Radiographer,D05,Energy Products,R020,Robert Brown,Dr. Steven Martin,"Austin, TX",P2,2,open,2025-09-18 09:00:00,,,0,,,377,False
+REQ-10065,Geochemist,D01,Software Engineering,R013,Nancy Edwards,Kyle Reed,"Austin, TX",P2,1,cancelled,2024-06-19 09:00:00,,2024-10-23 15:59:00,0,,,,False
+REQ-10081,Teaching laboratory technician,D04,Supply Chain,R004,Jesse Garcia,Michael Snyder,"Palo Alto, CA",P4,2,open,2025-08-08 09:00:00,,,0,,,418,False
+REQ-10140,Recycling officer,D03,Manufacturing,R024,Danielle Rodriguez,Adam Mitchell,Remote - US,P2,1,open,2025-01-02 09:00:00,,,0,,,636,False
+REQ-10169,Scientist,D11,Legal,R006,Jason Adams,April Booth,"Palo Alto, CA",P2,1,open,2026-06-24 09:00:00,,,0,,,98,False
+REQ-10238,Theatre director,D06,Sales & Delivery,R005,Cynthia Diaz,Sergio Murphy,"Palo Alto, CA",P2,1,cancelled,2025-02-05 09:00:00,,2025-07-19 09:17:00,0,,,,False
+REQ-10256,Chartered certified accountant,D07,Service,R003,Jeremy Roberts,Brent Rodgers,"Buffalo, NY",P3,1,cancelled,2026-02-03 09:00:00,,2026-07-17 09:32:00,0,,,,False
+REQ-10381,Equality and diversity officer,D01,Software Engineering,R008,Jessica Martin,Todd Jacobson,"Palo Alto, CA",P2,1,open,2024-03-02 09:00:00,,,0,,,942,False
+REQ-10425,Site engineer,D06,Sales & Delivery,R017,Reginald Robinson,Hector Ingram,"Fremont, CA",P2,1,cancelled,2025-05-22 09:00:00,,2025-11-09 15:27:00,0,,,,False
+REQ-10482,Administrator,D04,Supply Chain,R004,Jesse Garcia,Austin Wheeler,"Palo Alto, CA",P3,1,open,2026-08-11 09:00:00,,,0,,,50,False
+REQ-10553,Research scientist (life sciences),D01,Software Engineering,R018,William Davis,Christina Rodriguez,"Sparks, NV",P2,1,cancelled,2024-09-23 09:00:00,,2025-02-10 09:07:00,0,,,,False
+REQ-10581,Financial planner,D04,Supply Chain,R004,Jesse Garcia,Kristen Rivera,Remote - US,P3,1,open,2026-06-06 09:00:00,,,0,,,116,False
+REQ-10711,Personnel officer,D02,Vehicle Engineering,R006,Jason Adams,Stephen Fox,"Buffalo, NY",P2,1,open,2024-02-14 09:00:00,,,0,,,959,False
+REQ-10004,Barrister,D01,Software Engineering,R013,Nancy Edwards,Keith Miller,"Fremont, CA",P5,1,open,2026-05-29 09:00:00,,,0,,,124,False
+REQ-10025,Accountant,D12,IT,R021,Wendy Rice,Mrs. Rachel Gibson,"Fremont, CA",P4,2,open,2025-06-01 09:00:00,,,0,,,486,False
+REQ-10082,Financial planner,D01,Software Engineering,R010,Gabrielle Cameron,Michael Stafford,"Fremont, CA",P4,1,open,2026-03-02 09:00:00,,,0,,,212,False
+REQ-10097,Newspaper journalist,D05,Energy Products,R015,Joseph Wright,Tiffany Barnes,"Palo Alto, CA",P3,1,open,2025-07-06 09:00:00,,,0,,,451,False
+REQ-10164,Textile designer,D04,Supply Chain,R004,Jesse Garcia,Robert Costa,"Palo Alto, CA",P3,1,open,2025-01-28 09:00:00,,,0,,,610,False
+REQ-10186,Armed forces logistics/support/administrative officer,D06,Sales & Delivery,R021,Wendy Rice,John Mcintyre,Remote - US,P1,1,cancelled,2024-02-28 09:00:00,,2024-08-01 13:48:00,0,,,,False
+REQ-10195,Holiday representative,D09,Finance,R025,Shawn Mckay,Nicole Hamilton MD,Remote - US,P2,1,open,2026-02-03 09:00:00,,,0,,,239,False
+REQ-10257,Conservator,D05,Energy Products,R023,Erin Herrera,Laurie Hoffman,"Fremont, CA",P2,1,cancelled,2025-09-25 09:00:00,,2026-03-31 17:26:00,0,,,,False
+REQ-10301,Chartered accountant,D03,Manufacturing,R024,Danielle Rodriguez,Carrie Wright,"Fremont, CA",P3,1,open,2024-06-26 09:00:00,,,0,,,826,False
+REQ-10307,Counsellor,D02,Vehicle Engineering,R006,Jason Adams,Emily Douglas,Remote - US,P3,1,open,2024-05-10 09:00:00,,,0,,,873,False
+REQ-10386,Air cabin crew,D03,Manufacturing,R023,Erin Herrera,Travis Wise,"Palo Alto, CA",P2,1,cancelled,2025-03-26 09:00:00,,2025-08-05 10:59:00,0,,,,False
+REQ-10401,Psychotherapist,D01,Software Engineering,R013,Nancy Edwards,Adam Rodriguez,Remote - US,P2,1,cancelled,2025-09-25 09:00:00,,2026-02-16 16:12:00,0,,,,False
+REQ-10412,Hydrographic surveyor,D01,Software Engineering,R013,Nancy Edwards,Katie Hicks,"Sparks, NV",P5,1,open,2024-02-19 09:00:00,,,0,,,954,False
+REQ-10431,Nutritional therapist,D06,Sales & Delivery,R014,Randall Rocha,Tina Ballard,"Fremont, CA",P1,1,open,2025-05-14 09:00:00,,,0,,,504,False
+REQ-10438,Accountant,D03,Manufacturing,R012,Joseph Clark,Vanessa Moore,"Sparks, NV",P3,1,open,2026-09-05 09:00:00,,,0,,,25,False
+REQ-10507,Intelligence analyst,D08,Data & AI,R016,Jose Richards,Justin Walker,"Sparks, NV",P3,1,open,2024-08-25 09:00:00,,,0,,,766,False
+REQ-10529,Chief of Staff,D02,Vehicle Engineering,R026,Jose Mason,Tamara Hall,"Palo Alto, CA",P2,1,open,2026-03-25 09:00:00,,,0,,,189,False
+REQ-10618,Operational researcher,D06,Sales & Delivery,R026,Jose Mason,Diana Mayer,"Buffalo, NY",P1,1,cancelled,2024-12-06 09:00:00,,2025-05-18 14:24:00,0,,,,False
+REQ-10673,Retail buyer,D06,Sales & Delivery,R014,Randall Rocha,Amy Walker,"Austin, TX",P3,1,open,2026-04-22 09:00:00,,,0,,,161,False
+REQ-10684,Health service manager,D04,Supply Chain,R004,Jesse Garcia,Thomas Merritt,"Fremont, CA",P2,1,open,2024-03-09 09:00:00,,,0,,,935,False
+REQ-10716,Health visitor,D08,Data & AI,R007,Deborah Lynch,William Moreno,Remote - US,P3,1,open,2026-07-28 09:00:00,,,0,,,64,False
+REQ-10725,Academic librarian,D07,Service,R001,Maria Montgomery,Lucas Drake,"Palo Alto, CA",P3,1,cancelled,2024-02-26 09:00:00,,2024-08-03 10:19:00,0,,,,False
+REQ-10729,Buyer,D10,People,R001,Maria Montgomery,Tom Foster,"Fremont, CA",P2,1,cancelled,2024-05-21 09:00:00,,2024-10-09 09:25:00,0,,,,False
+REQ-10760,Armed forces operational officer,D03,Manufacturing,R008,Jessica Martin,John Perez,"Buffalo, NY",P1,1,cancelled,2024-01-27 09:00:00,,2024-06-14 08:49:00,0,,,,False
+REQ-10031,Broadcast presenter,D02,Vehicle Engineering,R006,Jason Adams,Megan Young,Remote - US,P2,1,open,2026-02-15 09:00:00,,,0,,,227,False
+REQ-10102,Aid worker,D08,Data & AI,R016,Jose Richards,Jeffrey Camacho,"Palo Alto, CA",P2,1,open,2024-01-24 09:00:00,,,0,,,980,False
+REQ-10120,Designer,D08,Data & AI,R007,Deborah Lynch,Nicholas Sheppard,"Fremont, CA",P4,2,cancelled,2025-04-26 09:00:00,,2025-09-24 12:04:00,0,,,,False
+REQ-10133,Professor Emeritus,D06,Sales & Delivery,R014,Randall Rocha,David Martinez,"Fremont, CA",P3,1,cancelled,2025-11-15 09:00:00,,2026-05-16 09:49:00,0,,,,False
+REQ-10167,Oncologist,D03,Manufacturing,R008,Jessica Martin,Krista Gibson,"Palo Alto, CA",P3,1,open,2026-06-13 09:00:00,,,0,,,109,False
+REQ-10173,Radio producer,D06,Sales & Delivery,R005,Cynthia Diaz,William Lynch,"Sparks, NV",P5,1,cancelled,2025-12-01 09:00:00,,2026-05-29 09:03:00,0,,,,False
+REQ-10202,Acupuncturist,D05,Energy Products,R020,Robert Brown,Julie Roberts,"Buffalo, NY",P1,1,open,2026-06-04 09:00:00,,,0,,,118,False
+REQ-10267,Oncologist,D03,Manufacturing,R008,Jessica Martin,Patrick Bonilla,"Fremont, CA",P2,1,cancelled,2024-11-21 09:00:00,,2025-03-25 10:25:00,0,,,,False
+REQ-10304,Associate Professor,D01,Software Engineering,R010,Gabrielle Cameron,Maria Jones,"Buffalo, NY",P1,1,open,2026-06-15 09:00:00,,,0,,,107,False
+REQ-10316,Diagnostic radiographer,D05,Energy Products,R020,Robert Brown,Amanda Diaz,"Austin, TX",P1,1,open,2026-05-28 09:00:00,,,0,,,125,False
+REQ-10357,Manufacturing engineer,D09,Finance,R025,Shawn Mckay,Jessica Fowler,"Palo Alto, CA",P1,1,open,2025-12-22 09:00:00,,,0,,,282,False
+REQ-10463,Ceramics designer,D01,Software Engineering,R013,Nancy Edwards,Kelsey Cox,"Buffalo, NY",P5,1,open,2025-02-21 09:00:00,,,0,,,586,False
+REQ-10502,Quality manager,D02,Vehicle Engineering,R021,Wendy Rice,Melissa Padilla,"Buffalo, NY",P1,1,cancelled,2024-12-13 09:00:00,,2025-06-02 14:59:00,0,,,,False
+REQ-10508,Dancer,D12,IT,R010,Gabrielle Cameron,Juan Silva,"Sparks, NV",P3,1,cancelled,2025-04-28 09:00:00,,2025-09-19 15:48:00,0,,,,False
+REQ-10570,Armed forces operational officer,D01,Software Engineering,R018,William Davis,Maria Lucas,"Fremont, CA",P2,1,open,2026-06-09 09:00:00,,,0,,,113,False
+REQ-10572,Further education lecturer,D01,Software Engineering,R010,Gabrielle Cameron,Paul Grant,"Buffalo, NY",P4,1,open,2025-10-13 09:00:00,,,0,,,352,False
+REQ-10584,Visual merchandiser,D06,Sales & Delivery,R021,Wendy Rice,Joanna Jordan,"Fremont, CA",P5,1,cancelled,2025-07-05 09:00:00,,2025-12-08 14:45:00,0,,,,False
+REQ-10657,Brewing technologist,D01,Software Engineering,R007,Deborah Lynch,Jeffrey Ashley,"Palo Alto, CA",P4,1,open,2024-08-21 09:00:00,,,0,,,770,False
+REQ-10699,Statistician,D08,Data & AI,R007,Deborah Lynch,Joel Lara,"Sparks, NV",P3,1,cancelled,2024-05-02 09:00:00,,2024-10-10 09:11:00,0,,,,False
+REQ-10708,Health service manager,D02,Vehicle Engineering,R006,Jason Adams,Charles Mendez,"Austin, TX",P5,1,cancelled,2024-04-17 09:00:00,,2024-08-19 14:02:00,0,,,,False
+REQ-10727,Jewellery designer,D02,Vehicle Engineering,R020,Robert Brown,Charles Bush,"Fremont, CA",P2,1,open,2026-05-17 09:00:00,,,0,,,136,False
+REQ-10017,Psychologist,D02,Vehicle Engineering,R006,Jason Adams,Amy Valdez,Remote - US,P3,1,cancelled,2024-03-28 09:00:00,,2024-09-29 11:53:00,0,,,,False
+REQ-10059,Arboriculturist,D04,Supply Chain,R004,Jesse Garcia,Courtney Velasquez,"Palo Alto, CA",P4,1,cancelled,2024-12-26 09:00:00,,2025-07-03 09:34:00,0,,,,False
+REQ-10084,Scientist,D04,Supply Chain,R004,Jesse Garcia,Justin Lowery,"Sparks, NV",P2,1,open,2025-04-24 09:00:00,,,0,,,524,False
+REQ-10146,Equities trader,D07,Service,R011,Jeremy Johnson,Jamie Kerr,"Fremont, CA",P5,1,cancelled,2024-06-25 09:00:00,,2024-11-24 13:21:00,0,,,,False
+REQ-10284,Press sub,D04,Supply Chain,R004,Jesse Garcia,Dana Chapman,Remote - US,P2,1,open,2025-07-08 09:00:00,,,0,,,449,False
+REQ-10314,Secretary/administrator,D03,Manufacturing,R024,Danielle Rodriguez,George Miranda,"Palo Alto, CA",P1,1,open,2026-08-28 09:00:00,,,0,,,33,False
+REQ-10349,Higher education lecturer,D05,Energy Products,R023,Erin Herrera,Richard Glenn,"Sparks, NV",P2,1,open,2024-10-21 09:00:00,,,0,,,709,False
+REQ-10358,Barista,D04,Supply Chain,R004,Jesse Garcia,Mark Cox,"Austin, TX",P2,1,open,2026-07-27 09:00:00,,,0,,,65,False
+REQ-10388,Airline pilot,D09,Finance,R025,Shawn Mckay,Mr. Dylan Frye MD,"Buffalo, NY",P2,2,open,2026-08-08 09:00:00,,,0,,,53,False
+REQ-10396,Designer,D12,IT,R005,Cynthia Diaz,Taylor Griffith,"Fremont, CA",P2,1,open,2025-09-04 09:00:00,,,0,,,391,False
+REQ-10407,Librarian,D04,Supply Chain,R004,Jesse Garcia,Holly Thomas,"Sparks, NV",P3,1,cancelled,2026-03-03 09:00:00,,2026-07-23 10:36:00,0,,,,False
+REQ-10427,Surveyor,D01,Software Engineering,R010,Gabrielle Cameron,Todd Hendrix,"Austin, TX",P5,2,cancelled,2024-01-13 09:00:00,,2024-06-27 11:50:00,0,,,,False
+REQ-10499,Emergency planning/management officer,D06,Sales & Delivery,R002,Barbara Bush,Laurie Powers,"Sparks, NV",P4,1,open,2025-06-22 09:00:00,,,0,,,465,False
+REQ-10522,Editorial assistant,D08,Data & AI,R007,Deborah Lynch,Brent Hernandez,Remote - US,P1,1,cancelled,2025-02-01 09:00:00,,2025-06-22 15:05:00,0,,,,False
+REQ-10566,Therapist,D10,People,R009,Veronica Bowman,James Hunter,"Sparks, NV",P1,1,cancelled,2024-12-13 09:00:00,,2025-06-08 14:26:00,0,,,,False
+REQ-10649,Investment analyst,D07,Service,R003,Jeremy Roberts,Scott Carroll,"Buffalo, NY",P1,1,open,2024-12-04 09:00:00,,,0,,,665,False
+REQ-10705,Archivist,D04,Supply Chain,R004,Jesse Garcia,Amber Glass,"Palo Alto, CA",P4,1,open,2026-06-16 09:00:00,,,0,,,106,False
+REQ-10726,Librarian,D01,Software Engineering,R013,Nancy Edwards,Tamara Richard,"Fremont, CA",P2,1,cancelled,2025-12-02 09:00:00,,2026-05-10 15:11:00,0,,,,False
+REQ-10019,Clinical embryologist,D08,Data & AI,R007,Deborah Lynch,Connor West,"Fremont, CA",P3,1,cancelled,2024-02-27 09:00:00,,2024-08-22 15:13:00,0,,,,False
+REQ-10054,Web designer,D10,People,R014,Randall Rocha,Tammy Young,"Buffalo, NY",P3,1,open,2025-03-18 09:00:00,,,0,,,561,False
+REQ-10154,Engineer,D03,Manufacturing,R008,Jessica Martin,Joshua Holland,"Palo Alto, CA",P2,1,open,2026-03-26 09:00:00,,,0,,,188,False
+REQ-10246,Scientist,D06,Sales & Delivery,R017,Reginald Robinson,Mason Johnson,"Austin, TX",P2,1,open,2025-08-21 09:00:00,,,0,,,405,False
+REQ-10268,Chemist,D03,Manufacturing,R024,Danielle Rodriguez,Cindy Barnes,"Fremont, CA",P1,1,cancelled,2024-06-09 09:00:00,,2024-11-20 16:47:00,0,,,,False
+REQ-10289,Fashion designer,D05,Energy Products,R023,Erin Herrera,David Thompson,"Fremont, CA",P3,1,open,2026-07-17 09:00:00,,,0,,,75,False
+REQ-10294,Immunologist,D06,Sales & Delivery,R002,Barbara Bush,Leslie Bell,Remote - US,P2,1,cancelled,2024-12-26 09:00:00,,2025-06-18 13:10:00,0,,,,False
+REQ-10321,Secretary,D07,Service,R003,Jeremy Roberts,Christopher Gonzalez,"Austin, TX",P2,1,cancelled,2025-07-09 09:00:00,,2025-12-03 17:02:00,0,,,,False
+REQ-10344,Sports coach,D04,Supply Chain,R004,Jesse Garcia,Marvin Greer,"Buffalo, NY",P2,1,open,2024-11-04 09:00:00,,,0,,,695,False
+REQ-10441,Teacher,D01,Software Engineering,R018,William Davis,Parker Jefferson,"Buffalo, NY",P2,1,open,2024-09-02 09:00:00,,,0,,,758,False
+REQ-10452,Physiotherapist,D02,Vehicle Engineering,R006,Jason Adams,Angie Caldwell,"Buffalo, NY",P4,2,cancelled,2024-10-30 09:00:00,,2025-03-20 11:50:00,0,,,,False
+REQ-10512,Recycling officer,D02,Vehicle Engineering,R026,Jose Mason,Nicholas Bell,Remote - US,P2,1,open,2025-06-01 09:00:00,,,0,,,486,False
+REQ-10542,Fine artist,D02,Vehicle Engineering,R026,Jose Mason,Angela Moore,"Fremont, CA",P3,2,cancelled,2024-05-26 09:00:00,,2024-10-06 08:59:00,0,,,,False
+REQ-10586,Biomedical scientist,D03,Manufacturing,R024,Danielle Rodriguez,Rebecca Herrera,Remote - US,P2,1,open,2026-07-29 09:00:00,,,0,,,63,False
+REQ-10644,Aid worker,D05,Energy Products,R020,Robert Brown,Mary Turner,"Buffalo, NY",P2,1,open,2026-04-20 09:00:00,,,0,,,163,False
+REQ-10697,Artist,D10,People,R021,Wendy Rice,Debbie Ewing,"Sparks, NV",P1,1,open,2024-04-14 09:00:00,,,0,,,899,False
+REQ-10712,Speech and language therapist,D04,Supply Chain,R004,Jesse Garcia,Virginia Casey,"Palo Alto, CA",P1,1,open,2026-07-28 09:00:00,,,0,,,64,False
+REQ-10741,Legal executive,D01,Software Engineering,R010,Gabrielle Cameron,Derek Wright,"Fremont, CA",P2,2,open,2024-02-01 09:00:00,,,0,,,972,False
+REQ-10041,Seismic interpreter,D04,Supply Chain,R004,Jesse Garcia,Robert Evans,"Sparks, NV",P4,1,cancelled,2025-12-31 09:00:00,,2026-07-04 14:47:00,0,,,,False
+REQ-10043,Clinical biochemist,D05,Energy Products,R004,Jesse Garcia,Brittney Campbell,"Palo Alto, CA",P2,1,cancelled,2026-02-22 09:00:00,,2026-08-12 12:56:00,0,,,,False
+REQ-10064,Air broker,D04,Supply Chain,R013,Nancy Edwards,Wesley White,"Buffalo, NY",P5,1,open,2025-03-17 09:00:00,,,0,,,562,False
+REQ-10067,Technical author,D01,Software Engineering,R010,Gabrielle Cameron,Andrew Graham,"Palo Alto, CA",P4,1,open,2025-02-24 09:00:00,,,0,,,583,False
+REQ-10094,Pathologist,D06,Sales & Delivery,R005,Cynthia Diaz,Ross Price,"Buffalo, NY",P1,1,open,2025-07-22 09:00:00,,,0,,,435,False
+REQ-10155,Geographical information systems officer,D11,Legal,R006,Jason Adams,Andrea Martin,"Sparks, NV",P5,1,open,2025-01-17 09:00:00,,,0,,,621,False
+REQ-10193,Social research officer,D04,Supply Chain,R004,Jesse Garcia,Eugene Higgins,"Fremont, CA",P1,2,cancelled,2025-06-22 09:00:00,,2025-12-06 12:39:00,0,,,,False
+REQ-10209,Artist,D11,Legal,R009,Veronica Bowman,Natasha Wall,"Sparks, NV",P2,2,cancelled,2024-11-13 09:00:00,,2025-03-20 14:51:00,0,,,,False
+REQ-10237,Systems analyst,D06,Sales & Delivery,R002,Barbara Bush,Ronald Spencer,"Buffalo, NY",P2,1,open,2024-07-23 09:00:00,,,0,,,799,False
+REQ-10329,Legal executive,D02,Vehicle Engineering,R019,Daniel Burton,Brenda Mitchell,"Austin, TX",P2,2,open,2025-05-20 09:00:00,,,0,,,498,False
+REQ-10421,Passenger transport manager,D01,Software Engineering,R013,Nancy Edwards,Jennifer Hampton,"Austin, TX",P4,1,cancelled,2025-01-31 09:00:00,,2025-06-11 18:57:00,0,,,,False
+REQ-10457,Information systems manager,D07,Service,R011,Jeremy Johnson,Michael Leblanc,"Buffalo, NY",P3,1,open,2025-06-20 09:00:00,,,0,,,467,False
+REQ-10475,Multimedia programmer,D01,Software Engineering,R018,William Davis,Michael Stanley,"Palo Alto, CA",P4,1,open,2024-12-28 09:00:00,,,0,,,641,False
+REQ-10480,Psychiatrist,D08,Data & AI,R016,Jose Richards,Donald Pineda,"Sparks, NV",P2,1,open,2026-08-28 09:00:00,,,0,,,33,False
+REQ-10516,Passenger transport manager,D01,Software Engineering,R018,William Davis,Mark Jones,"Fremont, CA",P3,1,cancelled,2024-06-08 09:00:00,,2024-12-07 18:05:00,0,,,,False
+REQ-10535,Learning disability nurse,D04,Supply Chain,R007,Deborah Lynch,Patrick Gibbs,"Palo Alto, CA",P1,1,open,2025-02-10 09:00:00,,,0,,,597,False
+REQ-10636,Hydrographic surveyor,D07,Service,R003,Jeremy Roberts,Raymond Mullins,"Buffalo, NY",P1,1,open,2026-08-11 09:00:00,,,0,,,50,False
+REQ-10665,Technical author,D05,Energy Products,R023,Erin Herrera,Kathleen Dixon,"Buffalo, NY",P1,1,open,2026-07-15 09:00:00,,,0,,,77,False
+REQ-10074,Illustrator,D05,Energy Products,R027,Rita Harrell,Roy Torres,"Sparks, NV",P1,1,cancelled,2025-02-19 09:00:00,,2025-07-12 12:43:00,0,,,,False
+REQ-10160,Agricultural engineer,D06,Sales & Delivery,R005,Cynthia Diaz,Vernon Huff,"Buffalo, NY",P2,1,cancelled,2025-09-25 09:00:00,,2026-03-24 09:58:00,0,,,,False
+REQ-10185,Field trials officer,D08,Data & AI,R016,Jose Richards,Cynthia Rowe,"Sparks, NV",P3,2,open,2025-02-21 09:00:00,,,0,,,586,False
+REQ-10201,Exhibition designer,D06,Sales & Delivery,R005,Cynthia Diaz,David Scott,Remote - US,P5,1,cancelled,2024-06-09 09:00:00,,2024-10-21 08:35:00,0,,,,False
+REQ-10216,Medical secretary,D06,Sales & Delivery,R025,Shawn Mckay,Susan Rivas,"Fremont, CA",P3,1,cancelled,2024-01-22 09:00:00,,2024-05-30 09:01:00,0,,,,False
+REQ-10223,Clinical cytogeneticist,D06,Sales & Delivery,R017,Reginald Robinson,Kaitlyn Harvey,"Fremont, CA",P1,1,cancelled,2024-10-03 09:00:00,,2025-02-04 12:37:00,0,,,,False
+REQ-10229,Sound technician,D12,IT,R010,Gabrielle Cameron,Patrick Moore,"Sparks, NV",P3,1,open,2026-02-15 09:00:00,,,0,,,227,False
+REQ-10338,Teacher,D12,IT,R024,Danielle Rodriguez,Matthew Miller,"Fremont, CA",P2,1,open,2026-06-19 09:00:00,,,0,,,103,False
+REQ-10343,Television camera operator,D06,Sales & Delivery,R017,Reginald Robinson,Evelyn Williams,"Austin, TX",P3,2,open,2024-09-30 09:00:00,,,0,,,730,False
+REQ-10364,Health promotion specialist,D07,Service,R011,Jeremy Johnson,Brian Fitzgerald,"Fremont, CA",P5,1,cancelled,2025-12-31 09:00:00,,2026-06-04 09:12:00,0,,,,False
+REQ-10398,Research scientist (physical sciences),D07,Service,R022,Michelle Smith,Kathleen Davis,Remote - US,P4,1,open,2026-07-24 09:00:00,,,0,,,68,False
+REQ-10413,Recruitment consultant,D03,Manufacturing,R028,Danielle Lynch,Elizabeth Cabrera,Remote - US,P2,1,open,2026-04-05 09:00:00,,,0,,,178,False
+REQ-10474,Petroleum engineer,D05,Energy Products,R004,Jesse Garcia,Steven West,"Palo Alto, CA",P4,1,open,2026-07-16 09:00:00,,,0,,,76,False
+REQ-10558,Investment banker,D03,Manufacturing,R015,Joseph Wright,Michael Henry,"Fremont, CA",P3,2,open,2026-08-30 09:00:00,,,0,,,31,False
+REQ-10600,Horticulturist,D01,Software Engineering,R018,William Davis,Danny Roberts,"Fremont, CA",P3,1,open,2024-12-09 09:00:00,,,0,,,660,False
+REQ-10611,Therapist,D05,Energy Products,R024,Danielle Rodriguez,Erica Padilla,"Fremont, CA",P1,1,cancelled,2024-12-17 09:00:00,,2025-04-19 17:40:00,0,,,,False
+REQ-10663,Geophysical data processor,D03,Manufacturing,R028,Danielle Lynch,Bailey Yoder,"Buffalo, NY",P3,1,open,2024-10-27 09:00:00,,,0,,,703,False
+REQ-10685,Scientist,D01,Software Engineering,R018,William Davis,Steven Ellis,"Buffalo, NY",P2,1,open,2026-08-25 09:00:00,,,0,,,36,False
+REQ-10703,Advertising copywriter,D04,Supply Chain,R004,Jesse Garcia,Christina Brewer PhD,"Austin, TX",P1,1,open,2025-10-15 09:00:00,,,0,,,350,False
+REQ-10009,Oceanographer,D03,Manufacturing,R012,Joseph Clark,Marie Kim DDS,"Buffalo, NY",P3,1,open,2025-10-01 09:00:00,,,0,,,364,False
+REQ-10015,Public librarian,D07,Service,R001,Maria Montgomery,John Russell,"Palo Alto, CA",P2,1,cancelled,2025-01-24 09:00:00,,2025-06-29 15:02:00,0,,,,False
+REQ-10026,Pharmacologist,D01,Software Engineering,R010,Gabrielle Cameron,Monica Logan,Remote - US,P2,1,open,2026-09-06 09:00:00,,,0,,,24,False
+REQ-10044,Engineer,D01,Software Engineering,R010,Gabrielle Cameron,Christina Walters,"Buffalo, NY",P1,2,open,2026-07-08 09:00:00,,,0,,,84,False
+REQ-10052,Archaeologist,D04,Supply Chain,R012,Joseph Clark,Christine Wright,"Buffalo, NY",P4,2,open,2025-05-19 09:00:00,,,0,,,499,False
+REQ-10090,Scientist,D07,Service,R011,Jeremy Johnson,Mr. Jeremiah Reeves,"Buffalo, NY",P3,1,cancelled,2025-04-26 09:00:00,,2025-10-15 11:58:00,0,,,,False
+REQ-10159,Archaeologist,D02,Vehicle Engineering,R006,Jason Adams,Morgan Munoz,"Buffalo, NY",P2,1,open,2026-01-20 09:00:00,,,0,,,253,False
+REQ-10161,Teaching laboratory technician,D03,Manufacturing,R008,Jessica Martin,Alicia Hubbard,"Buffalo, NY",P4,1,open,2026-07-24 09:00:00,,,0,,,68,False
+REQ-10233,Sport and exercise psychologist,D03,Manufacturing,R028,Danielle Lynch,Maria Brown,"Fremont, CA",P4,1,cancelled,2025-01-13 09:00:00,,2025-05-21 12:56:00,0,,,,False
+REQ-10273,Clothing/textile technologist,D02,Vehicle Engineering,R006,Jason Adams,Brian Gregory,"Sparks, NV",P1,1,open,2024-11-24 09:00:00,,,0,,,675,False
+REQ-10287,Clothing/textile technologist,D10,People,R011,Jeremy Johnson,Cheyenne Parsons,"Austin, TX",P1,1,cancelled,2024-10-04 09:00:00,,2025-03-16 14:37:00,0,,,,False
+REQ-10322,Trade union research officer,D09,Finance,R025,Shawn Mckay,David Davidson,"Fremont, CA",P4,1,cancelled,2024-08-07 09:00:00,,2025-02-05 12:50:00,0,,,,False
+REQ-10331,Production assistant,D06,Sales & Delivery,R014,Randall Rocha,Susan Smith,Remote - US,P3,1,open,2026-08-11 09:00:00,,,0,,,50,False
+REQ-10393,Surveyor,D03,Manufacturing,R008,Jessica Martin,David Martinez,"Buffalo, NY",P2,1,open,2025-02-24 09:00:00,,,0,,,583,False
+REQ-10477,Soil scientist,D06,Sales & Delivery,R014,Randall Rocha,Cameron Irwin,Remote - US,P3,2,open,2026-08-05 09:00:00,,,0,,,56,False
+REQ-10484,Armed forces operational officer,D04,Supply Chain,R004,Jesse Garcia,David Robinson,"Austin, TX",P2,1,cancelled,2025-03-01 09:00:00,,2025-07-02 10:30:00,0,,,,False
+REQ-10540,Estate agent,D03,Manufacturing,R024,Danielle Rodriguez,Todd Reynolds,"Austin, TX",P4,2,open,2025-05-23 09:00:00,,,0,,,495,False
+REQ-10551,Geologist,D09,Finance,R013,Nancy Edwards,Arthur Hamilton MD,"Palo Alto, CA",P3,1,open,2024-10-11 09:00:00,,,0,,,719,False
+REQ-10579,Broadcast engineer,D03,Manufacturing,R028,Danielle Lynch,Robert Wilson,Remote - US,P3,1,open,2026-06-27 09:00:00,,,0,,,95,False
+REQ-10585,Accountant,D05,Energy Products,R023,Erin Herrera,Christine Goodwin,"Buffalo, NY",P5,2,open,2024-12-19 09:00:00,,,0,,,650,False
+REQ-10604,Prison officer,D08,Data & AI,R016,Jose Richards,Wanda Garcia,"Austin, TX",P5,1,open,2024-05-19 09:00:00,,,0,,,864,False
+REQ-10698,Airline pilot,D03,Manufacturing,R008,Jessica Martin,Sarah Hawkins,"Buffalo, NY",P1,1,open,2026-01-28 09:00:00,,,0,,,245,False
+REQ-10739,Learning disability nurse,D01,Software Engineering,R010,Gabrielle Cameron,Cynthia Haas,"Austin, TX",P3,1,open,2024-03-12 09:00:00,,,0,,,932,False
+REQ-10035,Interior and spatial designer,D02,Vehicle Engineering,R019,Daniel Burton,James Powers,"Sparks, NV",P2,1,open,2025-06-07 09:00:00,,,0,,,480,False
+REQ-10037,Acupuncturist,D03,Manufacturing,R011,Jeremy Johnson,Zachary Ferrell,"Austin, TX",P4,1,cancelled,2025-10-22 09:00:00,,2026-04-18 11:33:00,0,,,,False
+REQ-10072,Hotel manager,D02,Vehicle Engineering,R026,Jose Mason,Cheryl Ortega,"Buffalo, NY",P2,1,cancelled,2024-11-16 09:00:00,,2025-05-25 12:29:00,0,,,,False
+REQ-10087,Video editor,D02,Vehicle Engineering,R006,Jason Adams,Stephanie Simmons,Remote - US,P2,1,open,2025-03-22 09:00:00,,,0,,,557,False
+REQ-10111,Training and development officer,D02,Vehicle Engineering,R006,Jason Adams,Michelle Strickland,"Sparks, NV",P3,1,open,2024-02-11 09:00:00,,,0,,,962,False
+REQ-10152,Homeopath,D02,Vehicle Engineering,R026,Jose Mason,Michele Gibson,"Palo Alto, CA",P4,1,open,2025-05-12 09:00:00,,,0,,,506,False
+REQ-10190,Programmer,D07,Service,R009,Veronica Bowman,Charles Pitts,"Fremont, CA",P3,1,open,2026-08-07 09:00:00,,,0,,,54,False
+REQ-10278,Event organiser,D06,Sales & Delivery,R021,Wendy Rice,Sandra Drake,"Buffalo, NY",P2,1,open,2026-06-06 09:00:00,,,0,,,116,False
+REQ-10286,Environmental consultant,D02,Vehicle Engineering,R026,Jose Mason,Christopher Dixon,"Fremont, CA",P2,1,cancelled,2024-07-24 09:00:00,,2024-12-05 09:11:00,0,,,,False
+REQ-10300,Production designer,D03,Manufacturing,R022,Michelle Smith,Steven Cooper,"Sparks, NV",P3,1,cancelled,2026-03-01 09:00:00,,2026-09-06 08:41:00,0,,,,False
+REQ-10333,Secretary,D08,Data & AI,R007,Deborah Lynch,Ricardo Young,"Palo Alto, CA",P1,1,cancelled,2025-11-03 09:00:00,,2026-04-16 12:12:00,0,,,,False
+REQ-10336,Social worker,D07,Service,R003,Jeremy Roberts,Jose Allen,"Fremont, CA",P3,1,cancelled,2024-09-07 09:00:00,,2025-03-07 11:39:00,0,,,,False
+REQ-10389,Optician,D05,Energy Products,R027,Rita Harrell,Benjamin Brown,"Buffalo, NY",P3,1,open,2026-08-25 09:00:00,,,0,,,36,False
+REQ-10390,Printmaker,D07,Service,R014,Randall Rocha,John Peterson,Remote - US,P2,1,cancelled,2024-01-28 09:00:00,,2024-06-10 08:13:00,0,,,,False
+REQ-10395,Music tutor,D01,Software Engineering,R005,Cynthia Diaz,Jennifer Estes,"Sparks, NV",P4,1,open,2026-02-08 09:00:00,,,0,,,234,False
+REQ-10444,Research scientist (life sciences),D03,Manufacturing,R028,Danielle Lynch,Paul Brennan,"Palo Alto, CA",P3,1,cancelled,2025-04-13 09:00:00,,2025-09-04 13:47:00,0,,,,False
+REQ-10453,Electrical engineer,D08,Data & AI,R016,Jose Richards,Mrs. Taylor Smith,"Fremont, CA",P2,1,open,2026-02-05 09:00:00,,,0,,,237,False
+REQ-10459,Mental health nurse,D02,Vehicle Engineering,R026,Jose Mason,Colleen Anderson,Remote - US,P2,1,open,2024-12-18 09:00:00,,,0,,,651,False
+REQ-10526,Ambulance person,D06,Sales & Delivery,R021,Wendy Rice,James Tran,"Buffalo, NY",P2,1,cancelled,2025-12-04 09:00:00,,2026-06-04 17:03:00,0,,,,False
+REQ-10545,Civil engineer,D12,IT,R028,Danielle Lynch,Cody Cole,"Austin, TX",P1,1,cancelled,2025-12-24 09:00:00,,2026-05-11 10:25:00,0,,,,False
+REQ-10554,Industrial buyer,D04,Supply Chain,R004,Jesse Garcia,James Skinner,"Palo Alto, CA",P3,1,cancelled,2026-01-31 09:00:00,,2026-07-10 13:22:00,0,,,,False
+REQ-10555,Museum/gallery conservator,D06,Sales & Delivery,R021,Wendy Rice,Erin Cook,"Austin, TX",P1,1,open,2025-04-11 09:00:00,,,0,,,537,False
+REQ-10598,Research officer,D04,Supply Chain,R021,Wendy Rice,John Mckinney,"Palo Alto, CA",P1,1,open,2025-11-01 09:00:00,,,0,,,333,False
+REQ-10614,Barrister's clerk,D03,Manufacturing,R024,Danielle Rodriguez,Sharon Martinez DVM,Remote - US,P4,1,open,2025-05-27 09:00:00,,,0,,,491,False
+REQ-10679,Dentist,D05,Energy Products,R014,Randall Rocha,Jason Hall,"Buffalo, NY",P2,2,open,2026-06-11 09:00:00,,,0,,,111,False
+REQ-10701,Environmental education officer,D03,Manufacturing,R008,Jessica Martin,Rodney Watson,"Fremont, CA",P4,1,cancelled,2025-01-24 09:00:00,,2025-06-08 13:25:00,0,,,,False
+REQ-10028,TEFL teacher,D01,Software Engineering,R010,Gabrielle Cameron,Amy Edwards,Remote - US,P1,1,cancelled,2024-07-18 09:00:00,,2024-11-20 16:57:00,0,,,,False
+REQ-10050,Database administrator,D02,Vehicle Engineering,R026,Jose Mason,Sandra Aguilar,"Palo Alto, CA",P3,1,cancelled,2024-09-19 09:00:00,,2025-03-14 09:35:00,0,,,,False
+REQ-10056,Agricultural consultant,D09,Finance,R025,Shawn Mckay,Tim Patton,"Palo Alto, CA",P4,1,cancelled,2025-04-08 09:00:00,,2025-09-18 16:03:00,0,,,,False
+REQ-10063,Office manager,D03,Manufacturing,R024,Danielle Rodriguez,Sarah Rivera,"Buffalo, NY",P3,1,open,2026-08-24 09:00:00,,,0,,,37,False
+REQ-10107,Broadcast presenter,D01,Software Engineering,R018,William Davis,Marissa Webster,"Sparks, NV",P2,2,cancelled,2025-09-29 09:00:00,,2026-02-26 13:11:00,0,,,,False
+REQ-10113,Insurance underwriter,D03,Manufacturing,R024,Danielle Rodriguez,Susan Brooks,"Palo Alto, CA",P2,1,open,2026-01-04 09:00:00,,,0,,,269,False
+REQ-10132,Local government officer,D12,IT,R016,Jose Richards,Patrick Rivera,"Fremont, CA",P2,1,open,2026-07-16 09:00:00,,,0,,,76,False
+REQ-10145,Surveyor,D10,People,R026,Jose Mason,Lisa Gibbs,"Buffalo, NY",P1,1,cancelled,2026-02-19 09:00:00,,2026-08-24 14:09:00,0,,,,False
+REQ-10205,Programmer,D04,Supply Chain,R004,Jesse Garcia,Christina Cruz,"Fremont, CA",P5,1,cancelled,2024-08-10 09:00:00,,2025-02-07 13:22:00,0,,,,False
+REQ-10260,Tourism officer,D06,Sales & Delivery,R014,Randall Rocha,Brian Romero,"Austin, TX",P4,1,open,2026-05-21 09:00:00,,,0,,,132,False
+REQ-10323,Meteorologist,D10,People,R014,Randall Rocha,Ashley Singleton,Remote - US,P3,1,open,2024-09-15 09:00:00,,,0,,,745,False
+REQ-10341,Naval architect,D02,Vehicle Engineering,R026,Jose Mason,Mrs. Alexis Kramer,Remote - US,P3,1,open,2024-11-27 09:00:00,,,0,,,672,False
+REQ-10348,Speech and language therapist,D02,Vehicle Engineering,R006,Jason Adams,Andrew Lucas,"Sparks, NV",P3,1,open,2024-04-02 09:00:00,,,0,,,911,False
+REQ-10369,IT consultant,D04,Supply Chain,R004,Jesse Garcia,Michelle Pierce,"Sparks, NV",P2,1,open,2025-11-16 09:00:00,,,0,,,318,False
+REQ-10455,Immigration officer,D10,People,R013,Nancy Edwards,Laura Green,"Buffalo, NY",P4,2,open,2025-11-21 09:00:00,,,0,,,313,False
+REQ-10563,Broadcast presenter,D11,Legal,R020,Robert Brown,Rebecca Ortiz,"Sparks, NV",P5,1,open,2024-05-11 09:00:00,,,0,,,872,False
+REQ-10565,Designer,D02,Vehicle Engineering,R026,Jose Mason,Rachel Jones,Remote - US,P2,1,open,2024-03-16 09:00:00,,,0,,,928,False
+REQ-10680,Logistics and distribution manager,D05,Energy Products,R023,Erin Herrera,Melissa Smith,"Buffalo, NY",P3,1,open,2025-11-30 09:00:00,,,0,,,304,False
+REQ-10694,Chemical engineer,D11,Legal,R007,Deborah Lynch,Michael Mckenzie,"Fremont, CA",P5,1,open,2025-01-05 09:00:00,,,0,,,633,False
+REQ-10707,Physiological scientist,D07,Service,R009,Veronica Bowman,Daniel Lopez,"Austin, TX",P1,1,open,2024-04-17 09:00:00,,,0,,,896,False
+REQ-10759,Electrical engineer,D03,Manufacturing,R024,Danielle Rodriguez,James Lopez,"Buffalo, NY",P1,1,open,2026-08-04 09:00:00,,,0,,,57,False
+REQ-10003,Medical laboratory scientific officer,D03,Manufacturing,R020,Robert Brown,Sandra Parker,"Austin, TX",P4,1,cancelled,2024-02-14 09:00:00,,2024-07-06 11:05:00,0,,,,False
+REQ-10029,Arts administrator,D07,Service,R009,Veronica Bowman,Kathryn Farrell,Remote - US,P1,1,cancelled,2025-05-26 09:00:00,,2025-11-02 14:18:00,0,,,,False
+REQ-10099,Government social research officer,D03,Manufacturing,R028,Danielle Lynch,Allen Rogers,"Fremont, CA",P4,1,cancelled,2024-11-26 09:00:00,,2025-04-09 15:00:00,0,,,,False
+REQ-10134,Engineer,D06,Sales & Delivery,R014,Randall Rocha,Patrick Tapia,"Palo Alto, CA",P3,1,open,2026-08-26 09:00:00,,,0,,,35,False
+REQ-10150,Film/video editor,D02,Vehicle Engineering,R006,Jason Adams,Benjamin Smith,"Fremont, CA",P4,2,open,2024-01-06 09:00:00,,,0,,,998,False
+REQ-10187,Museum/gallery curator,D05,Energy Products,R027,Rita Harrell,Matthew Hoover,"Sparks, NV",P4,1,open,2026-06-04 09:00:00,,,0,,,118,False
+REQ-10204,Theatre manager,D02,Vehicle Engineering,R026,Jose Mason,Victor Vaughn,Remote - US,P1,1,cancelled,2024-11-28 09:00:00,,2025-05-13 16:04:00,0,,,,False
+REQ-10210,Historic buildings inspector/conservation officer,D07,Service,R009,Veronica Bowman,Crystal Pham,"Austin, TX",P3,1,open,2026-06-18 09:00:00,,,0,,,104,False
+REQ-10218,Hotel manager,D07,Service,R019,Daniel Burton,Gina Wilson,"Fremont, CA",P2,1,cancelled,2026-02-16 09:00:00,,2026-07-11 13:30:00,0,,,,False
+REQ-10222,Garment/textile technologist,D07,Service,R022,Michelle Smith,Samantha Bentley,"Buffalo, NY",P1,1,cancelled,2025-09-02 09:00:00,,2026-02-08 15:10:00,0,,,,False
+REQ-10376,Buyer,D01,Software Engineering,R018,William Davis,Evan Jones,"Buffalo, NY",P3,1,cancelled,2024-07-17 09:00:00,,2024-11-15 16:31:00,0,,,,False
+REQ-10383,Comptroller,D03,Manufacturing,R008,Jessica Martin,Lisa Davis,"Sparks, NV",P2,1,cancelled,2025-12-19 09:00:00,,2026-05-23 17:09:00,0,,,,False
+REQ-10399,Nurse,D03,Manufacturing,R024,Danielle Rodriguez,Tracy Lewis,"Austin, TX",P5,1,cancelled,2025-01-28 09:00:00,,2025-07-25 11:49:00,0,,,,False
+REQ-10408,Town planner,D01,Software Engineering,R018,William Davis,Kathryn Williams,"Fremont, CA",P5,2,cancelled,2025-08-22 09:00:00,,2025-12-27 15:30:00,0,,,,False
+REQ-10423,Corporate investment banker,D08,Data & AI,R016,Jose Richards,Kristina Bolton,"Fremont, CA",P2,2,cancelled,2024-09-11 09:00:00,,2025-01-18 18:49:00,0,,,,False
+REQ-10430,Graphic designer,D01,Software Engineering,R018,William Davis,Kenneth Daniels,Remote - US,P1,1,cancelled,2025-05-09 09:00:00,,2025-10-26 18:24:00,0,,,,False
+REQ-10447,Speech and language therapist,D05,Energy Products,R027,Rita Harrell,Stacy Anderson,"Buffalo, NY",P5,1,open,2026-03-05 09:00:00,,,0,,,209,False
+REQ-10469,Surveyor,D04,Supply Chain,R004,Jesse Garcia,Robert Cummings,Remote - US,P3,1,cancelled,2025-09-20 09:00:00,,2026-03-03 17:44:00,0,,,,False
+REQ-10543,Designer,D02,Vehicle Engineering,R006,Jason Adams,Emily Rodriguez,"Austin, TX",P2,1,open,2026-07-14 09:00:00,,,0,,,78,False
+REQ-10594,Music therapist,D06,Sales & Delivery,R005,Cynthia Diaz,John Medina,"Palo Alto, CA",P2,1,open,2026-01-19 09:00:00,,,0,,,254,False
+REQ-10613,Chief of Staff,D01,Software Engineering,R013,Nancy Edwards,Paul Jenkins,"Austin, TX",P4,1,cancelled,2024-06-28 09:00:00,,2024-12-09 11:29:00,0,,,,False
+REQ-10661,Development worker,D01,Software Engineering,R010,Gabrielle Cameron,Gregory Holmes PhD,"Sparks, NV",P2,1,cancelled,2024-08-30 09:00:00,,2025-02-04 18:27:00,0,,,,False
+REQ-10040,Designer,D03,Manufacturing,R024,Danielle Rodriguez,Joshua Turner,"Austin, TX",P5,1,cancelled,2025-03-17 09:00:00,,2025-08-11 12:00:00,0,,,,False
+REQ-10061,Environmental health practitioner,D10,People,R007,Deborah Lynch,Corey Murphy,Remote - US,P3,1,open,2025-09-21 09:00:00,,,0,,,374,False
+REQ-10075,Engineer,D07,Service,R003,Jeremy Roberts,Kevin Pena,"Buffalo, NY",P1,1,open,2025-11-09 09:00:00,,,0,,,325,False
+REQ-10079,Insurance claims handler,D08,Data & AI,R016,Jose Richards,Curtis Johnson,"Buffalo, NY",P2,1,open,2026-08-27 09:00:00,,,0,,,34,False
+REQ-10080,Financial risk analyst,D07,Service,R011,Jeremy Johnson,Miss Patricia Gibson,"Sparks, NV",P3,1,open,2024-10-09 09:00:00,,,0,,,721,False
+REQ-10116,Community arts worker,D08,Data & AI,R007,Deborah Lynch,Kylie Williams,"Fremont, CA",P2,1,cancelled,2025-02-22 09:00:00,,2025-07-16 13:25:00,0,,,,False
+REQ-10119,Police officer,D02,Vehicle Engineering,R026,Jose Mason,Madison Poole,"Buffalo, NY",P3,2,cancelled,2026-01-06 09:00:00,,2026-06-29 11:29:00,0,,,,False
+REQ-10143,Technical author,D03,Manufacturing,R028,Danielle Lynch,Amy Hernandez,"Palo Alto, CA",P3,1,open,2026-01-20 09:00:00,,,0,,,253,False
+REQ-10200,Water quality scientist,D01,Software Engineering,R010,Gabrielle Cameron,Kathleen Aguilar,"Austin, TX",P4,1,cancelled,2024-08-29 09:00:00,,2025-01-27 08:54:00,0,,,,False
+REQ-10217,Furniture designer,D02,Vehicle Engineering,R019,Daniel Burton,Terry Coffey,"Buffalo, NY",P2,1,open,2026-09-05 09:00:00,,,0,,,25,False
+REQ-10265,Geologist,D03,Manufacturing,R014,Randall Rocha,Donald Farmer,"Austin, TX",P2,2,open,2026-08-27 09:00:00,,,0,,,34,False
+REQ-10317,Field seismologist,D02,Vehicle Engineering,R026,Jose Mason,Lisa Goodwin,"Fremont, CA",P3,2,open,2026-05-13 09:00:00,,,0,,,140,False
+REQ-10350,Learning disability nurse,D01,Software Engineering,R026,Jose Mason,Robert Kim,"Fremont, CA",P4,1,open,2026-01-26 09:00:00,,,0,,,247,False
+REQ-10353,Charity fundraiser,D10,People,R025,Shawn Mckay,Angela Morrison,"Palo Alto, CA",P1,1,open,2026-08-31 09:00:00,,,0,,,30,False
+REQ-10418,Doctor,D05,Energy Products,R023,Erin Herrera,Michelle Hampton,"Sparks, NV",P2,1,cancelled,2025-01-19 09:00:00,,2025-06-14 10:50:00,0,,,,False
+REQ-10426,Geneticist,D01,Software Engineering,R013,Nancy Edwards,Cheryl Wright,"Austin, TX",P3,1,cancelled,2025-02-16 09:00:00,,2025-07-17 10:46:00,0,,,,False
+REQ-10433,Private music teacher,D05,Energy Products,R023,Erin Herrera,Nicole Lewis,"Palo Alto, CA",P4,1,open,2025-05-23 09:00:00,,,0,,,495,False
+REQ-10460,Designer,D07,Service,R015,Joseph Wright,William Brooks,"Palo Alto, CA",P1,1,cancelled,2024-07-08 09:00:00,,2024-12-23 17:24:00,0,,,,False
+REQ-10478,Accountant,D01,Software Engineering,R018,William Davis,Veronica Ford,"Palo Alto, CA",P2,1,open,2025-09-12 09:00:00,,,0,,,383,False
+REQ-10557,Engineer,D03,Manufacturing,R024,Danielle Rodriguez,Christopher Sanders,"Buffalo, NY",P3,1,cancelled,2025-08-30 09:00:00,,2026-01-03 15:39:00,0,,,,False
+REQ-10559,Teaching laboratory technician,D02,Vehicle Engineering,R026,Jose Mason,Erika Ramirez,Remote - US,P3,1,cancelled,2024-04-01 09:00:00,,2024-09-07 09:44:00,0,,,,False
+REQ-10592,Intelligence analyst,D09,Finance,R025,Shawn Mckay,Eric White,"Sparks, NV",P2,1,open,2025-03-01 09:00:00,,,0,,,578,False
+REQ-10632,Engineer,D02,Vehicle Engineering,R006,Jason Adams,Casey Perez,"Palo Alto, CA",P4,1,open,2025-07-01 09:00:00,,,0,,,456,False
+REQ-10648,Secretary,D01,Software Engineering,R013,Nancy Edwards,Alexandria Ward,"Buffalo, NY",P2,1,cancelled,2025-08-23 09:00:00,,2026-01-29 16:49:00,0,,,,False
+REQ-10650,Medical secretary,D03,Manufacturing,R008,Jessica Martin,Carrie Ruiz,Remote - US,P2,1,open,2025-08-01 09:00:00,,,0,,,425,False
+REQ-10653,Historic buildings inspector/conservation officer,D02,Vehicle Engineering,R006,Jason Adams,Kathryn Perry,"Palo Alto, CA",P2,1,open,2024-06-17 09:00:00,,,0,,,835,False
+REQ-10670,Animal technologist,D08,Data & AI,R007,Deborah Lynch,Suzanne Yang,"Palo Alto, CA",P2,1,cancelled,2024-12-01 09:00:00,,2025-04-27 08:58:00,0,,,,False
+REQ-10732,Ecologist,D06,Sales & Delivery,R021,Wendy Rice,Kristina Preston,"Sparks, NV",P4,1,cancelled,2024-02-26 09:00:00,,2024-08-27 16:50:00,0,,,,False
+REQ-10734,Economist,D08,Data & AI,R016,Jose Richards,Nicholas Phillips,"Sparks, NV",P1,1,open,2024-04-28 09:00:00,,,0,,,885,False
+REQ-10742,Broadcast journalist,D03,Manufacturing,R024,Danielle Rodriguez,Richard Le,"Palo Alto, CA",P2,2,cancelled,2025-08-23 09:00:00,,2026-01-13 14:57:00,0,,,,False
+REQ-10747,Hospital pharmacist,D04,Supply Chain,R004,Jesse Garcia,Dean Garcia,Remote - US,P1,2,cancelled,2025-07-25 09:00:00,,2025-12-15 12:14:00,0,,,,False
+REQ-10750,Visual merchandiser,D03,Manufacturing,R003,Jeremy Roberts,Michele Reynolds,"Palo Alto, CA",P1,1,open,2025-11-23 09:00:00,,,0,,,311,False
+REQ-10060,Psychiatrist,D04,Supply Chain,R015,Joseph Wright,Robert Savage,"Buffalo, NY",P1,1,open,2026-01-04 09:00:00,,,0,,,269,False
+REQ-10069,Engineer,D01,Software Engineering,R013,Nancy Edwards,Benjamin Beck,Remote - US,P2,1,open,2026-02-23 09:00:00,,,0,,,219,False
+REQ-10112,Development worker,D06,Sales & Delivery,R018,William Davis,Ashley Johnson,"Austin, TX",P5,1,open,2024-07-24 09:00:00,,,0,,,798,False
+REQ-10129,Financial adviser,D03,Manufacturing,R028,Danielle Lynch,Maria Henry,Remote - US,P3,1,open,2026-06-02 09:00:00,,,0,,,120,False
+REQ-10138,Immigration officer,D03,Manufacturing,R024,Danielle Rodriguez,Joseph Hill,"Sparks, NV",P4,1,open,2026-07-18 09:00:00,,,0,,,74,False
+REQ-10175,Orthoptist,D01,Software Engineering,R013,Nancy Edwards,Willie Durham,Remote - US,P1,1,cancelled,2026-01-16 09:00:00,,2026-07-05 09:07:00,0,,,,False
+REQ-10203,Sports coach,D07,Service,R015,Joseph Wright,Jeremy Reed,"Austin, TX",P3,1,cancelled,2024-04-14 09:00:00,,2024-10-07 16:19:00,0,,,,False
+REQ-10242,Theatre stage manager,D07,Service,R022,Michelle Smith,Christopher Williams,"Buffalo, NY",P2,1,open,2026-06-01 09:00:00,,,0,,,121,False
+REQ-10243,Pharmacist,D09,Finance,R025,Shawn Mckay,Nichole Alvarez,"Palo Alto, CA",P5,1,open,2026-08-17 09:00:00,,,0,,,44,False
+REQ-10244,Medical illustrator,D02,Vehicle Engineering,R006,Jason Adams,Ashley Gordon,"Austin, TX",P2,1,open,2026-04-07 09:00:00,,,0,,,176,False
+REQ-10270,Tax inspector,D03,Manufacturing,R012,Joseph Clark,Sophia Moore,"Austin, TX",P1,2,open,2025-02-06 09:00:00,,,0,,,601,False
+REQ-10319,Psychotherapist,D01,Software Engineering,R013,Nancy Edwards,Cheyenne Gregory,"Fremont, CA",P2,2,cancelled,2025-03-15 09:00:00,,2025-07-24 14:20:00,0,,,,False
+REQ-10365,Restaurant manager,D03,Manufacturing,R014,Randall Rocha,Susan Wilson,"Palo Alto, CA",P4,1,cancelled,2026-02-17 09:00:00,,2026-08-24 17:41:00,0,,,,False
+REQ-10370,Horticultural therapist,D03,Manufacturing,R012,Joseph Clark,Sarah Joseph,"Austin, TX",P1,1,open,2024-12-15 09:00:00,,,0,,,654,False
+REQ-10466,Scientist,D12,IT,R015,Joseph Wright,Michael Love,Remote - US,P3,1,open,2024-11-27 09:00:00,,,0,,,672,False
+REQ-10531,Health visitor,D04,Supply Chain,R004,Jesse Garcia,Kristy Johnson,"Fremont, CA",P3,1,cancelled,2024-09-16 09:00:00,,2025-02-15 17:31:00,0,,,,False
+REQ-10550,Doctor,D04,Supply Chain,R004,Jesse Garcia,Caroline Adams,"Austin, TX",P2,1,cancelled,2024-09-14 09:00:00,,2025-02-26 13:33:00,0,,,,False
+REQ-10561,Sports administrator,D08,Data & AI,R016,Jose Richards,Randall Johnson,"Sparks, NV",P3,1,open,2026-08-29 09:00:00,,,0,,,32,False
+REQ-10567,Personal assistant,D03,Manufacturing,R028,Danielle Lynch,Rachel Ward,"Austin, TX",P2,1,open,2026-08-19 09:00:00,,,0,,,42,False
+REQ-10602,Sales promotion account executive,D03,Manufacturing,R012,Joseph Clark,Brian Hampton,"Buffalo, NY",P2,2,open,2025-12-23 09:00:00,,,0,,,281,False
+REQ-10629,Media planner,D03,Manufacturing,R008,Jessica Martin,Jacob Mckee,"Palo Alto, CA",P2,2,open,2026-06-22 09:00:00,,,0,,,100,False
+REQ-10637,Contracting civil engineer,D01,Software Engineering,R018,William Davis,Megan Jones,"Fremont, CA",P3,1,open,2025-06-10 09:00:00,,,0,,,477,False
+REQ-10659,Professor Emeritus,D08,Data & AI,R007,Deborah Lynch,Amy Wade,"Sparks, NV",P4,1,open,2026-07-01 09:00:00,,,0,,,91,False
+REQ-10666,Automotive engineer,D01,Software Engineering,R010,Gabrielle Cameron,Mr. Jacob Scott Jr.,"Austin, TX",P3,1,open,2024-04-09 09:00:00,,,0,,,904,False
+REQ-10671,Personnel officer,D06,Sales & Delivery,R021,Wendy Rice,David Moon,Remote - US,P3,1,open,2024-11-27 09:00:00,,,0,,,672,False
+REQ-10675,Heritage manager,D01,Software Engineering,R018,William Davis,Emily Miller,Remote - US,P1,1,open,2026-04-29 09:00:00,,,0,,,154,False
+REQ-10721,Mechanical engineer,D04,Supply Chain,R004,Jesse Garcia,Alyssa Haynes,"Palo Alto, CA",P5,1,open,2026-07-14 09:00:00,,,0,,,78,False
+REQ-10731,Press sub,D03,Manufacturing,R028,Danielle Lynch,Toni Banks,"Sparks, NV",P4,2,open,2026-03-31 09:00:00,,,0,,,183,False
+REQ-10740,Diplomatic Services operational officer,D09,Finance,R025,Shawn Mckay,Tracey Underwood,"Buffalo, NY",P4,2,open,2026-03-17 09:00:00,,,0,,,197,False
+REQ-10008,Solicitor,D05,Energy Products,R011,Jeremy Johnson,Melissa Marquez,"Buffalo, NY",P1,2,open,2024-10-06 09:00:00,,,0,,,724,False
+REQ-10014,Solicitor,D03,Manufacturing,R028,Danielle Lynch,Timothy Duncan,"Buffalo, NY",P3,1,open,2026-04-19 09:00:00,,,0,,,164,False
+REQ-10027,Radiographer,D08,Data & AI,R007,Deborah Lynch,Edward Novak,"Fremont, CA",P4,2,cancelled,2024-02-05 09:00:00,,2024-07-09 08:36:00,0,,,,False
+REQ-10117,Site engineer,D02,Vehicle Engineering,R026,Jose Mason,Jacob Hunter,Remote - US,P2,1,open,2026-07-28 09:00:00,,,0,,,64,False
+REQ-10142,Purchasing manager,D02,Vehicle Engineering,R026,Jose Mason,Austin Vasquez,"Palo Alto, CA",P2,1,open,2025-07-14 09:00:00,,,0,,,443,False
+REQ-10174,Film/video editor,D02,Vehicle Engineering,R026,Jose Mason,Emily Smith,Remote - US,P2,1,open,2024-05-21 09:00:00,,,0,,,862,False
+REQ-10226,Counselling psychologist,D12,IT,R023,Erin Herrera,Andrew Ferrell,Remote - US,P3,1,cancelled,2024-09-06 09:00:00,,2025-02-04 15:06:00,0,,,,False
+REQ-10332,Engineer,D10,People,R005,Cynthia Diaz,Kimberly Acosta,"Fremont, CA",P4,1,open,2024-12-13 09:00:00,,,0,,,656,False
+REQ-10339,Media planner,D01,Software Engineering,R010,Gabrielle Cameron,Joseph Romero,"Sparks, NV",P2,1,cancelled,2026-01-02 09:00:00,,2026-05-08 11:00:00,0,,,,False
+REQ-10355,Hotel manager,D04,Supply Chain,R004,Jesse Garcia,Lance Simmons,"Austin, TX",P2,1,open,2026-02-16 09:00:00,,,0,,,226,False
+REQ-10489,Therapist,D03,Manufacturing,R028,Danielle Lynch,Susan Garrett,"Palo Alto, CA",P2,1,open,2025-01-06 09:00:00,,,0,,,632,False
+REQ-10517,Dentist,D07,Service,R009,Veronica Bowman,Jonathan Brooks,"Fremont, CA",P2,1,cancelled,2025-01-27 09:00:00,,2025-06-27 08:58:00,0,,,,False
+REQ-10568,Software engineer,D03,Manufacturing,R012,Joseph Clark,Suzanne Rodriguez,"Austin, TX",P4,1,open,2025-12-26 09:00:00,,,0,,,278,False
+REQ-10593,Counsellor,D03,Manufacturing,R028,Danielle Lynch,Jennifer Taylor,"Sparks, NV",P4,2,open,2025-11-11 09:00:00,,,0,,,323,False
+REQ-10606,Magazine features editor,D03,Manufacturing,R008,Jessica Martin,Angie Grimes,"Austin, TX",P1,2,open,2025-03-22 09:00:00,,,0,,,557,False
+REQ-10630,Diagnostic radiographer,D02,Vehicle Engineering,R006,Jason Adams,Mario Barber,"Buffalo, NY",P2,1,open,2024-02-18 09:00:00,,,0,,,955,False
+REQ-10700,Counselling psychologist,D03,Manufacturing,R024,Danielle Rodriguez,Antonio Norman,"Buffalo, NY",P1,1,open,2025-01-22 09:00:00,,,0,,,616,False
+REQ-10757,Ceramics designer,D07,Service,R022,Michelle Smith,Brian Glover,"Buffalo, NY",P4,1,open,2025-06-14 09:00:00,,,0,,,473,False
+REQ-10036,Hydrologist,D08,Data & AI,R007,Deborah Lynch,Timothy Walls,"Austin, TX",P3,1,open,2024-01-13 09:00:00,,,0,,,991,False
+REQ-10086,Surveyor,D08,Data & AI,R007,Deborah Lynch,Tiffany Vance,"Palo Alto, CA",P1,2,cancelled,2025-01-23 09:00:00,,2025-05-27 11:18:00,0,,,,False
+REQ-10088,Sports therapist,D09,Finance,R025,Shawn Mckay,Christopher Hensley,"Buffalo, NY",P1,1,open,2025-10-25 09:00:00,,,0,,,340,False
+REQ-10156,Information systems manager,D08,Data & AI,R007,Deborah Lynch,Samantha Morse,"Fremont, CA",P1,1,open,2024-08-02 09:00:00,,,0,,,789,False
+REQ-10199,Education administrator,D02,Vehicle Engineering,R015,Joseph Wright,Bob Pitts,"Sparks, NV",P3,1,open,2025-07-17 09:00:00,,,0,,,440,False
+REQ-10234,Health and safety adviser,D10,People,R017,Reginald Robinson,Bryan Charles,"Palo Alto, CA",P1,1,cancelled,2025-08-27 09:00:00,,2026-02-19 08:03:00,0,,,,False
+REQ-10258,Landscape architect,D03,Manufacturing,R024,Danielle Rodriguez,Jennifer Russo,"Sparks, NV",P3,1,open,2024-07-28 09:00:00,,,0,,,794,False
+REQ-10346,Programmer,D02,Vehicle Engineering,R006,Jason Adams,Dakota Moody,"Fremont, CA",P2,1,open,2026-03-29 09:00:00,,,0,,,185,False
+REQ-10387,Geochemist,D03,Manufacturing,R012,Joseph Clark,Pamela Butler,"Palo Alto, CA",P5,1,cancelled,2024-06-20 09:00:00,,2024-12-24 18:56:00,0,,,,False
+REQ-10406,Commissioning editor,D08,Data & AI,R016,Jose Richards,Brent Brooks,"Buffalo, NY",P3,1,open,2025-01-05 09:00:00,,,0,,,633,False
+REQ-10510,Teacher,D07,Service,R001,Maria Montgomery,Kathryn Pena,Remote - US,P1,1,open,2026-08-28 09:00:00,,,0,,,33,False
+REQ-10544,Accountant,D04,Supply Chain,R004,Jesse Garcia,Jill Juarez,"Buffalo, NY",P2,1,cancelled,2024-01-24 09:00:00,,2024-06-02 09:46:00,0,,,,False
+REQ-10556,Therapist,D08,Data & AI,R016,Jose Richards,Frank Valentine,"Buffalo, NY",P5,1,open,2026-07-09 09:00:00,,,0,,,83,False
+REQ-10601,Programmer,D02,Vehicle Engineering,R006,Jason Adams,Patricia Simpson,"Sparks, NV",P2,1,cancelled,2025-05-23 09:00:00,,2025-11-14 11:14:00,0,,,,False
+REQ-10624,Radio producer,D06,Sales & Delivery,R014,Randall Rocha,Stephanie Farmer,"Austin, TX",P3,1,cancelled,2025-06-09 09:00:00,,2025-11-23 18:55:00,0,,,,False
+REQ-10627,Phytotherapist,D01,Software Engineering,R010,Gabrielle Cameron,Michael Anderson,"Sparks, NV",P2,1,open,2025-05-08 09:00:00,,,0,,,510,False
+REQ-10643,Fish farm manager,D01,Software Engineering,R018,William Davis,Lindsay Lawson,"Sparks, NV",P3,2,cancelled,2026-02-02 09:00:00,,2026-07-14 17:39:00,0,,,,False
+REQ-10733,Visual merchandiser,D03,Manufacturing,R026,Jose Mason,Courtney Chapman,"Austin, TX",P2,2,open,2024-11-08 09:00:00,,,0,,,691,False
+REQ-10735,Editor,D06,Sales & Delivery,R017,Reginald Robinson,Tiffany Fry,"Austin, TX",P3,1,cancelled,2026-01-25 09:00:00,,2026-07-11 12:18:00,0,,,,False
+REQ-10737,Education officer,D02,Vehicle Engineering,R026,Jose Mason,Tammy Ponce,"Austin, TX",P3,1,open,2026-07-26 09:00:00,,,0,,,66,False
+REQ-10738,Environmental consultant,D03,Manufacturing,R008,Jessica Martin,Ashley Crawford,"Sparks, NV",P2,2,open,2025-06-29 09:00:00,,,0,,,458,False
+REQ-10756,Tourism officer,D02,Vehicle Engineering,R006,Jason Adams,Mr. Daniel Little,Remote - US,P2,1,cancelled,2025-08-08 09:00:00,,2026-02-11 18:14:00,0,,,,False

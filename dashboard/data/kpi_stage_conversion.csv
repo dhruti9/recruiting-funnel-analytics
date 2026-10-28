@@ -1,0 +1,51 @@
+source_name,from_stage,stage_order,entered,still_in_stage,advanced,conversion_rate
+Indeed,applied,1,12368,196,2248,0.1847
+Indeed,recruiter_screen,2,2248,23,948,0.4261
+LinkedIn Jobs,applied,1,10888,176,2327,0.2172
+Outbound Sourcing,applied,1,4512,72,1210,0.2725
+Internal Mobility,applied,1,1988,32,612,0.3129
+Agency,recruiter_screen,2,540,10,273,0.5151
+Agency,hiring_manager_screen,3,273,1,138,0.5074
+Indeed,hiring_manager_screen,3,948,10,367,0.3913
+Indeed,onsite,4,367,3,76,0.2088
+LinkedIn Jobs,onsite,4,410,2,83,0.2034
+Internal Mobility,onsite,4,173,1,52,0.3023
+Unattributed,recruiter_screen,2,243,3,117,0.4875
+Unattributed,hiring_manager_screen,3,117,2,58,0.5043
+Outbound Sourcing,offer,5,80,2,66,0.8462
+Indeed,offer,5,76,0,47,0.6184
+Careers Site,onsite,4,422,4,93,0.2225
+Careers Site,applied,1,9754,144,2166,0.2254
+Employee Referral,applied,1,3863,51,1225,0.3214
+Careers Site,recruiter_screen,2,2166,19,976,0.4546
+Unattributed,applied,1,1005,13,243,0.245
+LinkedIn Jobs,recruiter_screen,2,2327,35,1002,0.4372
+University Recruiting,applied,1,3946,63,794,0.2045
+Agency,applied,1,1944,29,540,0.282
+LinkedIn Jobs,hiring_manager_screen,3,1002,14,410,0.415
+Employee Referral,recruiter_screen,2,1225,18,723,0.599
+Employee Referral,hiring_manager_screen,3,723,8,360,0.5035
+Employee Referral,onsite,4,360,3,102,0.2857
+Employee Referral,offer,5,102,1,90,0.8911
+Outbound Sourcing,recruiter_screen,2,1210,7,630,0.5237
+Agency,onsite,4,138,1,31,0.2263
+Internal Mobility,recruiter_screen,2,612,5,341,0.5618
+Internal Mobility,hiring_manager_screen,3,341,6,173,0.5164
+University Recruiting,recruiter_screen,2,794,14,339,0.4346
+University Recruiting,hiring_manager_screen,3,339,7,121,0.3645
+Outbound Sourcing,hiring_manager_screen,3,630,10,308,0.4968
+Outbound Sourcing,onsite,4,308,3,80,0.2623
+Agency,offer,5,31,0,28,0.9032
+Internal Mobility,offer,5,52,0,46,0.8846
+Careers Site,hiring_manager_screen,3,976,6,422,0.4351
+Unattributed,onsite,4,58,1,10,0.1754
+LinkedIn Jobs,offer,5,83,0,63,0.759
+University Recruiting,onsite,4,121,1,25,0.2083
+Unattributed,offer,5,10,0,7,0.7
+Careers Site,offer,5,93,0,79,0.8495
+University Recruiting,offer,5,25,1,19,0.7917
+All sources,applied,1,50268,776,11365,0.2296
+All sources,recruiter_screen,2,11365,134,5349,0.4763
+All sources,hiring_manager_screen,3,5349,64,2357,0.446
+All sources,onsite,4,2357,19,552,0.2361
+All sources,offer,5,552,4,445,0.812

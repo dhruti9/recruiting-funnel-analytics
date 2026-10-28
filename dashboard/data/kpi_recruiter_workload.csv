@@ -1,0 +1,29 @@
+recruiter_id,recruiter_name,recruiter_title,primary_department_name,is_active,open_requisitions,active_applications,stale_applications,applications_ttm,hires_ttm,reqs_filled_ttm,median_time_to_fill_days_ttm
+R001,Maria Montgomery,Senior Recruiter,Service,True,1,8,0,381,6,6,96.5
+R002,Barbara Bush,Recruiter,Sales & Delivery,True,2,3,3,506,7,6,55.5
+R003,Jeremy Roberts,Technical Recruiter,Service,True,5,27,18,440,3,3,69.0
+R004,Jesse Garcia,Senior Recruiter,Supply Chain,True,17,76,35,1323,10,9,66.0
+R005,Cynthia Diaz,Technical Recruiter,Sales & Delivery,True,5,10,10,454,4,4,68.5
+R006,Jason Adams,Senior Recruiter,Vehicle Engineering,False,19,73,62,1395,14,10,52.0
+R007,Deborah Lynch,Senior Recruiter,Data & AI,True,11,29,20,854,7,6,67.0
+R008,Jessica Martin,Lead Recruiter,Manufacturing,True,11,36,26,1053,9,9,61.0
+R009,Veronica Bowman,Recruiter,Service,True,4,17,12,227,4,2,78.5
+R010,Gabrielle Cameron,Recruiter,Software Engineering,True,12,64,38,954,9,8,54.5
+R011,Jeremy Johnson,Lead Recruiter,Service,True,3,12,12,335,2,2,65.0
+R012,Joseph Clark,Senior Recruiter,Manufacturing,True,11,46,40,1555,14,11,61.0
+R013,Nancy Edwards,Senior Recruiter,Software Engineering,True,9,26,25,747,7,6,63.5
+R014,Randall Rocha,Senior Recruiter,Sales & Delivery,True,10,41,13,582,3,2,77.0
+R015,Joseph Wright,Recruiter,Service,True,7,34,23,246,2,2,67.5
+R016,Jose Richards,Senior Recruiter,Data & AI,True,12,47,25,245,1,1,39.0
+R017,Reginald Robinson,Recruiter,Sales & Delivery,True,2,5,5,431,5,5,77.0
+R018,William Davis,Technical Recruiter,Software Engineering,True,10,38,22,765,8,8,52.0
+R019,Daniel Burton,Technical Recruiter,Service,True,3,11,4,74,1,1,38.0
+R020,Robert Brown,Recruiter,Energy Products,True,7,18,17,730,2,2,56.5
+R021,Wendy Rice,Senior Recruiter,Sales & Delivery,True,8,31,31,563,7,6,56.0
+R022,Michelle Smith,Senior Recruiter,Service,True,3,43,9,566,2,2,64.0
+R023,Erin Herrera,Recruiter,Energy Products,False,6,44,19,494,4,4,54.0
+R024,Danielle Rodriguez,Recruiter,Manufacturing,True,13,94,37,1070,7,7,56.0
+R025,Shawn Mckay,Recruiter,Finance,False,10,73,33,929,8,8,66.5
+R026,Jose Mason,Recruiter,Vehicle Engineering,True,14,51,37,1084,10,9,70.0
+R027,Rita Harrell,Technical Recruiter,Energy Products,True,3,19,13,246,4,4,57.5
+R028,Danielle Lynch,Technical Recruiter,Manufacturing,True,10,21,14,1069,7,6,94.5
