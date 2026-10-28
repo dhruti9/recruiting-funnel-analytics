@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: int_candidates__resolved
+    description: Maps every ATS candidate profile to one canonical person (earliest profile per normalized email).
+    columns:
+      - name: candidate_id
+        data_tests: [unique, not_null]
+      - name: canonical_candidate_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_ats__candidates'), field: candidate_id}}
+
+  - name: int_stage_transitions__sequenced
+    description: >
+      Forward funnel moves per application in logical stage order, with entry/exit
+      timestamps, days in stage, and an out-of-order flag. Durations are NULL for any
+      application with an out-of-order timestamp so bad data never reaches KPIs.
+    data_tests:
+      - unique_combination_of_columns:
+          arguments: {combination_of_columns: [application_id, stage]}
+    columns:
+      - name: days_in_stage
+        data_tests: [not_negative]
+
+  - name: int_applications__journey
+    description: One row per application with the timestamp each stage was reached and a recovered hire date.
+    columns:
+      - name: application_id
+        data_tests: [unique, not_null]
+      - name: hired_at
+        description: Reported hire date, else the timestamp of the 'hired' stage event.
+        data_tests:
+          - not_null:
+              config: {where: "application_status = 'hired'"}
+
+  - name: int_offers__resolved
+    description: Offers with status corrected by ATS evidence (a hired candidate's offer was accepted).
+    columns:
+      - name: offer_id
+        data_tests: [unique, not_null]
+
+  - name: int_requisitions__fill
+    description: Requisitions with hire counts and a recovered filled date.
+    columns:
+      - name: requisition_id
+        data_tests: [unique, not_null]
+      - name: filled_at
+        data_tests:
+          - not_null:
+              config: {where: "requisition_status = 'filled'"}
