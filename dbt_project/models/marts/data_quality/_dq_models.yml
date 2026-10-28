@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: dq_issue_log
+    description: >
+      **Grain: one row per data-quality issue instance.** Every record that failed an
+      upstream check, tagged with the source system, severity and the requisition /
+      recruiter it belongs to, so fixes can be routed to a person.
+    columns:
+      - name: issue_id
+        data_tests: [unique, not_null]
+      - name: issue_type
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dq_issue_catalog'), field: issue_type}}
+      - name: source_system
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('data_system_owners'), field: source_system}}
+      - name: severity
+        data_tests:
+          - accepted_values: {arguments: {values: [high, medium, low]}}
+
+  - name: dq_upstream_gap_report
+    description: >
+      **The report you send to system admins.** One row per check: which system and
+      table, how many records are affected out of how many checked, who owns the fix,
+      the recommended fix, and when it is due under that team's SLA. Ordered by
+      `priority_rank` (severity first, then % affected).
+    columns:
+      - name: issue_type
+        data_tests: [unique, not_null]
+      - name: owning_team
+        data_tests: [not_null]
+      - name: pct_affected
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 100}}
+      - name: priority_rank
+        data_tests: [unique, not_null]
+
+  - name: dq_scorecard
+    description: One health score per upstream system (100 = every record passes every check).
+    columns:
+      - name: source_system
+        data_tests: [unique, not_null]
+      - name: quality_score
+        data_tests:
+          - accepted_range: {arguments: {min_value: 0, max_value: 100}}
+      - name: health_status
+        data_tests:
+          - accepted_values: {arguments: {values: [healthy, needs attention, critical]}}
