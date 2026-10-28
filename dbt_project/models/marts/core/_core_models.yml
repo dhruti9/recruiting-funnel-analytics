@@ -1,0 +1,153 @@
+version: 2
+
+models:
+  - name: fct_applications
+    description: >
+      **Grain: one row per application.** The central fact table for funnel analysis.
+      Candidate IDs are resolved to one canonical person, missing sources map to
+      `UNKNOWN`, hire dates are recovered from stage history, and every row carries
+      data-quality flags so analysts can include or exclude affected records explicitly.
+    columns:
+      - name: application_id
+        data_tests: [unique, not_null]
+      - name: candidate_id
+        description: Canonical (de-duplicated) candidate.
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_candidate'), field: candidate_id}}
+      - name: requisition_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_requisition'), field: requisition_id}}
+      - name: source_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_source'), field: source_id}}
+      - name: recruiter_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_recruiter'), field: recruiter_id}}
+      - name: department_id
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_department'), field: department_id}}
+      - name: application_status
+        data_tests:
+          - not_null
+          - accepted_values: {arguments: {values: [active, rejected, withdrawn, offer_declined, hired]}}
+      - name: hired_at
+        data_tests:
+          - not_null:
+              config: {where: "is_hired"}
+      - name: time_to_hire_days
+        description: Days from application to hire.
+        data_tests:
+          - not_negative
+          - not_null:
+              config: {where: "is_hired"}
+      - name: days_since_last_activity
+        description: For active applications, days since the last stage change as of `var('as_of_date')`.
+        data_tests: [not_negative]
+      - name: offer_status
+        data_tests:
+          - accepted_values: {arguments: {values: [accepted, declined, rescinded, pending]}}
+      - name: avg_interview_score
+        data_tests:
+          - accepted_range: {arguments: {min_value: 1, max_value: 4}}
+    data_tests:
+      - expression_is_true:
+          arguments: {expression: "not is_hired or reached_offer"}
+          description: A hire must have passed through the offer stage.
+      - expression_is_true:
+          arguments: {expression: "reached_applied"}
+
+  - name: fct_stage_transitions
+    description: >
+      **Grain: one row per application per funnel stage entered.** Use for stage
+      conversion and time-in-stage. `is_quarantined` applications have unreliable
+      timestamps; their `days_in_stage` is NULL.
+    columns:
+      - name: transition_id
+        data_tests: [unique, not_null]
+      - name: application_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('fct_applications'), field: application_id}}
+      - name: stage
+        data_tests:
+          - accepted_values: {arguments: {values: [applied, recruiter_screen, hiring_manager_screen, onsite, offer, hired]}}
+      - name: stage_outcome
+        data_tests:
+          - not_null
+          - accepted_values: {arguments: {values: [advanced, rejected, withdrawn, declined, hired, in_progress]}}
+      - name: days_in_stage
+        data_tests:
+          - not_negative
+          - accepted_range: {arguments: {max_value: 400}}
+    data_tests:
+      - unique_combination_of_columns:
+          arguments: {combination_of_columns: [application_id, stage]}
+
+  - name: fct_offers
+    description: "**Grain: one row per offer.** Offer status corrected with ATS hire evidence."
+    columns:
+      - name: offer_id
+        data_tests: [unique, not_null]
+      - name: application_id
+        data_tests:
+          - unique
+          - relationships: {arguments: {to: ref('fct_applications'), field: application_id}}
+      - name: offer_status
+        data_tests:
+          - accepted_values: {arguments: {values: [accepted, declined, rescinded, pending]}}
+      - name: days_to_respond
+        data_tests: [not_negative]
+
+  - name: dim_requisition
+    description: "**Grain: one row per requisition.** Includes time-to-fill and days open."
+    columns:
+      - name: requisition_id
+        data_tests: [unique, not_null]
+      - name: department_name
+        data_tests: [not_null]
+      - name: requisition_status
+        data_tests:
+          - accepted_values: {arguments: {values: [open, filled, cancelled]}}
+      - name: time_to_fill_days
+        description: Days from requisition open to the hire that filled it.
+        data_tests:
+          - not_negative
+          - not_null:
+              config: {where: "requisition_status = 'filled'"}
+      - name: days_open
+        data_tests: [not_negative]
+
+  - name: dim_candidate
+    description: "**Grain: one row per person** (duplicate ATS profiles merged)."
+    columns:
+      - name: candidate_id
+        data_tests: [unique, not_null]
+      - name: email
+        data_tests: [unique, not_null]
+      - name: applications
+        data_tests:
+          - accepted_range: {arguments: {min_value: 1}}
+
+  - name: dim_recruiter
+    columns:
+      - name: recruiter_id
+        data_tests: [unique, not_null]
+      - name: recruiter_name
+        data_tests: [not_null]
+
+  - name: dim_source
+    description: Candidate sources and their cost model, plus an `UNKNOWN` member for unattributed applications.
+    columns:
+      - name: source_id
+        data_tests: [unique, not_null]
+      - name: source_name
+        data_tests: [unique, not_null]
+
+  - name: dim_department
+    columns:
+      - name: department_id
+        data_tests: [unique, not_null]
