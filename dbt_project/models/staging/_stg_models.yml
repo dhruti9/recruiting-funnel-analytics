@@ -1,0 +1,163 @@
+version: 2
+
+# Tests at `severity: warn` document KNOWN UPSTREAM problems. They never block a
+# merge; they are counted and routed to the owning system by models/marts/data_quality.
+# Tests at the default `severity: error` are guarantees this project makes.
+
+models:
+  - name: stg_ats__applications
+    description: Applications from the ATS, renamed and typed. No rows removed.
+    columns:
+      - name: application_id
+        description: ATS primary key for the application.
+        data_tests: [unique, not_null]
+      - name: candidate_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_ats__candidates'), field: candidate_id}}
+      - name: requisition_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_hris__requisitions'), field: requisition_id}}
+      - name: source_id
+        description: Candidate source. NULL when the ATS did not capture attribution.
+        data_tests:
+          - not_null:
+              config: {severity: warn}
+          - relationships:
+              arguments: {to: ref('stg_marketing__sources'), field: source_id}
+      - name: application_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [active, rejected, withdrawn, offer_declined, hired]
+      - name: current_stage
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [applied, recruiter_screen, hiring_manager_screen, onsite, offer, hired]
+      - name: reject_reason
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+                where: "application_status = 'rejected'"
+      - name: hired_at_reported
+        description: Hire date as reported by the ATS. Sometimes missing for hired applications.
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+                where: "application_status = 'hired'"
+      - name: applied_at
+        data_tests: [not_null]
+
+  - name: stg_ats__candidates
+    description: Candidate profiles. One person can have several profiles (see int_candidates__resolved).
+    columns:
+      - name: candidate_id
+        data_tests: [unique, not_null]
+      - name: email_normalized
+        description: Lower-cased, trimmed email used for entity resolution.
+        data_tests:
+          - not_null
+          - unique:
+              config: {severity: warn}
+
+  - name: stg_ats__stage_transitions
+    description: Stage-change event log with logical stage order and a duplicate-event flag.
+    columns:
+      - name: transition_id
+        data_tests: [unique, not_null]
+      - name: application_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_ats__applications'), field: application_id}}
+      - name: to_stage
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [applied, recruiter_screen, hiring_manager_screen, onsite, offer, hired, rejected, withdrawn, declined]
+      - name: transitioned_at
+        data_tests:
+          - not_null
+          - sequential_timestamps:
+              arguments: {partition_by: application_id, order_by: "coalesce(to_stage_order, 99), transition_id"}
+              config: {severity: warn}
+
+  - name: stg_hris__requisitions
+    columns:
+      - name: requisition_id
+        data_tests: [unique, not_null]
+      - name: department_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_hris__departments'), field: department_id}}
+      - name: recruiter_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_hris__recruiters'), field: recruiter_id}}
+      - name: requisition_status
+        data_tests:
+          - accepted_values: {arguments: {values: [open, filled, cancelled]}}
+      - name: headcount
+        data_tests:
+          - accepted_range: {arguments: {min_value: 1, max_value: 10}}
+      - name: filled_at_reported
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+                where: "requisition_status = 'filled'"
+
+  - name: stg_hris__departments
+    columns:
+      - name: department_id
+        data_tests: [unique, not_null]
+      - name: department_name
+        data_tests: [unique, not_null]
+
+  - name: stg_hris__recruiters
+    columns:
+      - name: recruiter_id
+        data_tests: [unique, not_null]
+      - name: primary_department_id
+        data_tests:
+          - relationships: {arguments: {to: ref('stg_hris__departments'), field: department_id}}
+
+  - name: stg_scheduling__interviews
+    columns:
+      - name: interview_id
+        data_tests: [unique, not_null]
+      - name: application_id
+        data_tests:
+          - relationships: {arguments: {to: ref('stg_ats__applications'), field: application_id}}
+      - name: interview_type
+        data_tests:
+          - accepted_values: {arguments: {values: [phone_screen, hiring_manager, technical, cross_functional, values]}}
+      - name: score
+        data_tests:
+          - accepted_range: {arguments: {min_value: 1, max_value: 4}}
+
+  - name: stg_offers__offers
+    columns:
+      - name: offer_id
+        data_tests: [unique, not_null]
+      - name: application_id
+        data_tests:
+          - unique
+          - relationships: {arguments: {to: ref('stg_ats__applications'), field: application_id}}
+      - name: offer_status
+        data_tests:
+          - accepted_values: {arguments: {values: [accepted, declined, rescinded, pending]}}
+      - name: base_salary_usd
+        data_tests:
+          - accepted_range: {arguments: {min_value: 40000, max_value: 500000}}
+
+  - name: stg_marketing__sources
+    columns:
+      - name: source_id
+        data_tests: [unique, not_null]
+      - name: source_type
+        data_tests:
+          - accepted_values: {arguments: {values: [referral, inbound, job_board, sourced, agency, campus, internal]}}

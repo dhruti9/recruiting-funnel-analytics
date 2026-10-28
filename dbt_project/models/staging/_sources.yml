@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: ats_extract
+    description: >
+      Nightly extract of recruiting systems landed as CSV files by
+      `data_generator/generate.py`. Each table records the upstream system that owns it
+      (`meta.source_system`) so data-quality issues can be routed to the right system admin.
+    config:
+      meta:
+        external_location: "read_csv('{{ var('raw_data_path') }}/{name}.csv', header = true, auto_detect = true)"
+    tables:
+      - name: applications
+        meta: {source_system: ATS}
+        description: One row per candidate application to a requisition.
+      - name: candidates
+        meta: {source_system: ATS}
+        description: Candidate profiles. Contains duplicate profiles for the same person.
+      - name: stage_transitions
+        meta: {source_system: ATS}
+        description: Event log of every stage change, including terminal outcomes.
+      - name: requisitions
+        meta: {source_system: HRIS}
+        description: Approved job requisitions (open headcount).
+      - name: departments
+        meta: {source_system: HRIS}
+      - name: recruiters
+        meta: {source_system: HRIS}
+      - name: interviews
+        meta: {source_system: Interview Scheduling}
+        description: Scheduled interviews and scorecards.
+      - name: offers
+        meta: {source_system: Offer Management}
+        description: Offers extended to candidates.
+      - name: sources
+        meta: {source_system: Talent Marketing}
+        description: Candidate sources and their cost model.
