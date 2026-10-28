@@ -1,0 +1,6 @@
+source_system,owning_team,system_admin,admin_email,remediation_sla_days
+ATS,Talent Systems,Priya Raman,ats-admins@example.com,10
+HRIS,People Technology,Marcus Holt,hris-admins@example.com,15
+Interview Scheduling,Recruiting Operations,Dana Whitfield,scheduling-admins@example.com,7
+Offer Management,Total Rewards Systems,Luis Ortega,offers-admins@example.com,5
+Talent Marketing,Talent Brand & Marketing,Grace Kim,talent-marketing@example.com,20

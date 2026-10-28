@@ -1,0 +1,19 @@
+version: 2
+
+seeds:
+  - name: data_system_owners
+    description: Who administers each upstream recruiting system, and their remediation SLA.
+    columns:
+      - name: source_system
+        data_tests: [unique, not_null]
+  - name: dq_issue_catalog
+    description: Every data-quality check this project runs, its severity, owning system and recommended upstream fix.
+    columns:
+      - name: issue_type
+        data_tests: [unique, not_null]
+      - name: source_system
+        data_tests:
+          - relationships: {arguments: {to: ref('data_system_owners'), field: source_system}}
+      - name: severity
+        data_tests:
+          - accepted_values: {arguments: {values: [high, medium, low]}}

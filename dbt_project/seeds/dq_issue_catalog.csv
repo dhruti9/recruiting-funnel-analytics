@@ -1,0 +1,10 @@
+issue_type,source_system,source_table,severity,description,recommended_fix
+missing_reject_reason,ATS,applications,medium,Rejected application has no rejection reason,Make rejection reason a required field on the reject action in the ATS
+missing_source,ATS,applications,high,Application has no source attribution,Require source on application create; backfill from job-board referral URL
+duplicate_candidate,ATS,candidates,medium,Same person exists under more than one candidate profile (matched on normalized email),Enable ATS duplicate detection on email and phone; merge existing duplicates
+out_of_order_stage,ATS,stage_transitions,high,A later funnel stage has an earlier timestamp than the stage before it,Audit bulk stage-move imports; block backdated stage changes
+duplicate_stage_transition,ATS,stage_transitions,low,Identical stage transition recorded more than once,Make the ATS-to-warehouse sync idempotent on (application_id; stage; timestamp)
+null_hire_date,ATS,applications,high,Application marked hired with no hire date (recovered from stage history),Populate hire date from the hired stage event in the ATS integration
+hire_without_accepted_offer,Offer Management,offers,high,Candidate is hired but the offer is not in accepted status,Fix the offer-status sync from Offer Management to ATS on hire
+offer_without_interviews,Interview Scheduling,interviews,high,Offer extended with no interview records on file,Require completed interview loop before offer approval; check scheduling sync
+filled_req_missing_date,HRIS,requisitions,medium,Requisition is filled but has no filled date,Set filled date automatically when the last headcount on a req is hired
