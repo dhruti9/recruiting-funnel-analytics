@@ -1,0 +1,66 @@
+name: dbt CI
+
+# Every pull request regenerates the raw data and runs `dbt build`
+# (all models + all tests). An error-severity test failure fails the job;
+# with branch protection on `main`, that blocks the merge.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dbt-build:
+    runs-on: ubuntu-latest
+    env:
+      DO_NOT_TRACK: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate synthetic ATS extract
+        run: python data_generator/generate.py --out data/raw
+
+      - name: dbt build (models + tests)
+        working-directory: dbt_project
+        run: dbt build --profiles-dir .
+
+      - name: Summarise test results
+        if: always()
+        working-directory: dbt_project
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, collections
+          r = json.load(open("target/run_results.json"))["results"]
+          c = collections.Counter(x["status"] for x in r)
+          print("### dbt build results\n")
+          print("| status | count |\n|---|---|")
+          for k, v in sorted(c.items()):
+              print(f"| {k} | {v} |")
+          warns = [x for x in r if x["status"] == "warn"]
+          if warns:
+              print("\n**Known upstream data issues (warn — routed via `dq_upstream_gap_report`):**\n")
+              for x in warns:
+                  print(f"- `{x['unique_id'].split('.')[-1]}`: {x.get('failures')} rows")
+          PY
+
+      - name: Upload dbt artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dbt-target
+          path: |
+            dbt_project/target/run_results.json
+            dbt_project/target/manifest.json
